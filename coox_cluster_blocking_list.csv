@@ -1,0 +1,64 @@
+Cluster_ID,Booking_Count,Severity,Top_City,Top_State,Centroid_Lat,Centroid_Long,Radius_km,Hull_Available,All_Pincodes,Num_Pincodes,Primary_Pincode,Address_Types,Sample_Area,Estimated_Loss_INR
+3,18,High,Pune,Maharashtra,18.666701,73.720209,4.66,True,"411033, 412101",2,411033,Home,Ravet,273600
+51,14,High,Ahmedabad,Gujarat,23.106218,72.474069,2.91,True,382722,1,382722,Home,Supercity bhadaj,212800
+24,13,High,Bengaluru,Karnataka,12.882598,77.779605,5.71,True,562125,1,562125,"Home, Farmhouse",Sarjapur Main Road,197600
+31,11,High,Bengaluru,Karnataka,13.058197,77.749393,2.55,True,560049,1,560049,Home,Budigere cross,167200
+20,11,High,Pune,Maharashtra,18.610193,73.688425,3.89,True,410506,1,410506,"Home, Farmhouse","Near Kasarsai Dam, Chandkhed 410506",167200
+19,10,High,Chennai,Tamil Nadu,12.852611,80.241559,1.79,True,603112,1,603112,"Home, Resort","Kanathur Reddykuppam, Tamil Nadu 603112",152000
+4,8,Medium,Hyderabad,Telangana,17.289955,78.239919,3.03,True,501504,1,501504,"Farmhouse, Home",Kanakamamidi,121600
+11,8,Medium,Navi Mumbai,Maharashtra,18.986819,73.121553,4.22,True,497586,1,497586,Home,New Panvel,121600
+35,8,Medium,Surat,Gujarat,21.160659,72.652016,0.0,False,N/A,0,N/A,Home,Pal Tp 16,121600
+2,7,Medium,Bengaluru,Karnataka,13.14173,77.676408,1.26,True,562149,1,562149,Home,Huvinayakanahalli,106400
+30,6,Medium,Pune,Maharashtra,18.623414,73.918063,1.34,True,412105,1,412105,Home,Near DY Patil College,91200
+33,6,Medium,Chennai,Tamil Nadu,12.918027,80.089328,3.26,True,600059,1,600059,"Home, Other","Bharathidasan Street, New Perungalathur",91200
+5,6,Medium,Bengaluru,Karnataka,13.126391,77.567331,1.97,True,N/A,0,N/A,Home,"Sree Sai Layout,",91200
+14,6,Medium,Hyderabad,Telangana,17.5439,78.369692,3.14,True,"500043, 500090",2,500043,Home,Near orr,91200
+44,6,Medium,Pune,Maharashtra,18.410554,73.928469,3.24,True,"411048, 411060, 412301",3,411048,Home,411048,91200
+46,6,Medium,Bengaluru,Karnataka,12.809072,77.678975,2.36,True,N/A,0,N/A,Home,"Bommasandra Industrial Area, Bommasandra",91200
+38,5,Medium,Bengaluru,Karnataka,13.177089,77.56057,0.64,True,"560064, 560119",2,560064,Home,Doddaballapura Main Road,76000
+36,5,Medium,Chennai,Tamil Nadu,13.109842,80.093773,1.71,True,N/A,0,N/A,Home,"Ayalcheri Avadi, Tamil Nadu",76000
+18,5,Medium,Pune,Maharashtra,18.761246,73.647307,1.51,False,N/A,0,N/A,"Farmhouse, Home",Beside lane Mittal dairy,76000
+7,5,Medium,Bengaluru,Karnataka,13.18957,77.633048,2.07,True,562157,1,562157,"Resort, Home, Farmhouse",Tatva villa by aurea stays,76000
+34,5,Medium,Bengaluru,Karnataka,13.083192,77.406887,2.62,True,N/A,0,N/A,"Home, Resort, Farmhouse",Baba nagar,76000
+54,5,Medium,Kolkata,West Bengal,22.60052,88.535823,1.03,True,N/A,0,N/A,Home,"Lake Town, Kolkata, West Bengal",76000
+50,5,Medium,Chandigarh,Punjab,30.642181,76.872905,1.51,False,N/A,0,N/A,Home,"Guru Nanak Colony Rd, Guru Nanak Colony",76000
+29,5,Medium,Pune,Maharashtra,18.585437,73.988911,2.21,True,N/A,0,N/A,"Home, Office","Lohegaon Road, Wagholi",76000
+6,5,Medium,Ahmedabad,Gujarat,22.932548,72.417236,0.56,True,382213,1,382213,"Home, Farmhouse",Moti devti,76000
+28,4,Low,Pune,Maharashtra,18.517671,73.679475,2.13,True,412115,1,412115,"Home, Farmhouse","Pirangut Rd, Ghotawade Phata, Bhare, Pirangut, Maharashtra",60800
+17,4,Low,Bengaluru,Karnataka,12.759721,77.697539,0.48,True,562166,1,562166,"Home, Farmhouse","Marsur, Naganaikanahalli, Karnataka 562166",60800
+21,4,Low,Chennai,Tamil Nadu,12.830604,80.167811,0.68,False,N/A,0,N/A,Other,"Mambakkam - Medavakkam Main Rd,",60800
+25,4,Low,Bengaluru,Karnataka,12.881835,77.462953,1.08,True,560060,1,560060,Home,Kengeri,60800
+23,4,Low,Chennai,Tamil Nadu,12.886071,80.129622,2.37,True,N/A,0,N/A,Home,Mappedu,60800
+12,4,Low,Chennai,Tamil Nadu,12.795395,80.024881,1.38,False,N/A,0,N/A,Home,Maraimalai Nagar,60800
+57,4,Low,Chennai,Tamil Nadu,13.047394,80.073114,1.68,True,N/A,0,N/A,Home,"lakshmi srinivasa Nagar,, Thirumazhisai",60800
+55,4,Low,Lucknow,Uttar Pradesh,26.98032,81.020502,1.77,False,225301,1,225301,Home,Palaka Uttar Pradesh,60800
+15,3,Low,Navi Mumbai,Maharashtra,18.951318,73.073023,0.0,False,N/A,0,N/A,Farmhouse,"Manghar, Panvel",45600
+26,3,Low,Jaipur,Rajasthan,26.900015,75.589016,1.34,False,N/A,0,N/A,"Farmhouse, Home",Street 1,45600
+27,3,Low,Bengaluru,Karnataka,12.810492,77.508006,0.87,False,N/A,0,N/A,Home,"3rd Cross Rd, Kaggalipura,",45600
+9,3,Low,Bengaluru,Karnataka,12.871551,77.608021,1.49,False,560076,1,560076,"Resort, Home",Devanahalli,45600
+8,3,Low,Chennai,Tamil Nadu,12.965375,79.952395,1.02,True,N/A,0,N/A,"Home, Other",Mani street sarathi nagar west saidapet,45600
+13,3,Low,Navi Mumbai,Maharashtra,18.915566,73.020488,2.4,True,410206,1,410206,Home,Standard Weigh bridge,45600
+10,3,Low,Chennai,Tamil Nadu,12.686182,79.981517,0.0,False,N/A,0,N/A,Home,"Gokulapuram, Chengalpattu",45600
+1,3,Low,Bengaluru,Karnataka,13.349379,77.627302,0.0,False,561205,1,561205,Home,"Melekote cross, Tubugere Hobli , Doddaballapur main road",45600
+0,3,Low,Pune,Maharashtra,18.979685,73.947376,0.0,False,410503,1,410503,Office,"Aawasari Phata Manchar, Taluka Ambegaon, Maharashtra",45600
+22,3,Low,Pune,Maharashtra,18.530933,73.722868,0.6,False,N/A,0,N/A,Home,"Riddhi Siddhi garden, Lavale",45600
+16,3,Low,Bengaluru,Karnataka,13.064672,77.791872,0.77,True,562114,1,562114,Home,Hoskote,45600
+37,3,Low,Hyderabad,Telangana,17.428847,78.270632,1.54,True,500075,1,500075,"Home, Farmhouse","C787+G8X, Kollur Rd, Kollur, Hyderabad, Telangana 500075",45600
+39,3,Low,Pune,Maharashtra,18.574147,74.03564,0.0,False,N/A,0,N/A,Home,"behind pasalkar lawns, Kesnand",45600
+32,3,Low,Hyderabad,Telangana,17.427581,78.204395,1.22,False,N/A,0,N/A,Home,"Green Village, Mokila",45600
+45,3,Low,Hyderabad,Telangana,17.467465,78.258232,0.29,True,N/A,0,N/A,Home,Ramachadrapuram,45600
+43,3,Low,Bengaluru,Karnataka,13.135493,77.746052,0.6,False,N/A,0,N/A,Home,Nimbeikapura,45600
+41,3,Low,Bengaluru,Karnataka,12.704655,77.697858,0.0,False,562106,1,562106,Home,"Weaver Colony Anekal, Karnataka 562106",45600
+42,3,Low,Chennai,Tamil Nadu,12.894298,80.190124,1.84,True,600131,1,600131,"Home, Office","Chennai, Tamil Nadu 600131",45600
+40,3,Low,Pune,Maharashtra,18.606351,74.087656,0.0,False,N/A,0,N/A,Home,"Burkegaon, Maharashtra",45600
+48,3,Low,Chandigarh,Chandigarh,30.823367,76.723298,1.56,True,N/A,0,N/A,"Home, Farmhouse",DLF Hyde park,45600
+49,3,Low,Hyderabad,Telangana,17.529899,78.529861,2.19,True,N/A,0,N/A,Home,Railway Employees Colony Phase 1,45600
+47,3,Low,Jaipur,Rajasthan,26.993225,75.580429,1.32,False,N/A,0,N/A,Home,Kalwar,45600
+53,3,Low,Hyderabad,Telangana,17.545796,78.286716,1.42,False,502319,1,502319,Home,"Symphony Park Homes, Patancheruvu",45600
+52,3,Low,Ahmedabad,Gujarat,23.157578,72.490823,0.0,False,382700,1,382700,Farmhouse,Village Dantali,45600
+56,3,Low,Chandigarh,Punjab,30.620871,76.823744,1.87,True,N/A,0,N/A,Home,Motia citi Zirakpur Punjab,45600
+58,3,Low,Bengaluru,Karnataka,13.09262,77.652931,1.85,True,N/A,0,N/A,Home,Bhartiya City Thanisandra,45600
+59,3,Low,Indore,Madhya Pradesh,22.704643,75.964505,0.0,False,N/A,0,N/A,Home,"Bicholi Mardana, Ambamoliya-Bicholi Hapsi Rd",45600
+60,3,Low,Bengaluru,Karnataka,13.118305,77.619561,2.09,True,N/A,0,N/A,Home,"Kogilu main road, Yelahanka",45600
+61,3,Low,Mumbai,Maharashtra,19.2176,73.163134,2.05,True,N/A,0,N/A,Home,Hira Marriage Hall,45600
+62,3,Low,Bengaluru,Karnataka,12.785049,77.621674,0.0,False,N/A,0,N/A,Home,"Harapanahalli Jigani Hobli, Anekal, Taluk",45600

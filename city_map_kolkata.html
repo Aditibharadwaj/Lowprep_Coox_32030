@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0cffc82af22496bcb43ec22800a6d4cd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0cffc82af22496bcb43ec22800a6d4cd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0cffc82af22496bcb43ec22800a6d4cd = L.map(
+                "map_0cffc82af22496bcb43ec22800a6d4cd",
+                {
+                    center: [22.586168294574566, 88.44712413980884],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_88d4d4915974d29803d139f2a3f22433 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_88d4d4915974d29803d139f2a3f22433.addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+            var heat_map_df829399997640224c306d345e429eb2 = L.heatLayer(
+                [[22.3676894817418, 88.4048989665763, 1], [22.4522465, 88.3953255, 1], [22.6740468, 88.3002939, 1], [22.7859243505853, 88.5730366723223, 1], [22.3630938341901, 88.3041944088988, 1], [22.4002642191836, 88.4238917724791, 1], [22.6792064270219, 88.3179149239868, 1], [22.7202357542507, 88.3113337922935, 1], [22.602646277517, 88.5344619195506, 1], [22.6031978832739, 88.5368781516019, 1], [22.6031978832739, 88.5368781516019, 1], [22.5647656394538, 88.4941257161734, 1], [22.6302377, 88.4879039, 1], [22.4592173316878, 88.3050005525193, 1], [22.7578136845854, 88.5354050892405, 1], [22.6936888518877, 88.515793617102, 1], [22.6027757137822, 88.539466119314, 1], [22.5907809699071, 88.5314313628986, 1]],
+                {
+  "minOpacity": 0.4,
+  "maxZoom": 18,
+  "radius": 22,
+  "blur": 12,
+}
+            );
+        
+    
+            heat_map_df829399997640224c306d345e429eb2.addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+            var circle_0d952bde801cad5fada8d48a695412c5 = L.circle(
+                [22.60052, 88.535823],
+                {"bubblingMouseEvents": true, "color": "#f59e0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f59e0b", "fillOpacity": 0.22, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 2}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_3af2d131a866845175b31b6ff8985563 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_291b7510643d9fe901507f06724678f3 = $(`<div id="html_291b7510643d9fe901507f06724678f3" style="width: 100.0%; height: 100.0%;">Cluster 54 — 5 bookings | N/A</div>`)[0];
+                popup_3af2d131a866845175b31b6ff8985563.setContent(html_291b7510643d9fe901507f06724678f3);
+            
+        
+
+        circle_0d952bde801cad5fada8d48a695412c5.bindPopup(popup_3af2d131a866845175b31b6ff8985563)
+        ;
+
+        
+    
+    
+            var polygon_96f94cb96a15a31f4d210605b59b1b11 = L.polygon(
+                [[22.590781, 88.531431], [22.602776, 88.539466], [22.603198, 88.536878], [22.602646, 88.534462], [22.590781, 88.531431]],
+                {"bubblingMouseEvents": true, "color": "#f59e0b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f59e0b", "fillOpacity": 0.35, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_73c1a99a212131a8a2bc2a15b8b71ea9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91add3782167c02832f945f4ea9f380e = $(`<div id="html_91add3782167c02832f945f4ea9f380e" style="width: 100.0%; height: 100.0%;">Hull — Cluster 54</div>`)[0];
+                popup_73c1a99a212131a8a2bc2a15b8b71ea9.setContent(html_91add3782167c02832f945f4ea9f380e);
+            
+        
+
+        polygon_96f94cb96a15a31f4d210605b59b1b11.bindPopup(popup_73c1a99a212131a8a2bc2a15b8b71ea9)
+        ;
+
+        
+    
+    
+            var circle_marker_9b155c771507898c0d8559fdad6f3376 = L.circleMarker(
+                [22.3676894817418, 88.4048989665763],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_06645b5bed08a2d4085fdf3568c7264d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7f3b044e6f083db1826dbb0dae693a8 = $(`<div id="html_f7f3b044e6f083db1826dbb0dae693a8" style="width: 100.0%; height: 100.0%;">Halder more, Baruipur Amtala road, Baruipur | Cluster -1 | N/A</div>`)[0];
+                popup_06645b5bed08a2d4085fdf3568c7264d.setContent(html_f7f3b044e6f083db1826dbb0dae693a8);
+            
+        
+
+        circle_marker_9b155c771507898c0d8559fdad6f3376.bindPopup(popup_06645b5bed08a2d4085fdf3568c7264d)
+        ;
+
+        
+    
+    
+            var circle_marker_8844bed243efd31aa07bc3f21adc80ff = L.circleMarker(
+                [22.4522465, 88.3953255],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_ec24d0d3ddbc684d6bdd8779388a673e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_263a9b51593ff091e5923e6572e3e508 = $(`<div id="html_263a9b51593ff091e5923e6572e3e508" style="width: 100.0%; height: 100.0%;">E M Bypass Road, Kamalgazi Kolkata 700103 | Cluster -1 | 700103</div>`)[0];
+                popup_ec24d0d3ddbc684d6bdd8779388a673e.setContent(html_263a9b51593ff091e5923e6572e3e508);
+            
+        
+
+        circle_marker_8844bed243efd31aa07bc3f21adc80ff.bindPopup(popup_ec24d0d3ddbc684d6bdd8779388a673e)
+        ;
+
+        
+    
+    
+            var circle_marker_7a4424f3545269621a93a7056623fa4a = L.circleMarker(
+                [22.6740468, 88.3002939],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_05823b1362d060d165c0483ecdbf7790 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed4961cc698315c9998f44d6c61b2675 = $(`<div id="html_ed4961cc698315c9998f44d6c61b2675" style="width: 100.0%; height: 100.0%;">Panchghara, Dankuni, West Bengal 712306 | Cluster -1 | 712306</div>`)[0];
+                popup_05823b1362d060d165c0483ecdbf7790.setContent(html_ed4961cc698315c9998f44d6c61b2675);
+            
+        
+
+        circle_marker_7a4424f3545269621a93a7056623fa4a.bindPopup(popup_05823b1362d060d165c0483ecdbf7790)
+        ;
+
+        
+    
+    
+            var circle_marker_7b1e6303f13d7ab6d430bd75ef779650 = L.circleMarker(
+                [22.7859243505853, 88.5730366723223],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_0e6cb661e7005b8c8d36c6ac7229ac7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd5a616e1cb7354489bf672a69ef52f5 = $(`<div id="html_dd5a616e1cb7354489bf672a69ef52f5" style="width: 100.0%; height: 100.0%;">Bira, Joypul, West Bengal | Cluster -1 | N/A</div>`)[0];
+                popup_0e6cb661e7005b8c8d36c6ac7229ac7a.setContent(html_dd5a616e1cb7354489bf672a69ef52f5);
+            
+        
+
+        circle_marker_7b1e6303f13d7ab6d430bd75ef779650.bindPopup(popup_0e6cb661e7005b8c8d36c6ac7229ac7a)
+        ;
+
+        
+    
+    
+            var circle_marker_cad4b22994a1782ecef2bafc2ffa8dce = L.circleMarker(
+                [22.3630938341901, 88.3041944088988],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_438f831fd554b08c38bbef0d2b1bd61b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2d010014ccdd96bde6bccc2c0eb57c0 = $(`<div id="html_b2d010014ccdd96bde6bccc2c0eb57c0" style="width: 100.0%; height: 100.0%;">Gabbaria, Doultabad, West Bengal 743503 | Cluster -1 | 743503</div>`)[0];
+                popup_438f831fd554b08c38bbef0d2b1bd61b.setContent(html_b2d010014ccdd96bde6bccc2c0eb57c0);
+            
+        
+
+        circle_marker_cad4b22994a1782ecef2bafc2ffa8dce.bindPopup(popup_438f831fd554b08c38bbef0d2b1bd61b)
+        ;
+
+        
+    
+    
+            var circle_marker_87fc0fe45ae66f8b489798880ccc3878 = L.circleMarker(
+                [22.4002642191836, 88.4238917724791],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_5b25ccabe4d327b45558ad4079cbb71e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56db0a744fc34a042851e755cd7dc786 = $(`<div id="html_56db0a744fc34a042851e755cd7dc786" style="width: 100.0%; height: 100.0%;">Rajpur Sonarpur, Malancha Mahi Nagar, Rajpur Sonarpur | Cluster -1 | N/A</div>`)[0];
+                popup_5b25ccabe4d327b45558ad4079cbb71e.setContent(html_56db0a744fc34a042851e755cd7dc786);
+            
+        
+
+        circle_marker_87fc0fe45ae66f8b489798880ccc3878.bindPopup(popup_5b25ccabe4d327b45558ad4079cbb71e)
+        ;
+
+        
+    
+    
+            var circle_marker_832f5bf89a9eda53852a8f7e869e1118 = L.circleMarker(
+                [22.6792064270219, 88.3179149239868],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_8e45942e9947e212c42d67c70cc80294 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbe2603154ad8c26ae09bacdab41a596 = $(`<div id="html_cbe2603154ad8c26ae09bacdab41a596" style="width: 100.0%; height: 100.0%;">Raghunathpur, Makhla, Basipota, West Bengal 712245 | Cluster -1 | 712245</div>`)[0];
+                popup_8e45942e9947e212c42d67c70cc80294.setContent(html_cbe2603154ad8c26ae09bacdab41a596);
+            
+        
+
+        circle_marker_832f5bf89a9eda53852a8f7e869e1118.bindPopup(popup_8e45942e9947e212c42d67c70cc80294)
+        ;
+
+        
+    
+    
+            var circle_marker_c5f229ed752ad9d5b08047f2613675f6 = L.circleMarker(
+                [22.7202357542507, 88.3113337922935],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_eec5c8477a6b1753893b1a1cdc38737b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f7cba53cc51b16e19589ebec97aaa9f = $(`<div id="html_3f7cba53cc51b16e19589ebec97aaa9f" style="width: 100.0%; height: 100.0%;">Baranagar | Cluster -1 | 712234</div>`)[0];
+                popup_eec5c8477a6b1753893b1a1cdc38737b.setContent(html_3f7cba53cc51b16e19589ebec97aaa9f);
+            
+        
+
+        circle_marker_c5f229ed752ad9d5b08047f2613675f6.bindPopup(popup_eec5c8477a6b1753893b1a1cdc38737b)
+        ;
+
+        
+    
+    
+            var circle_marker_c2852dc2a6acc3c812392af1bc0fa5db = L.circleMarker(
+                [22.602646277517, 88.5344619195506],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_e9f8e7bc22007f90867fe4dd36ecc8e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d476f977b0d773bc06676e89caa030b9 = $(`<div id="html_d476f977b0d773bc06676e89caa030b9" style="width: 100.0%; height: 100.0%;">Lake Town, Kolkata, West Bengal | Cluster 54 | N/A</div>`)[0];
+                popup_e9f8e7bc22007f90867fe4dd36ecc8e6.setContent(html_d476f977b0d773bc06676e89caa030b9);
+            
+        
+
+        circle_marker_c2852dc2a6acc3c812392af1bc0fa5db.bindPopup(popup_e9f8e7bc22007f90867fe4dd36ecc8e6)
+        ;
+
+        
+    
+    
+            var circle_marker_167877df1707ae052828c590432a9d74 = L.circleMarker(
+                [22.6031978832739, 88.5368781516019],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_f1a7e3bb04041d8256d83f007416a133 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e527246a8fb51e6a4dafeead441a5d31 = $(`<div id="html_e527246a8fb51e6a4dafeead441a5d31" style="width: 100.0%; height: 100.0%;">nearby shikharpur, Greentech City, Vedic Village, | Cluster 54 | N/A</div>`)[0];
+                popup_f1a7e3bb04041d8256d83f007416a133.setContent(html_e527246a8fb51e6a4dafeead441a5d31);
+            
+        
+
+        circle_marker_167877df1707ae052828c590432a9d74.bindPopup(popup_f1a7e3bb04041d8256d83f007416a133)
+        ;
+
+        
+    
+    
+            var circle_marker_5440916fd921f59037db8534b256bd46 = L.circleMarker(
+                [22.6031978832739, 88.5368781516019],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_f356751f1571cd89f0511bc4411aec48 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eff01e07356c2c907eb60200093762de = $(`<div id="html_eff01e07356c2c907eb60200093762de" style="width: 100.0%; height: 100.0%;">nearby shikharpur, Greentech City, Vedic Village, | Cluster 54 | N/A</div>`)[0];
+                popup_f356751f1571cd89f0511bc4411aec48.setContent(html_eff01e07356c2c907eb60200093762de);
+            
+        
+
+        circle_marker_5440916fd921f59037db8534b256bd46.bindPopup(popup_f356751f1571cd89f0511bc4411aec48)
+        ;
+
+        
+    
+    
+            var circle_marker_de4f18660580db8bf1379cdb98a4c8f0 = L.circleMarker(
+                [22.5647656394538, 88.4941257161734],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_cfdaa173c50aaef6416609f33b3e56f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df9b0b80fbf975ea74f0674a96e4ea8d = $(`<div id="html_df9b0b80fbf975ea74f0674a96e4ea8d" style="width: 100.0%; height: 100.0%;">Uniworld city new town action area 3 | Cluster -1 | N/A</div>`)[0];
+                popup_cfdaa173c50aaef6416609f33b3e56f2.setContent(html_df9b0b80fbf975ea74f0674a96e4ea8d);
+            
+        
+
+        circle_marker_de4f18660580db8bf1379cdb98a4c8f0.bindPopup(popup_cfdaa173c50aaef6416609f33b3e56f2)
+        ;
+
+        
+    
+    
+            var circle_marker_2ea77622d068f8e56e5d341293e162e6 = L.circleMarker(
+                [22.6302377, 88.4879039],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_cc3105c5d5a3b3f2ded6a786ff81d27b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03a097d94529e5472d2fa27ba8d757cd = $(`<div id="html_03a097d94529e5472d2fa27ba8d757cd" style="width: 100.0%; height: 100.0%;">Kalibari complex Rajarhat | Cluster -1 | N/A</div>`)[0];
+                popup_cc3105c5d5a3b3f2ded6a786ff81d27b.setContent(html_03a097d94529e5472d2fa27ba8d757cd);
+            
+        
+
+        circle_marker_2ea77622d068f8e56e5d341293e162e6.bindPopup(popup_cc3105c5d5a3b3f2ded6a786ff81d27b)
+        ;
+
+        
+    
+    
+            var circle_marker_1e1c3bb92692684206e5dcade4c7d437 = L.circleMarker(
+                [22.4592173316878, 88.3050005525193],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_22a973bfd91f7d027074431137edc013 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5174e02bfec0326750f7e57e3b1a654f = $(`<div id="html_5174e02bfec0326750f7e57e3b1a654f" style="width: 100.0%; height: 100.0%;">Thakurpukur | Cluster -1 | N/A</div>`)[0];
+                popup_22a973bfd91f7d027074431137edc013.setContent(html_5174e02bfec0326750f7e57e3b1a654f);
+            
+        
+
+        circle_marker_1e1c3bb92692684206e5dcade4c7d437.bindPopup(popup_22a973bfd91f7d027074431137edc013)
+        ;
+
+        
+    
+    
+            var circle_marker_00014b92703c1667c2edc42ec749e274 = L.circleMarker(
+                [22.7578136845854, 88.5354050892405],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_fccf4613b3ebc81e7f1b74dda4d12675 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04670e5f9b2f5574a75608f3d8b4771f = $(`<div id="html_04670e5f9b2f5574a75608f3d8b4771f" style="width: 100.0%; height: 100.0%;">Narshipur, Jirat, West Bengal | Cluster -1 | N/A</div>`)[0];
+                popup_fccf4613b3ebc81e7f1b74dda4d12675.setContent(html_04670e5f9b2f5574a75608f3d8b4771f);
+            
+        
+
+        circle_marker_00014b92703c1667c2edc42ec749e274.bindPopup(popup_fccf4613b3ebc81e7f1b74dda4d12675)
+        ;
+
+        
+    
+    
+            var circle_marker_09295d38dc91d500c2872b49671a069a = L.circleMarker(
+                [22.6936888518877, 88.515793617102],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_cf85295049b484997928ac888ede3210 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42c9891673343c00b32b8d0b5f903484 = $(`<div id="html_42c9891673343c00b32b8d0b5f903484" style="width: 100.0%; height: 100.0%;">Badu Rd, Madhyamgram | Cluster -1 | N/A</div>`)[0];
+                popup_cf85295049b484997928ac888ede3210.setContent(html_42c9891673343c00b32b8d0b5f903484);
+            
+        
+
+        circle_marker_09295d38dc91d500c2872b49671a069a.bindPopup(popup_cf85295049b484997928ac888ede3210)
+        ;
+
+        
+    
+    
+            var circle_marker_77e1a7273728b8d2d74a3c8ceeab70a7 = L.circleMarker(
+                [22.6027757137822, 88.539466119314],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_c87122738b9b9b8e982bc3420598888f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3003659edb7ea6eccd75be614cc1b1a = $(`<div id="html_e3003659edb7ea6eccd75be614cc1b1a" style="width: 100.0%; height: 100.0%;">Vedic Village, Bazetaraf | Cluster 54 | N/A</div>`)[0];
+                popup_c87122738b9b9b8e982bc3420598888f.setContent(html_e3003659edb7ea6eccd75be614cc1b1a);
+            
+        
+
+        circle_marker_77e1a7273728b8d2d74a3c8ceeab70a7.bindPopup(popup_c87122738b9b9b8e982bc3420598888f)
+        ;
+
+        
+    
+    
+            var circle_marker_8bac7d0804c80254efa922ee9ad519d5 = L.circleMarker(
+                [22.5907809699071, 88.5314313628986],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_0cffc82af22496bcb43ec22800a6d4cd);
+        
+    
+        var popup_4f1868739aff39a0d699245c6a7ad7d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35fedd9f9b38cdef99a81db6d6b86431 = $(`<div id="html_35fedd9f9b38cdef99a81db6d6b86431" style="width: 100.0%; height: 100.0%;">Baghu, Newtown, Sikharpur | Cluster 54 | N/A</div>`)[0];
+                popup_4f1868739aff39a0d699245c6a7ad7d0.setContent(html_35fedd9f9b38cdef99a81db6d6b86431);
+            
+        
+
+        circle_marker_8bac7d0804c80254efa922ee9ad519d5.bindPopup(popup_4f1868739aff39a0d699245c6a7ad7d0)
+        ;
+
+        
+    
+</script>
+</html>

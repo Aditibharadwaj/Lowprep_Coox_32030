@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a44175e6110dbfbc8212756c348da02a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a44175e6110dbfbc8212756c348da02a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a44175e6110dbfbc8212756c348da02a = L.map(
+                "map_a44175e6110dbfbc8212756c348da02a",
+                {
+                    center: [19.092926532165666, 73.08227163348577],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3e64786ac1a2ee6ae410ea1f34b1c31f = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3e64786ac1a2ee6ae410ea1f34b1c31f.addTo(map_a44175e6110dbfbc8212756c348da02a);
+        
+    
+            var heat_map_7acf36ffb5f8e52e7fae778b03a0098a = L.heatLayer(
+                [[19.3521211957774, 73.1311388924316, 1], [19.0023953647494, 72.8490548305976, 1], [18.7577380507954, 73.4080753747092, 1], [18.9656615, 73.128322, 1], [19.3944265, 72.8480921, 1], [18.9946530053323, 73.1082169470798, 1], [19.1743354828218, 73.0693527166233, 1], [19.2204844900147, 73.1675816399306, 1], [18.9745232, 73.0306102, 1]],
+                {
+  "minOpacity": 0.4,
+  "maxZoom": 18,
+  "radius": 22,
+  "blur": 12,
+}
+            );
+        
+    
+            heat_map_7acf36ffb5f8e52e7fae778b03a0098a.addTo(map_a44175e6110dbfbc8212756c348da02a);
+        
+    
+            var circle_042a8c0a015c09e0a952b9797999657a = L.circle(
+                [19.2176, 73.163134],
+                {"bubblingMouseEvents": true, "color": "#10b981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10b981", "fillOpacity": 0.22, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2050.0, "stroke": true, "weight": 2}
+            ).addTo(map_a44175e6110dbfbc8212756c348da02a);
+        
+    
+        var popup_ba7f1132d454ea9363f40e919b301881 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cab6e44e01a1ac6622b622852f50ffe = $(`<div id="html_8cab6e44e01a1ac6622b622852f50ffe" style="width: 100.0%; height: 100.0%;">Cluster 61 — 3 bookings | N/A</div>`)[0];
+                popup_ba7f1132d454ea9363f40e919b301881.setContent(html_8cab6e44e01a1ac6622b622852f50ffe);
+            
+        
+
+        circle_042a8c0a015c09e0a952b9797999657a.bindPopup(popup_ba7f1132d454ea9363f40e919b301881)
+        ;
+
+        
+    
+    
+            var polygon_6310a8764c0f717ea1afe30424899c53 = L.polygon(
+                [[19.233495, 73.159829], [19.198819, 73.161992], [19.220484, 73.167582], [19.233495, 73.159829]],
+                {"bubblingMouseEvents": true, "color": "#10b981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10b981", "fillOpacity": 0.35, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_a44175e6110dbfbc8212756c348da02a);
+        
+    
+        var popup_605c0c4ee0757f726f41d7327607e320 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1251180619af923982e1d7f272475b2b = $(`<div id="html_1251180619af923982e1d7f272475b2b" style="width: 100.0%; height: 100.0%;">Hull — Cluster 61</div>`)[0];
+                popup_605c0c4ee0757f726f41d7327607e320.setContent(html_1251180619af923982e1d7f272475b2b);
+            
+        
+
+        polygon_6310a8764c0f717ea1afe30424899c53.bindPopup(popup_605c0c4ee0757f726f41d7327607e320)
+        ;
+
+        
+    
+    
+            var circle_marker_d2f071f711aa811b0eb059def3d70b9a = L.circleMarker(
+                [19.3521211957774, 73.1311388924316],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_a44175e6110dbfbc8212756c348da02a);
+        
+    
+        var popup_03d75b7bd2ba3988dded517363d422c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fd9200756fc08a659886c3d8dd65aff = $(`<div id="html_4fd9200756fc08a659886c3d8dd65aff" style="width: 100.0%; height: 100.0%;">Borivali Tarf Sonale, Maharashtra 421302, India | Cluster -1 | 421302</div>`)[0];
+                popup_03d75b7bd2ba3988dded517363d422c2.setContent(html_4fd9200756fc08a659886c3d8dd65aff);
+            
+        
+
+        circle_marker_d2f071f711aa811b0eb059def3d70b9a.bindPopup(popup_03d75b7bd2ba3988dded517363d422c2)
+        ;
+
+        
+    
+    
+            var circle_marker_f889dc4ab3abec9958a4e24904852c81 = L.circleMarker(
+                [19.0023953647494, 72.8490548305976],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_a44175e6110dbfbc8212756c348da02a);
+        
+    
+        var popup_afb3ec75cc6c1de8071016a7ca3ec51c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11622587d5242096eb9f4e891ddb9d4c = $(`<div id="html_11622587d5242096eb9f4e891ddb9d4c" style="width: 100.0%; height: 100.0%;">Parel  East | Cluster -1 | N/A</div>`)[0];
+                popup_afb3ec75cc6c1de8071016a7ca3ec51c.setContent(html_11622587d5242096eb9f4e891ddb9d4c);
+            
+        
+
+        circle_marker_f889dc4ab3abec9958a4e24904852c81.bindPopup(popup_afb3ec75cc6c1de8071016a7ca3ec51c)
+        ;
+
+        
+    
+    
+            var circle_marker_5e4834104dd5177db3b215e406a5f2c0 = L.circleMarker(
+                [18.7577380507954, 73.4080753747092],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_a44175e6110dbfbc8212756c348da02a);
+        
+    
+        var popup_e8a4227211d363e3079ae5059dd4b7a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c5ae6f257711b9b3394658c2ac54d1a = $(`<div id="html_2c5ae6f257711b9b3394658c2ac54d1a" style="width: 100.0%; height: 100.0%;">Gavliwada, Lonavala | Cluster -1 | N/A</div>`)[0];
+                popup_e8a4227211d363e3079ae5059dd4b7a3.setContent(html_2c5ae6f257711b9b3394658c2ac54d1a);
+            
+        
+
+        circle_marker_5e4834104dd5177db3b215e406a5f2c0.bindPopup(popup_e8a4227211d363e3079ae5059dd4b7a3)
+        ;
+
+        
+    
+    
+            var circle_marker_b3d87f34d9dac81de87e8d7f452208d1 = L.circleMarker(
+                [18.9656615, 73.128322],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_a44175e6110dbfbc8212756c348da02a);
+        
+    
+        var popup_7bc78808819763525fd374ee470e5c61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_821d02ac98b8f2ef3573b9359889c47b = $(`<div id="html_821d02ac98b8f2ef3573b9359889c47b" style="width: 100.0%; height: 100.0%;">navi mumbai | Cluster 11 | N/A</div>`)[0];
+                popup_7bc78808819763525fd374ee470e5c61.setContent(html_821d02ac98b8f2ef3573b9359889c47b);
+            
+        
+
+        circle_marker_b3d87f34d9dac81de87e8d7f452208d1.bindPopup(popup_7bc78808819763525fd374ee470e5c61)
+        ;
+
+        
+    
+    
+            var circle_marker_4f65dbaddb349eeba5458220636ed807 = L.circleMarker(
+                [19.3944265, 72.8480921],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_a44175e6110dbfbc8212756c348da02a);
+        
+    
+        var popup_4a521c482e1fa14ee3b8e8c662e059b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcd61afcc77dbb3262d5c4761f3ad211 = $(`<div id="html_dcd61afcc77dbb3262d5c4761f3ad211" style="width: 100.0%; height: 100.0%;">Madhuvan Township near Box Street | Cluster -1 | N/A</div>`)[0];
+                popup_4a521c482e1fa14ee3b8e8c662e059b0.setContent(html_dcd61afcc77dbb3262d5c4761f3ad211);
+            
+        
+
+        circle_marker_4f65dbaddb349eeba5458220636ed807.bindPopup(popup_4a521c482e1fa14ee3b8e8c662e059b0)
+        ;
+
+        
+    
+    
+            var circle_marker_c4fbb3aa2f0659f9f373a84060ef71cd = L.circleMarker(
+                [18.9946530053323, 73.1082169470798],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_a44175e6110dbfbc8212756c348da02a);
+        
+    
+        var popup_bbd651e5533c8bdd8d6edba017b2b7b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e68f52bf4c12453f47af8a3f7baf12b = $(`<div id="html_6e68f52bf4c12453f47af8a3f7baf12b" style="width: 100.0%; height: 100.0%;">Swami Nityanand Rd, Nityanand Nagar, HOC Colony | Cluster 11 | N/A</div>`)[0];
+                popup_bbd651e5533c8bdd8d6edba017b2b7b1.setContent(html_6e68f52bf4c12453f47af8a3f7baf12b);
+            
+        
+
+        circle_marker_c4fbb3aa2f0659f9f373a84060ef71cd.bindPopup(popup_bbd651e5533c8bdd8d6edba017b2b7b1)
+        ;
+
+        
+    
+    
+            var circle_marker_137d2ce47c9a4ca142a16472021929f7 = L.circleMarker(
+                [19.1743354828218, 73.0693527166233],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_a44175e6110dbfbc8212756c348da02a);
+        
+    
+        var popup_9c2063fccda353c7d651cdd594449852 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7964f1709a8dec220224ae8bd401db6b = $(`<div id="html_7964f1709a8dec220224ae8bd401db6b" style="width: 100.0%; height: 100.0%;">KALYAN SHIL ROAD | Cluster -1 | N/A</div>`)[0];
+                popup_9c2063fccda353c7d651cdd594449852.setContent(html_7964f1709a8dec220224ae8bd401db6b);
+            
+        
+
+        circle_marker_137d2ce47c9a4ca142a16472021929f7.bindPopup(popup_9c2063fccda353c7d651cdd594449852)
+        ;
+
+        
+    
+    
+            var circle_marker_c646b9f4a8b7d5aac982429642f9f03a = L.circleMarker(
+                [19.2204844900147, 73.1675816399306],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_a44175e6110dbfbc8212756c348da02a);
+        
+    
+        var popup_cb163e31cb95e2b2355ab09698e943eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37ef84cd8a16dda133c55c36529fe7cc = $(`<div id="html_37ef84cd8a16dda133c55c36529fe7cc" style="width: 100.0%; height: 100.0%;">BK No 1093/14, III, opposite Romy palace, O T Section, Samrat Ashok Nagar, Ulhasnagar, Maharashtra | Cluster 61 | N/A</div>`)[0];
+                popup_cb163e31cb95e2b2355ab09698e943eb.setContent(html_37ef84cd8a16dda133c55c36529fe7cc);
+            
+        
+
+        circle_marker_c646b9f4a8b7d5aac982429642f9f03a.bindPopup(popup_cb163e31cb95e2b2355ab09698e943eb)
+        ;
+
+        
+    
+    
+            var circle_marker_9bdf50d280cb593d785e8290983372d6 = L.circleMarker(
+                [18.9745232, 73.0306102],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_a44175e6110dbfbc8212756c348da02a);
+        
+    
+        var popup_a4e0259bef208ed80a90c2296ee4586d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2bd297721eaeaceed6737ce8328ec6b0 = $(`<div id="html_2bd297721eaeaceed6737ce8328ec6b0" style="width: 100.0%; height: 100.0%;">Sector - 23, Ulwe, Navi Mumbai | Cluster -1 | N/A</div>`)[0];
+                popup_a4e0259bef208ed80a90c2296ee4586d.setContent(html_2bd297721eaeaceed6737ce8328ec6b0);
+            
+        
+
+        circle_marker_9bdf50d280cb593d785e8290983372d6.bindPopup(popup_a4e0259bef208ed80a90c2296ee4586d)
+        ;
+
+        
+    
+</script>
+</html>

@@ -1,0 +1,4 @@
+Epsilon_km,N_clusters,N_noise,Coverage_pct,Silhouette
+3,63,235,57.0,0.755
+5,43,139,74.5,0.515
+8,32,86,84.2,0.484

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3176eccbe88f265af80b0d8a76c8cd5a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3176eccbe88f265af80b0d8a76c8cd5a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3176eccbe88f265af80b0d8a76c8cd5a = L.map(
+                "map_3176eccbe88f265af80b0d8a76c8cd5a",
+                {
+                    center: [22.819100049408426, 76.06300610041022],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f40e25ab3812ae86c2f245b235ad1227 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f40e25ab3812ae86c2f245b235ad1227.addTo(map_3176eccbe88f265af80b0d8a76c8cd5a);
+        
+    
+            var heat_map_3053c464816a8ed0b977c86faad12251 = L.heatLayer(
+                [[22.5637732, 75.9709992, 1], [23.1737308, 77.0618571, 1], [22.897340506811, 75.9795504687897, 1], [22.897340506811, 75.9795504687897, 1], [22.838631627664, 75.9105661923301, 1], [22.9657149708421, 76.0547254177628, 1], [22.9657149708421, 76.0547254177628, 1], [22.5939246694361, 75.7875793253401, 1], [22.7046430970288, 75.9645045045791, 1], [22.7046430970288, 75.9645045045791, 1], [22.7046430970288, 75.9645045045791, 1]],
+                {
+  "minOpacity": 0.4,
+  "maxZoom": 18,
+  "radius": 22,
+  "blur": 12,
+}
+            );
+        
+    
+            heat_map_3053c464816a8ed0b977c86faad12251.addTo(map_3176eccbe88f265af80b0d8a76c8cd5a);
+        
+    
+            var circle_baf177434cd4cdca00c6a8797e9e4a2f = L.circle(
+                [22.704643, 75.964505],
+                {"bubblingMouseEvents": true, "color": "#10b981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10b981", "fillOpacity": 0.22, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 2}
+            ).addTo(map_3176eccbe88f265af80b0d8a76c8cd5a);
+        
+    
+        var popup_1171c3b2f34430f116c151749a837296 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b465dc1d5f29de5d4fcfd1defa032900 = $(`<div id="html_b465dc1d5f29de5d4fcfd1defa032900" style="width: 100.0%; height: 100.0%;">Cluster 59 — 3 bookings | N/A</div>`)[0];
+                popup_1171c3b2f34430f116c151749a837296.setContent(html_b465dc1d5f29de5d4fcfd1defa032900);
+            
+        
+
+        circle_baf177434cd4cdca00c6a8797e9e4a2f.bindPopup(popup_1171c3b2f34430f116c151749a837296)
+        ;
+
+        
+    
+    
+            var circle_marker_075bcf44140248cd87757db8a2310900 = L.circleMarker(
+                [22.5637732, 75.9709992],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_3176eccbe88f265af80b0d8a76c8cd5a);
+        
+    
+        var popup_a772e735d7e6eb8f4718b9e20873fb0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_047418400724f04828ef86665304c20a = $(`<div id="html_047418400724f04828ef86665304c20a" style="width: 100.0%; height: 100.0%;">Tincha waterfall | Cluster -1 | N/A</div>`)[0];
+                popup_a772e735d7e6eb8f4718b9e20873fb0f.setContent(html_047418400724f04828ef86665304c20a);
+            
+        
+
+        circle_marker_075bcf44140248cd87757db8a2310900.bindPopup(popup_a772e735d7e6eb8f4718b9e20873fb0f)
+        ;
+
+        
+    
+    
+            var circle_marker_d3e8596e95d4e81ca3f12d96f01966e5 = L.circleMarker(
+                [23.1737308, 77.0618571],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_3176eccbe88f265af80b0d8a76c8cd5a);
+        
+    
+        var popup_b6b2736a8082250d177d8fcb75bc0548 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45bd7e20922f3e3d03562c6eed097e9b = $(`<div id="html_45bd7e20922f3e3d03562c6eed097e9b" style="width: 100.0%; height: 100.0%;">Sehore Bypass Rd, Sehore, Alahada Khedi | Cluster -1 | N/A</div>`)[0];
+                popup_b6b2736a8082250d177d8fcb75bc0548.setContent(html_45bd7e20922f3e3d03562c6eed097e9b);
+            
+        
+
+        circle_marker_d3e8596e95d4e81ca3f12d96f01966e5.bindPopup(popup_b6b2736a8082250d177d8fcb75bc0548)
+        ;
+
+        
+    
+    
+            var circle_marker_f7a875ec31c9f8c080ce9eb557e46535 = L.circleMarker(
+                [22.897340506811, 75.9795504687897],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_3176eccbe88f265af80b0d8a76c8cd5a);
+        
+    
+        var popup_e95bd45fde5971e16ade1fe44bfb0268 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2458ba12180bc24c9ca90c92e155ce72 = $(`<div id="html_2458ba12180bc24c9ca90c92e155ce72" style="width: 100.0%; height: 100.0%;">VRG, Kshipra, Pirkaradiya | Cluster -1 | N/A</div>`)[0];
+                popup_e95bd45fde5971e16ade1fe44bfb0268.setContent(html_2458ba12180bc24c9ca90c92e155ce72);
+            
+        
+
+        circle_marker_f7a875ec31c9f8c080ce9eb557e46535.bindPopup(popup_e95bd45fde5971e16ade1fe44bfb0268)
+        ;
+
+        
+    
+    
+            var circle_marker_50e5bb9416444e69ad0f6ad90039ba44 = L.circleMarker(
+                [22.897340506811, 75.9795504687897],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_3176eccbe88f265af80b0d8a76c8cd5a);
+        
+    
+        var popup_d08358ab01eb5f01a8f85f91edb8173c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd297da5b4410a7d8727a078dc79ec9e = $(`<div id="html_dd297da5b4410a7d8727a078dc79ec9e" style="width: 100.0%; height: 100.0%;">VRG, Kshipra, Pirkaradiya | Cluster -1 | N/A</div>`)[0];
+                popup_d08358ab01eb5f01a8f85f91edb8173c.setContent(html_dd297da5b4410a7d8727a078dc79ec9e);
+            
+        
+
+        circle_marker_50e5bb9416444e69ad0f6ad90039ba44.bindPopup(popup_d08358ab01eb5f01a8f85f91edb8173c)
+        ;
+
+        
+    
+    
+            var circle_marker_46e078e28499c7d43ac84c0bbb25a89a = L.circleMarker(
+                [22.838631627664, 75.9105661923301],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_3176eccbe88f265af80b0d8a76c8cd5a);
+        
+    
+        var popup_c961981257c473b5bc6735647a37738e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_965d97ad2586436096a6c6094cf39d6d = $(`<div id="html_965d97ad2586436096a6c6094cf39d6d" style="width: 100.0%; height: 100.0%;">Village gari piliyana | Cluster -1 | N/A</div>`)[0];
+                popup_c961981257c473b5bc6735647a37738e.setContent(html_965d97ad2586436096a6c6094cf39d6d);
+            
+        
+
+        circle_marker_46e078e28499c7d43ac84c0bbb25a89a.bindPopup(popup_c961981257c473b5bc6735647a37738e)
+        ;
+
+        
+    
+    
+            var circle_marker_d1b5c4b715862ecced06cee171a364e7 = L.circleMarker(
+                [22.9657149708421, 76.0547254177628],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_3176eccbe88f265af80b0d8a76c8cd5a);
+        
+    
+        var popup_a10cd00d2af7e8f20ef147ed29dfa701 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54bf3aa2615199ac66c34593b3b51f26 = $(`<div id="html_54bf3aa2615199ac66c34593b3b51f26" style="width: 100.0%; height: 100.0%;">Rai Marg, Alankar Square, Old Town, Gomti Nagar, Dewas, Madhya Pradesh 455001 | Cluster -1 | 455001</div>`)[0];
+                popup_a10cd00d2af7e8f20ef147ed29dfa701.setContent(html_54bf3aa2615199ac66c34593b3b51f26);
+            
+        
+
+        circle_marker_d1b5c4b715862ecced06cee171a364e7.bindPopup(popup_a10cd00d2af7e8f20ef147ed29dfa701)
+        ;
+
+        
+    
+    
+            var circle_marker_e8fb038ca009bda39474526eef335e8b = L.circleMarker(
+                [22.9657149708421, 76.0547254177628],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_3176eccbe88f265af80b0d8a76c8cd5a);
+        
+    
+        var popup_be63ef291f1f0fe17785a75031687681 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3cb2c4a8989c8ae257d17a6a9f722a4 = $(`<div id="html_b3cb2c4a8989c8ae257d17a6a9f722a4" style="width: 100.0%; height: 100.0%;">Rai Marg, Alankar Square, Old Town, Gomti Nagar, Dewas, Madhya Pradesh 455001 | Cluster -1 | 455001</div>`)[0];
+                popup_be63ef291f1f0fe17785a75031687681.setContent(html_b3cb2c4a8989c8ae257d17a6a9f722a4);
+            
+        
+
+        circle_marker_e8fb038ca009bda39474526eef335e8b.bindPopup(popup_be63ef291f1f0fe17785a75031687681)
+        ;
+
+        
+    
+    
+            var circle_marker_eaa2b1ca6dcb3ea5b0d9035a1b43f9f6 = L.circleMarker(
+                [22.5939246694361, 75.7875793253401],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_3176eccbe88f265af80b0d8a76c8cd5a);
+        
+    
+        var popup_c4004fd296f663e4ebab9c3e05b3a1e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_847ed29edb66e4da17531bf1b25ada91 = $(`<div id="html_847ed29edb66e4da17531bf1b25ada91" style="width: 100.0%; height: 100.0%;">Harnya Khedi, Madhya Pradesh 453446, India | Cluster -1 | 453446</div>`)[0];
+                popup_c4004fd296f663e4ebab9c3e05b3a1e4.setContent(html_847ed29edb66e4da17531bf1b25ada91);
+            
+        
+
+        circle_marker_eaa2b1ca6dcb3ea5b0d9035a1b43f9f6.bindPopup(popup_c4004fd296f663e4ebab9c3e05b3a1e4)
+        ;
+
+        
+    
+    
+            var circle_marker_9b4013d363b1c62dd6b6e4cf7a0f7bcf = L.circleMarker(
+                [22.7046430970288, 75.9645045045791],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_3176eccbe88f265af80b0d8a76c8cd5a);
+        
+    
+        var popup_f0830bd0dfff4255d9db2a25e41f4574 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da7c096183730c9a49b0415a1fb46dab = $(`<div id="html_da7c096183730c9a49b0415a1fb46dab" style="width: 100.0%; height: 100.0%;">Bicholi Mardana, Ambamoliya-Bicholi Hapsi Rd | Cluster 59 | N/A</div>`)[0];
+                popup_f0830bd0dfff4255d9db2a25e41f4574.setContent(html_da7c096183730c9a49b0415a1fb46dab);
+            
+        
+
+        circle_marker_9b4013d363b1c62dd6b6e4cf7a0f7bcf.bindPopup(popup_f0830bd0dfff4255d9db2a25e41f4574)
+        ;
+
+        
+    
+    
+            var circle_marker_afc2643e3786436d9653e76fca73a652 = L.circleMarker(
+                [22.7046430970288, 75.9645045045791],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_3176eccbe88f265af80b0d8a76c8cd5a);
+        
+    
+        var popup_97fadccc150a51ea237d9c386142825e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7dd07bf73cdd021ef834bb1eb5ed1e5b = $(`<div id="html_7dd07bf73cdd021ef834bb1eb5ed1e5b" style="width: 100.0%; height: 100.0%;">Bicholi Mardana, Ambamoliya-Bicholi Hapsi Rd | Cluster 59 | N/A</div>`)[0];
+                popup_97fadccc150a51ea237d9c386142825e.setContent(html_7dd07bf73cdd021ef834bb1eb5ed1e5b);
+            
+        
+
+        circle_marker_afc2643e3786436d9653e76fca73a652.bindPopup(popup_97fadccc150a51ea237d9c386142825e)
+        ;
+
+        
+    
+    
+            var circle_marker_fd4d216a41bfbbdcbbc37ec76bb84260 = L.circleMarker(
+                [22.7046430970288, 75.9645045045791],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_3176eccbe88f265af80b0d8a76c8cd5a);
+        
+    
+        var popup_b3847e4b0fa4164f86c51c7a04fdfd81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29ec6c1c4fbb2b244f6b3b20f25c1bea = $(`<div id="html_29ec6c1c4fbb2b244f6b3b20f25c1bea" style="width: 100.0%; height: 100.0%;">Bicholi Mardana, Ambamoliya-Bicholi Hapsi Rd | Cluster 59 | N/A</div>`)[0];
+                popup_b3847e4b0fa4164f86c51c7a04fdfd81.setContent(html_29ec6c1c4fbb2b244f6b3b20f25c1bea);
+            
+        
+
+        circle_marker_fd4d216a41bfbbdcbbc37ec76bb84260.bindPopup(popup_b3847e4b0fa4164f86c51c7a04fdfd81)
+        ;
+
+        
+    
+</script>
+</html>

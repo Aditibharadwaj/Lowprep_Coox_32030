@@ -1,0 +1,4 @@
+Scenario,Total_Loss,Cluster_Loss,Recoverable_Pct
+Conservative (₹8K),4477200,2550200,57.0
+Base Case (₹15K),8299200,4727200,57.0
+Optimistic (₹25K),13759200,7837200,57.0

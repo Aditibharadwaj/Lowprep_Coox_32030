@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dc17e4293b228a5eb53f3db270b13bf0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dc17e4293b228a5eb53f3db270b13bf0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dc17e4293b228a5eb53f3db270b13bf0 = L.map(
+                "map_dc17e4293b228a5eb53f3db270b13bf0",
+                {
+                    center: [26.898676408667733, 75.72253145484912],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d071526cfa3e1db40c9474feb55dadeb = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d071526cfa3e1db40c9474feb55dadeb.addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+            var heat_map_44aac43eefce1da1c976c9896b9567bc = L.heatLayer(
+                [[26.856312, 76.1321765, 1], [27.2157007984401, 75.9152028013357, 1], [27.0612117, 75.8440610999999, 1], [26.7709668136458, 75.4609939823081, 1], [26.8917170926988, 75.5782714462805, 1], [26.7626474763439, 75.9093005884128, 1], [26.9197556, 75.6385519999999, 1], [26.8083706437466, 75.4809742035804, 1], [26.9884533, 75.5849329999999, 1], [26.9884533, 75.5849329999999, 1], [26.7047170419393, 75.8925089161737, 1], [26.8226003, 75.6059808, 1], [26.7956266, 75.8713011, 1], [26.8371965, 75.7280758, 1], [26.7980007850552, 75.9303524091066, 1], [26.8406479300242, 75.657939759449, 1], [27.0027669280046, 75.5714197742344, 1], [27.0285739831877, 75.7637067981327, 1], [27.0285739831877, 75.7637067981327, 1], [26.7941727, 75.7540923, 1], [26.9729895900358, 75.6858349681895, 1], [26.904164, 75.5943886, 1], [26.904164, 75.5943886, 1], [26.7623234503836, 75.8844399258924, 1], [27.0068037, 75.6357512, 1]],
+                {
+  "minOpacity": 0.4,
+  "maxZoom": 18,
+  "radius": 22,
+  "blur": 12,
+}
+            );
+        
+    
+            heat_map_44aac43eefce1da1c976c9896b9567bc.addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+            var circle_1346abb530e794d858cf41587ec93141 = L.circle(
+                [26.900015, 75.589016],
+                {"bubblingMouseEvents": true, "color": "#10b981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10b981", "fillOpacity": 0.22, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 2}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_a1dd9b297cf193989ee2bd9df6aaed4e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a1fe81b6df95958a3021ba8f2932b46 = $(`<div id="html_6a1fe81b6df95958a3021ba8f2932b46" style="width: 100.0%; height: 100.0%;">Cluster 26 — 3 bookings | N/A</div>`)[0];
+                popup_a1dd9b297cf193989ee2bd9df6aaed4e.setContent(html_6a1fe81b6df95958a3021ba8f2932b46);
+            
+        
+
+        circle_1346abb530e794d858cf41587ec93141.bindPopup(popup_a1dd9b297cf193989ee2bd9df6aaed4e)
+        ;
+
+        
+    
+    
+            var circle_cfe2037b47e020409b2a52fc3f6a8690 = L.circle(
+                [26.993225, 75.580429],
+                {"bubblingMouseEvents": true, "color": "#10b981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10b981", "fillOpacity": 0.22, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 2}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_81c31226312a284ca01aa8a218ba8b17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6a8a62400de3893b1d3435455590bbd = $(`<div id="html_f6a8a62400de3893b1d3435455590bbd" style="width: 100.0%; height: 100.0%;">Cluster 47 — 3 bookings | N/A</div>`)[0];
+                popup_81c31226312a284ca01aa8a218ba8b17.setContent(html_f6a8a62400de3893b1d3435455590bbd);
+            
+        
+
+        circle_cfe2037b47e020409b2a52fc3f6a8690.bindPopup(popup_81c31226312a284ca01aa8a218ba8b17)
+        ;
+
+        
+    
+    
+            var circle_marker_7953b9206cc9257caf8b0ac257074025 = L.circleMarker(
+                [26.856312, 76.1321765],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_cb8453f53ca2fa0a43a200119206f0c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3657193915a0e19ccf248c4b5bbb5f91 = $(`<div id="html_3657193915a0e19ccf248c4b5bbb5f91" style="width: 100.0%; height: 100.0%;">Jagatpura | Cluster -1 | N/A</div>`)[0];
+                popup_cb8453f53ca2fa0a43a200119206f0c8.setContent(html_3657193915a0e19ccf248c4b5bbb5f91);
+            
+        
+
+        circle_marker_7953b9206cc9257caf8b0ac257074025.bindPopup(popup_cb8453f53ca2fa0a43a200119206f0c8)
+        ;
+
+        
+    
+    
+            var circle_marker_b892c139e0e379bd7042ec098d79cbea = L.circleMarker(
+                [27.2157007984401, 75.9152028013357],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_cc2b83a2ec515aa538e41136aaafbe7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7cb760667956bbdd66efe11aab051fdf = $(`<div id="html_7cb760667956bbdd66efe11aab051fdf" style="width: 100.0%; height: 100.0%;">BAGWARA, NEAR DAULATPURA TOLL TAX | Cluster -1 | 303804</div>`)[0];
+                popup_cc2b83a2ec515aa538e41136aaafbe7d.setContent(html_7cb760667956bbdd66efe11aab051fdf);
+            
+        
+
+        circle_marker_b892c139e0e379bd7042ec098d79cbea.bindPopup(popup_cc2b83a2ec515aa538e41136aaafbe7d)
+        ;
+
+        
+    
+    
+            var circle_marker_3aa0fa7566669d97dc9fc31eec50fa59 = L.circleMarker(
+                [27.0612117, 75.8440610999999],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_33fab99bb9d7d387979eec1f933a59d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2d7b1c0c5876489c05fbe15f5bec844 = $(`<div id="html_f2d7b1c0c5876489c05fbe15f5bec844" style="width: 100.0%; height: 100.0%;">JaipurPlot no 60/61, Venkteshwar Nagar, Delhi Ajmer Bypass, Road, near Appu Ghar, Kherwari, Jaipur, Rajasthan 303805 | Cluster -1 | 303805</div>`)[0];
+                popup_33fab99bb9d7d387979eec1f933a59d4.setContent(html_f2d7b1c0c5876489c05fbe15f5bec844);
+            
+        
+
+        circle_marker_3aa0fa7566669d97dc9fc31eec50fa59.bindPopup(popup_33fab99bb9d7d387979eec1f933a59d4)
+        ;
+
+        
+    
+    
+            var circle_marker_360846073d0d084d9dcbe83df7b22b5d = L.circleMarker(
+                [26.7709668136458, 75.4609939823081],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_74d168e3635e960b21b73e4ab9b0d81b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a28c4862e973e462d64f54aff4a1ab92 = $(`<div id="html_a28c4862e973e462d64f54aff4a1ab92" style="width: 100.0%; height: 100.0%;">Near Mahalan, Ajmer Road, Jaipur, Rajasthan - 303007 | Cluster -1 | 303007</div>`)[0];
+                popup_74d168e3635e960b21b73e4ab9b0d81b.setContent(html_a28c4862e973e462d64f54aff4a1ab92);
+            
+        
+
+        circle_marker_360846073d0d084d9dcbe83df7b22b5d.bindPopup(popup_74d168e3635e960b21b73e4ab9b0d81b)
+        ;
+
+        
+    
+    
+            var circle_marker_9be0271baebae603a9793f13f383cf0d = L.circleMarker(
+                [26.8917170926988, 75.5782714462805],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_3897aeeedf2522161659af5be053afca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34076f91023cf34b56b800138423f789 = $(`<div id="html_34076f91023cf34b56b800138423f789" style="width: 100.0%; height: 100.0%;">Street 1 | Cluster 26 | N/A</div>`)[0];
+                popup_3897aeeedf2522161659af5be053afca.setContent(html_34076f91023cf34b56b800138423f789);
+            
+        
+
+        circle_marker_9be0271baebae603a9793f13f383cf0d.bindPopup(popup_3897aeeedf2522161659af5be053afca)
+        ;
+
+        
+    
+    
+            var circle_marker_5344f298d0cc4a7bfb30e93b4ab1b523 = L.circleMarker(
+                [26.7626474763439, 75.9093005884128],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_b9162b29f0e04316c4566e92c12b617e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4b5944dd7afc79b42e6d31c012509fa = $(`<div id="html_f4b5944dd7afc79b42e6d31c012509fa" style="width: 100.0%; height: 100.0%;">Near goner jagatpura | Cluster -1 | N/A</div>`)[0];
+                popup_b9162b29f0e04316c4566e92c12b617e.setContent(html_f4b5944dd7afc79b42e6d31c012509fa);
+            
+        
+
+        circle_marker_5344f298d0cc4a7bfb30e93b4ab1b523.bindPopup(popup_b9162b29f0e04316c4566e92c12b617e)
+        ;
+
+        
+    
+    
+            var circle_marker_2cfa05d3dd852e11a296c25012b1a5cc = L.circleMarker(
+                [26.9197556, 75.6385519999999],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_f250ff3c0cba9e5f0e3cdce3f96a6823 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb1f27fcaeb024318c7faa0485df1f0a = $(`<div id="html_eb1f27fcaeb024318c7faa0485df1f0a" style="width: 100.0%; height: 100.0%;">Sinwar road | Cluster -1 | N/A</div>`)[0];
+                popup_f250ff3c0cba9e5f0e3cdce3f96a6823.setContent(html_eb1f27fcaeb024318c7faa0485df1f0a);
+            
+        
+
+        circle_marker_2cfa05d3dd852e11a296c25012b1a5cc.bindPopup(popup_f250ff3c0cba9e5f0e3cdce3f96a6823)
+        ;
+
+        
+    
+    
+            var circle_marker_a7369d8cd5074d314fc854820f5a0645 = L.circleMarker(
+                [26.8083706437466, 75.4809742035804],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_a3eb9de4d691fcac434dcebc928f47d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_509c4042f141b1b6ff4c1e1a4091c380 = $(`<div id="html_509c4042f141b1b6ff4c1e1a4091c380" style="width: 100.0%; height: 100.0%;">Mahlan, Rajasthan | Cluster -1 | N/A</div>`)[0];
+                popup_a3eb9de4d691fcac434dcebc928f47d8.setContent(html_509c4042f141b1b6ff4c1e1a4091c380);
+            
+        
+
+        circle_marker_a7369d8cd5074d314fc854820f5a0645.bindPopup(popup_a3eb9de4d691fcac434dcebc928f47d8)
+        ;
+
+        
+    
+    
+            var circle_marker_e9a00b11efb4a9dac305c1a78deebd81 = L.circleMarker(
+                [26.9884533, 75.5849329999999],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_d6d701fd96ca56cf0c755b6c4675a1f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b819c1f09649dd20f975e2f55ed969a = $(`<div id="html_7b819c1f09649dd20f975e2f55ed969a" style="width: 100.0%; height: 100.0%;">Kalwar | Cluster 47 | N/A</div>`)[0];
+                popup_d6d701fd96ca56cf0c755b6c4675a1f3.setContent(html_7b819c1f09649dd20f975e2f55ed969a);
+            
+        
+
+        circle_marker_e9a00b11efb4a9dac305c1a78deebd81.bindPopup(popup_d6d701fd96ca56cf0c755b6c4675a1f3)
+        ;
+
+        
+    
+    
+            var circle_marker_e8ad3213761b03b5b22d458e5017a647 = L.circleMarker(
+                [26.9884533, 75.5849329999999],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_59697ec877ed2beaab1e97abd9383083 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7301fd4f0ef81ac8888970cdbcdd63c6 = $(`<div id="html_7301fd4f0ef81ac8888970cdbcdd63c6" style="width: 100.0%; height: 100.0%;">Kalwar | Cluster 47 | N/A</div>`)[0];
+                popup_59697ec877ed2beaab1e97abd9383083.setContent(html_7301fd4f0ef81ac8888970cdbcdd63c6);
+            
+        
+
+        circle_marker_e8ad3213761b03b5b22d458e5017a647.bindPopup(popup_59697ec877ed2beaab1e97abd9383083)
+        ;
+
+        
+    
+    
+            var circle_marker_3c7c45c1f3b404d81faa65e19c088437 = L.circleMarker(
+                [26.7047170419393, 75.8925089161737],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_672dbd87e3ced71eb899a1f32b5ebaa3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b2b05ac8dc7c8db39fd15a7c43f1322 = $(`<div id="html_0b2b05ac8dc7c8db39fd15a7c43f1322" style="width: 100.0%; height: 100.0%;">POWER GRID, Chandlai Rd, Shivdaspura, Rajasthan 303903 | Cluster -1 | 303903</div>`)[0];
+                popup_672dbd87e3ced71eb899a1f32b5ebaa3.setContent(html_0b2b05ac8dc7c8db39fd15a7c43f1322);
+            
+        
+
+        circle_marker_3c7c45c1f3b404d81faa65e19c088437.bindPopup(popup_672dbd87e3ced71eb899a1f32b5ebaa3)
+        ;
+
+        
+    
+    
+            var circle_marker_765168dcd2726a3c6bfe2d5c3f66c713 = L.circleMarker(
+                [26.8226003, 75.6059808],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_3533a5c567c34f2b9ce567c1b38c7a92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e479206c27099c5e1371500d8e96783f = $(`<div id="html_e479206c27099c5e1371500d8e96783f" style="width: 100.0%; height: 100.0%;">Settlement scheme mahindra sez teelawas | Cluster -1 | 303007</div>`)[0];
+                popup_3533a5c567c34f2b9ce567c1b38c7a92.setContent(html_e479206c27099c5e1371500d8e96783f);
+            
+        
+
+        circle_marker_765168dcd2726a3c6bfe2d5c3f66c713.bindPopup(popup_3533a5c567c34f2b9ce567c1b38c7a92)
+        ;
+
+        
+    
+    
+            var circle_marker_3ae0a702ad6ce9c4325f761d326dee8d = L.circleMarker(
+                [26.7956266, 75.8713011],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_74a212336ad038ae6f0d0a1bc431ce13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_596a0d9dd450c87cfdd9d938690f01e0 = $(`<div id="html_596a0d9dd450c87cfdd9d938690f01e0" style="width: 100.0%; height: 100.0%;">Jagatpura Jaipur | Cluster -1 | N/A</div>`)[0];
+                popup_74a212336ad038ae6f0d0a1bc431ce13.setContent(html_596a0d9dd450c87cfdd9d938690f01e0);
+            
+        
+
+        circle_marker_3ae0a702ad6ce9c4325f761d326dee8d.bindPopup(popup_74a212336ad038ae6f0d0a1bc431ce13)
+        ;
+
+        
+    
+    
+            var circle_marker_0be3dd38a4106b75462c86108a8936d8 = L.circleMarker(
+                [26.8371965, 75.7280758],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_fb8572cb404368bd1a7fae71e815e451 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bed8b4d7174039243c62c9e31bef746e = $(`<div id="html_bed8b4d7174039243c62c9e31bef746e" style="width: 100.0%; height: 100.0%;">Kiya homes | Cluster -1 | N/A</div>`)[0];
+                popup_fb8572cb404368bd1a7fae71e815e451.setContent(html_bed8b4d7174039243c62c9e31bef746e);
+            
+        
+
+        circle_marker_0be3dd38a4106b75462c86108a8936d8.bindPopup(popup_fb8572cb404368bd1a7fae71e815e451)
+        ;
+
+        
+    
+    
+            var circle_marker_78d5b9608dc374c686e920f6f6ddbefb = L.circleMarker(
+                [26.7980007850552, 75.9303524091066],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_ee11c75fc19b09e74ed41e5b8787b4e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b8f7120e7290f960413d62fe0f3349d = $(`<div id="html_5b8f7120e7290f960413d62fe0f3349d" style="width: 100.0%; height: 100.0%;">Jagatpura, Jaipur, pincode-302017 | Cluster -1 | 302017</div>`)[0];
+                popup_ee11c75fc19b09e74ed41e5b8787b4e0.setContent(html_5b8f7120e7290f960413d62fe0f3349d);
+            
+        
+
+        circle_marker_78d5b9608dc374c686e920f6f6ddbefb.bindPopup(popup_ee11c75fc19b09e74ed41e5b8787b4e0)
+        ;
+
+        
+    
+    
+            var circle_marker_b4700cf1dab42cb9dda66de3044f90fa = L.circleMarker(
+                [26.8406479300242, 75.657939759449],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_3a8be3167fcb204aceacc1519b3ae18d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4c7b7c29a35c2f293b788e53825c984 = $(`<div id="html_f4c7b7c29a35c2f293b788e53825c984" style="width: 100.0%; height: 100.0%;">Chatarpura at Lalya Ka Bas, | Cluster -1 | N/A</div>`)[0];
+                popup_3a8be3167fcb204aceacc1519b3ae18d.setContent(html_f4c7b7c29a35c2f293b788e53825c984);
+            
+        
+
+        circle_marker_b4700cf1dab42cb9dda66de3044f90fa.bindPopup(popup_3a8be3167fcb204aceacc1519b3ae18d)
+        ;
+
+        
+    
+    
+            var circle_marker_a0651c1b643c87e8bfe82fa1db23487f = L.circleMarker(
+                [27.0027669280046, 75.5714197742344],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_a179755458ec2f782fa388f1641428c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bba3f72a004e0e62a049ddf217330926 = $(`<div id="html_bba3f72a004e0e62a049ddf217330926" style="width: 100.0%; height: 100.0%;">Govind Vatika, Kalwar | Cluster 47 | N/A</div>`)[0];
+                popup_a179755458ec2f782fa388f1641428c8.setContent(html_bba3f72a004e0e62a049ddf217330926);
+            
+        
+
+        circle_marker_a0651c1b643c87e8bfe82fa1db23487f.bindPopup(popup_a179755458ec2f782fa388f1641428c8)
+        ;
+
+        
+    
+    
+            var circle_marker_2435253f2239e2e00c4826b505949cfb = L.circleMarker(
+                [27.0285739831877, 75.7637067981327],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_c6e1672206967a6399f5247330dd8912 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8c8ae70d82b1b101ed6cd706016300f = $(`<div id="html_d8c8ae70d82b1b101ed6cd706016300f" style="width: 100.0%; height: 100.0%;">Nindar Jaipur | Cluster -1 | N/A</div>`)[0];
+                popup_c6e1672206967a6399f5247330dd8912.setContent(html_d8c8ae70d82b1b101ed6cd706016300f);
+            
+        
+
+        circle_marker_2435253f2239e2e00c4826b505949cfb.bindPopup(popup_c6e1672206967a6399f5247330dd8912)
+        ;
+
+        
+    
+    
+            var circle_marker_fb51324b20b60dd6aef30249168890f2 = L.circleMarker(
+                [27.0285739831877, 75.7637067981327],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_20e2e655703fc457a0eab4fb4321e3f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5917fad46dfee9ee58572ede4dc9fbd2 = $(`<div id="html_5917fad46dfee9ee58572ede4dc9fbd2" style="width: 100.0%; height: 100.0%;">Nindar Jaipur | Cluster -1 | N/A</div>`)[0];
+                popup_20e2e655703fc457a0eab4fb4321e3f6.setContent(html_5917fad46dfee9ee58572ede4dc9fbd2);
+            
+        
+
+        circle_marker_fb51324b20b60dd6aef30249168890f2.bindPopup(popup_20e2e655703fc457a0eab4fb4321e3f6)
+        ;
+
+        
+    
+    
+            var circle_marker_ff6d3ac00700324fb037abc63d366560 = L.circleMarker(
+                [26.7941727, 75.7540923],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_0e811c7b81c5f1dbce5ff329cd07f6fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6bb2769c03fb8dd4c19e524c9d653504 = $(`<div id="html_6bb2769c03fb8dd4c19e524c9d653504" style="width: 100.0%; height: 100.0%;">Opposite Muhana Mandi gate no one | Cluster -1 | N/A</div>`)[0];
+                popup_0e811c7b81c5f1dbce5ff329cd07f6fa.setContent(html_6bb2769c03fb8dd4c19e524c9d653504);
+            
+        
+
+        circle_marker_ff6d3ac00700324fb037abc63d366560.bindPopup(popup_0e811c7b81c5f1dbce5ff329cd07f6fa)
+        ;
+
+        
+    
+    
+            var circle_marker_3e773e7479b57a429e25b591ef63554c = L.circleMarker(
+                [26.9729895900358, 75.6858349681895],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_75ae68624967b79adb8a250ffe8ebb65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a37d00b3a336105baf429f8564358eb5 = $(`<div id="html_a37d00b3a336105baf429f8564358eb5" style="width: 100.0%; height: 100.0%;">Om vatika 5 colony peethawas Hathoj jaipur | Cluster -1 | N/A</div>`)[0];
+                popup_75ae68624967b79adb8a250ffe8ebb65.setContent(html_a37d00b3a336105baf429f8564358eb5);
+            
+        
+
+        circle_marker_3e773e7479b57a429e25b591ef63554c.bindPopup(popup_75ae68624967b79adb8a250ffe8ebb65)
+        ;
+
+        
+    
+    
+            var circle_marker_95dc7ab6a1768677befe417b39387dce = L.circleMarker(
+                [26.904164, 75.5943886],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_ae9366ddc65e5851904d13ccbf94d643 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f75b0b4bbd3a958ad98d7d820c4bbc7 = $(`<div id="html_7f75b0b4bbd3a958ad98d7d820c4bbc7" style="width: 100.0%; height: 100.0%;">Khasra no.90 nand gav bad ke balaji road chakramsir choraha sirsi road near polofactory polo club | Cluster 26 | N/A</div>`)[0];
+                popup_ae9366ddc65e5851904d13ccbf94d643.setContent(html_7f75b0b4bbd3a958ad98d7d820c4bbc7);
+            
+        
+
+        circle_marker_95dc7ab6a1768677befe417b39387dce.bindPopup(popup_ae9366ddc65e5851904d13ccbf94d643)
+        ;
+
+        
+    
+    
+            var circle_marker_a795760d6db5fd9606f230998a7d5d36 = L.circleMarker(
+                [26.904164, 75.5943886],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_5a136c7de6e255016a8bb3942e5e0e8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5663cd850b9e788b4957fce77727da4a = $(`<div id="html_5663cd850b9e788b4957fce77727da4a" style="width: 100.0%; height: 100.0%;">Khasra no.90 nand gav bad ke balaji road chakramsir choraha sirsi road near polofactory polo club | Cluster 26 | N/A</div>`)[0];
+                popup_5a136c7de6e255016a8bb3942e5e0e8d.setContent(html_5663cd850b9e788b4957fce77727da4a);
+            
+        
+
+        circle_marker_a795760d6db5fd9606f230998a7d5d36.bindPopup(popup_5a136c7de6e255016a8bb3942e5e0e8d)
+        ;
+
+        
+    
+    
+            var circle_marker_21e5a3d7426b701d7343d577de5871bd = L.circleMarker(
+                [26.7623234503836, 75.8844399258924],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_521cfba5429b98e85e92dfa3f70462cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa8fcb2367fc39772f21a5e0f2e3a267 = $(`<div id="html_aa8fcb2367fc39772f21a5e0f2e3a267" style="width: 100.0%; height: 100.0%;">Dua Farm House, Tuwariyan Ki Dhani, Vatika, Jaichandpura | Cluster -1 | N/A</div>`)[0];
+                popup_521cfba5429b98e85e92dfa3f70462cd.setContent(html_aa8fcb2367fc39772f21a5e0f2e3a267);
+            
+        
+
+        circle_marker_21e5a3d7426b701d7343d577de5871bd.bindPopup(popup_521cfba5429b98e85e92dfa3f70462cd)
+        ;
+
+        
+    
+    
+            var circle_marker_47fa5ec3a84a12afa4135c303c643079 = L.circleMarker(
+                [27.0068037, 75.6357512],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_dc17e4293b228a5eb53f3db270b13bf0);
+        
+    
+        var popup_8cef8e76e87fa4ed2c91e45613ded078 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62d94f7888f89dec04db3068fecef929 = $(`<div id="html_62d94f7888f89dec04db3068fecef929" style="width: 100.0%; height: 100.0%;">Shree Shyam farmhouse | Cluster -1 | N/A</div>`)[0];
+                popup_8cef8e76e87fa4ed2c91e45613ded078.setContent(html_62d94f7888f89dec04db3068fecef929);
+            
+        
+
+        circle_marker_47fa5ec3a84a12afa4135c303c643079.bindPopup(popup_8cef8e76e87fa4ed2c91e45613ded078)
+        ;
+
+        
+    
+</script>
+</html>

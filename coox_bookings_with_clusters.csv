@@ -1,0 +1,547 @@
+Booking ID,Payment Status,Address ID,Address Type,Area,City,State,Country,Lat,Long,Pincode,Cluster
+509103,refunded_full,152622,Home,byalalu village chunchanaguppe post,Bengaluru,Karnataka,India,12.8972909,77.3755084,562130,-1
+700991,refunded_full,208569,Farmhouse,Outside Hyderabad,Hyderabad,Telangana,India,16.9690712,78.5182969999999,N/A,-1
+717282,refunded_full,216864,Office,"Aawasari Phata Manchar, Taluka Ambegaon, Maharashtra",Pune,Maharashtra,India,18.9796854,73.947376,410503,0
+717285,refunded_full,216864,Office,"Aawasari Phata Manchar, Taluka Ambegaon, Maharashtra",Pune,Maharashtra,India,18.9796854,73.947376,410503,0
+717290,refunded_full,216864,Office,"Aawasari Phata Manchar, Taluka Ambegaon, Maharashtra",Pune,Maharashtra,India,18.9796854,73.947376,410503,0
+717759,refunded_full,208034,Farmhouse,"Near Octagon, Kelamangalam",Bengaluru,Karnataka,India,12.602894,77.8531249,635113,-1
+748565,refunded_full,225792,Farmhouse,Hosur Tamil nadu,Bengaluru,Karnataka,India,12.5798693,77.7899888,635107,-1
+796359,refunded_full,236747,Home,"Melekote cross, Tubugere Hobli , Doddaballapur main road",Bengaluru,Karnataka,India,13.3493789,77.6273021,561205,1
+796360,refunded_full,236747,Home,"Melekote cross, Tubugere Hobli , Doddaballapur main road",Bengaluru,Karnataka,India,13.3493789,77.6273021,561205,1
+796361,refunded_full,236747,Home,"Melekote cross, Tubugere Hobli , Doddaballapur main road",Bengaluru,Karnataka,India,13.3493789,77.6273021,561205,1
+798045,refunded_full,237856,Home,Devanahalli,Bengaluru,Karnataka,India,13.2365058,77.6789099,562110,-1
+800603,refunded_full,238502,Home,Jagatpura,Jaipur,Rajasthan,India,26.856312,76.1321765,N/A,-1
+805778,refunded_full,101556,Farmhouse,"Lehari Resorts, road Bhanur",Hyderabad,Telangana,India,17.4818112,78.1851813999999,502305,-1
+807405,refunded_full,239914,Home,Huvinayakanahalli,Bengaluru,Karnataka,India,13.1437985,77.6779559,562149,2
+808867,refunded_full,239311,Home,Ravet,Pune,Maharashtra,India,18.6612744,73.7046448,412101,3
+816008,refunded_full,242262,Farmhouse,Kanakamamidi,Hyderabad,Telangana,India,17.297177,78.2424352,N/A,4
+816292,refunded_full,235447,Farmhouse,"BAGWARA, NEAR DAULATPURA TOLL TAX",Jaipur,Rajasthan,India,27.2157007984401,75.9152028013357,303804,-1
+819111,refunded_full,243952,Home,Kunigal - 572130,Bengaluru,Karnataka,India,13.0251153,77.0293083,572130,-1
+822703,refunded_full,243952,Home,Kunigal - 572130,Bengaluru,Karnataka,India,13.0251153,77.0293083,572130,-1
+831452,refunded_full,244277,Farmhouse,Pulimamidi,Hyderabad,Telangana,India,17.0713283603576,78.4095525741577,N/A,-1
+850398,refunded_full,250742,Home,Gift city,Ahmedabad,Gujarat,India,23.1615722,72.6952993,382355,-1
+854079,refunded_full,251680,Farmhouse,Kammetta main road,Hyderabad,Telangana,India,17.388111,78.1813258,N/A,-1
+863221,refunded_full,254078,Farmhouse,Nelamangala,Bengaluru,Karnataka,India,13.0421690187751,77.3556368647591,562123,-1
+868038,refunded_full,250651,Farmhouse,"Villa No 3, Ashford by Stellar Stays, Mannat Heaven, opposite Treasure Island, Lonavala, Devghar, Maharashtra 410401",Pune,Maharashtra,India,18.7574808,73.4670472999999,410401,-1
+895871,refunded_full,259839,Other,Pune,Pune,Maharashtra,India,18.3839654,73.5895728,N/A,-1
+897871,refunded_full,262990,Home,"Korremula village, To, Ankshapur to Enkerriyal Madharam",Hyderabad,Telangana,India,17.4351749465833,78.7443876072557,N/A,-1
+898397,refunded_full,263115,Home,"Magadi Main Rd Thippagondanahalli,",Bengaluru,Karnataka,India,12.9628049193617,77.3354469401123,562130,-1
+918295,refunded_full,268099,Farmhouse,Tincha waterfall,Indore,Madhya Pradesh,India,22.5637732,75.9709992,N/A,-1
+921185,refunded_full,268977,Home,"Seegepura, Karnataka, India",Bengaluru,Karnataka,India,12.9105535320215,77.9017716477136,N/A,-1
+921606,refunded_full,268994,Home,"Sree Sai Layout,",Bengaluru,Karnataka,India,13.1457514,77.5684711999999,N/A,5
+921767,refunded_full,268993,Farmhouse,Moti devti,Ahmedabad,Gujarat,India,22.9354592,72.4127932,N/A,6
+926647,refunded_full,270408,Home,Near green City Club house Ambernath East,Thane,Maharashtra,India,19.1906674,73.2013834999999,N/A,-1
+927718,refunded_full,235480,Farmhouse,Kasaba hobli anjanwadi,Bengaluru,Karnataka,India,12.6311003,77.3640921,N/A,-1
+968594,refunded_full,281039,Farmhouse,Moinabad,Hyderabad,Telangana,India,17.2821908907798,78.2673216945451,N/A,4
+974049,refunded_full,281412,Home,pataudi,Gurugram,Haryana,India,28.3286139,76.7757168,N/A,-1
+982786,refunded_full,68813,Home,"Hawali Bassi, Banur",Sahibzada Ajit Singh Nagar,Punjab,India,30.5610109078188,76.7165454988767,N/A,-1
+984843,refunded_full,285253,Farmhouse,"Padhmavathi, Indra Reddy Colony, Shamshabad,",Hyderabad,Telangana,India,17.2647297,78.3572495,N/A,-1
+994048,refunded_full,287552,Home,Bank colony,Hyderabad,Telangana,India,17.2556034,80.1594667,N/A,-1
+996138,refunded_full,287865,Home,"IVRI road, Yelahanka",Bengaluru,Karnataka,India,13.3027162510422,77.5315844948918,N/A,-1
+999702,refunded_full,289223,Home,"Borivali Tarf Sonale, Maharashtra 421302, India",Mumbai,Maharashtra,India,19.3521211957774,73.1311388924316,421302,-1
+1026035,refunded_full,59573,Farmhouse,Tatva villa by aurea stays,Bengaluru,Karnataka,India,13.1719387,77.6450144,N/A,7
+1033918,refunded_full,300778,Farmhouse,"Sehore Bypass Rd, Sehore, Alahada Khedi",Indore,Madhya Pradesh,India,23.1737308,77.0618571,N/A,-1
+1035802,refunded_full,293178,Home,Mani street sarathi nagar west saidapet,Chennai,Tamil Nadu,India,12.9561742977792,79.949133454996,N/A,8
+1039661,refunded_full,302589,Home,Parel  East,Mumbai,Maharashtra,India,19.0023953647494,72.8490548305976,N/A,-1
+1051602,refunded_full,301087,Farmhouse,Doddacheemanahalli,Bengaluru,Karnataka,India,13.2324591,77.6011197999999,N/A,-1
+1052774,refunded_full,306667,Home,"Ram Nagar, Bhuvanagiri",Hyderabad,Telangana,India,17.5063179349436,78.8816492100797,N/A,-1
+1059124,refunded_full,263593,Other,Bengaluru - Chennai Hwy Nenmeli Sriperumbudur,Chennai,Tamil Nadu,India,12.969997440365,79.9541052923657,N/A,8
+1072984,refunded_full,308545,Home,Bengaluru - Chennai Hwy Nenmeli Sriperumbudur,Chennai,Tamil Nadu,India,12.9699525,79.9539453,N/A,8
+1093554,refunded_full,313287,Farmhouse,"Farm No 50 , Near Best Western Country Club",Gurugram,Haryana,India,28.2905015,76.9356864,N/A,-1
+1115637,refunded_full,323360,Resort,Devanahalli,Bengaluru,Karnataka,India,12.8648904341827,77.610534047321,N/A,9
+1115638,refunded_full,323360,Resort,Devanahalli,Bengaluru,Karnataka,India,12.8648904341827,77.610534047321,N/A,9
+1119814,refunded_full,323632,Home,"Dumas, Gujarat",Surat,Gujarat,India,21.0785152948698,72.7505611844973,N/A,-1
+1123027,refunded_full,323552,Home,"Poojanahalli Rd, Kannamangala",Bengaluru,Karnataka,India,13.2143603839359,77.6559530531171,N/A,-1
+1137039,refunded_full,326926,Home,"Gokulapuram, Chengalpattu",Chennai,Tamil Nadu,India,12.6861824069927,79.9815170412276,N/A,10
+1137040,refunded_full,326926,Home,"Gokulapuram, Chengalpattu",Chennai,Tamil Nadu,India,12.6861824069927,79.9815170412276,N/A,10
+1137041,refunded_full,326926,Home,"Gokulapuram, Chengalpattu",Chennai,Tamil Nadu,India,12.6861824069927,79.9815170412276,N/A,10
+1137340,refunded_full,326881,Farmhouse,Khopoli mandad atkar gaon,Navi Mumbai,Maharashtra,India,18.7582494,73.3196162,N/A,-1
+1142742,refunded_full,328041,Home,dream avenue gagan pahad,Hyderabad,Telangana,India,17.2299690590072,78.3719849940675,N/A,-1
+1159789,refunded_full,323952,Home,Standard Weigh bridge,Navi Mumbai,Maharashtra,India,18.8999629174698,73.0055607494479,N/A,13
+1180560,refunded_full,335107,Home,New Panvel,Navi Mumbai,Maharashtra,India,19.0054618,73.1199774,N/A,11
+1181621,refunded_full,335369,Home,"Kayalarmedu, Gummidipoondi, Pappankuppam",Chennai,Tamil Nadu,India,13.4160215196561,80.1104787031096,N/A,-1
+1196931,refunded_full,336477,Home,Tamaka,Bengaluru,Karnataka,India,13.1292247003955,78.1610692912779,N/A,-1
+1221592,refunded_full,343829,Farmhouse,"Near Kasarsai Dam, Chandkhed 410506",Pune,Maharashtra,India,18.630787,73.655063,410506,20
+1233672,refunded_full,349796,Home,Maraimalai Nagar,Chennai,Tamil Nadu,India,12.7834919048833,80.0176927592884,N/A,12
+1236019,refunded_full,174793,Home,Talegaon Dabhade,Pune,Maharashtra,India,18.7209994,73.6687049,N/A,-1
+1237574,refunded_full,351044,Home,"provident welworth city, Bisuvanahalli",Bengaluru,Karnataka,India,13.229064985798,77.5480397016773,N/A,-1
+1237658,refunded_full,342726,Home,Hira Marriage Hall,Ulhasnagar,Maharashtra,India,19.2334951,73.1598285,N/A,61
+1239583,refunded_full,349898,Farmhouse,bengaluru - 560089,Bengaluru,Karnataka,India,13.2405303434236,77.5208872091492,560089,-1
+1252239,refunded_full,355047,Home,"Mahindra World City, Chengalpattu",Chennai,Tamil Nadu,India,12.726174531335,80.001811780037,N/A,-1
+1253998,refunded_full,356518,Home,Maraimalai Nagar,Chennai,Tamil Nadu,India,12.7993633230993,80.027277353842,N/A,12
+1253999,refunded_full,356518,Home,Maraimalai Nagar,Chennai,Tamil Nadu,India,12.7993633230993,80.027277353842,N/A,12
+1254000,refunded_full,356518,Home,Maraimalai Nagar,Chennai,Tamil Nadu,India,12.7993633230993,80.027277353842,N/A,12
+1263049,refunded_full,359473,Home,"Jasai, Navi Mumbai",Navi Mumbai,Maharashtra,India,18.9111867193464,73.0263459933638,N/A,13
+1277049,refunded_full,282993,Home,"Bengaluru, Karnataka 562130",Bengaluru,Karnataka,India,12.9337032011593,77.3763328563262,562130,-1
+1281023,refunded_full,365703,Home,"Gavliwada, Lonavala",Mumbai,Maharashtra,India,18.7577380507954,73.4080753747092,N/A,-1
+1282966,refunded_full,360534,Farmhouse,"VRG, Kshipra, Pirkaradiya",Indore,Madhya Pradesh,India,22.897340506811,75.9795504687897,N/A,-1
+1287628,refunded_full,295055,Home,"Mahaveer pet, nearby Asgar Ali hardware shop, karjat",Navi Mumbai,Maharashtra,India,18.9105824497027,73.3209510256484,N/A,-1
+1288653,refunded_full,360534,Farmhouse,"VRG, Kshipra, Pirkaradiya",Indore,Madhya Pradesh,India,22.897340506811,75.9795504687897,N/A,-1
+1290402,refunded_full,359022,Home,"Therupporur, Thiruporur",Chennai,Tamil Nadu,India,12.7218335395626,80.1888036230963,N/A,-1
+1295554,refunded_full,370438,Home,"Sagar complex, Mangalpalle",Hyderabad,Telangana,India,17.224823079289,78.5889986526272,N/A,-1
+1306701,refunded_full,373128,Farmhouse,"JaipurPlot no 60/61, Venkteshwar Nagar, Delhi Ajmer Bypass, Road, near Appu Ghar, Kherwari, Jaipur, Rajasthan 303805",Jaipur,Rajasthan,India,27.0612117,75.8440610999999,303805,-1
+1308932,refunded_full,375098,Farmhouse,"taluk,kunigal, karnataka , 572111",Bengaluru,Karnataka,India,12.9122255,76.9580843999999,572111,-1
+1312015,refunded_full,339197,Home,"Doddaballapur Road, Bengaluru North, Suradhenupura,562110",Bengaluru,Karnataka,India,13.2180465274898,77.5547452582159,562110,-1
+1313407,refunded_full,41986,Home,Near orr,Hyderabad,Telangana,India,17.5589724747853,78.3718122927223,N/A,14
+1320335,refunded_full,378864,Farmhouse,"Manghar, Panvel",Navi Mumbai,Maharashtra,India,18.9513180163447,73.073022877032,N/A,15
+1326564,refunded_full,378864,Farmhouse,"Manghar, Panvel",Navi Mumbai,Maharashtra,India,18.9513180163447,73.073022877032,N/A,15
+1326571,refunded_full,378864,Farmhouse,"Manghar, Panvel",Navi Mumbai,Maharashtra,India,18.9513180163447,73.073022877032,N/A,15
+1329964,refunded_full,373726,Home,"Shinde Vasti ,Ravet, Pune ,Maharashtra  ,",Pune,Maharashtra,India,18.6831945069343,73.7127085269703,N/A,3
+1345381,refunded_full,386563,Home,GODADRA NEAR PRIYANKA METRO CITY,Surat,Gujarat,India,21.0835176309034,72.9872368928202,N/A,-1
+1349135,refunded_full,386947,Home,"Ferns Residency, kothanur",Bengaluru,Karnataka,India,13.2518309830395,77.7143727465517,N/A,-1
+1354753,refunded_full,387449,Farmhouse,501504,Hyderabad,Telangana,India,17.2629767,78.2355315,501504,4
+1354754,refunded_full,387449,Farmhouse,501504,Hyderabad,Telangana,India,17.2629767,78.2355315,501504,4
+1361139,refunded_full,391283,Home,Hoskote,Bengaluru,Karnataka,India,13.0646619320006,77.7952035359507,N/A,16
+1368516,refunded_full,393554,Home,"Marsur, Naganaikanahalli, Karnataka 562166",Bengaluru,Karnataka,India,12.7633661,77.6963931,562166,17
+1370190,refunded_full,374570,Home,Motia citi Zirakpur Punjab,Zirakpur,Punjab,India,30.6365749096996,76.8282306500326,N/A,56
+1372815,refunded_full,394874,Home,"Muthsandra, Doddaballapura",Bengaluru,Karnataka,India,13.3017977795649,77.5347566858145,N/A,-1
+1373749,refunded_full,385025,Home,"Tupe Wasti Uruli Kanchan, Maharashtra 412202",Pune,Maharashtra,India,18.4907789786588,74.1393523637435,412202,-1
+1377718,refunded_full,375659,Home,Dhivya Shree Shakthi Apartment Mayuri nagar miyapur,Hyderabad,Telangana,India,17.5139191974092,78.3666643839924,N/A,14
+1381764,refunded_full,397272,Home,"Perunthalaivar kamarajar nagar ,2nd cross street, perungudi",Chennai,Tamil Nadu,India,12.9691671389654,80.2365490546014,N/A,-1
+1393114,refunded_full,401417,Home,Mata darbaar,Hyderabad,Telangana,India,17.3086959932044,78.0800159320657,N/A,-1
+1395216,refunded_full,397766,Farmhouse,"Doddaballapur Road Gutte Palya, 562123",Bengaluru,Karnataka,India,13.1694191660885,77.4107642656026,562123,-1
+1398907,refunded_full,403357,Farmhouse,Shamirpet,Hyderabad,Telangana,India,17.5775531,78.6016765999999,N/A,-1
+1399485,refunded_full,403357,Farmhouse,Shamirpet,Hyderabad,Telangana,India,17.5775531,78.6016765999999,N/A,-1
+1405011,refunded_full,404059,Office,"Park Near Por GIDC, Raman Gamdi",Vadodara,Gujarat,India,22.1213747431072,73.1815711922838,N/A,-1
+1405155,refunded_full,405344,Farmhouse,Kadthal,Hyderabad,Telangana,India,16.9692606,78.5219767999999,N/A,-1
+1418543,refunded_full,409419,Farmhouse,Beside lane Mittal dairy,Pune,Maharashtra,India,18.765122315273,73.6483899256888,N/A,18
+1418545,refunded_full,409419,Farmhouse,Beside lane Mittal dairy,Pune,Maharashtra,India,18.765122315273,73.6483899256888,N/A,18
+1418547,refunded_full,409419,Farmhouse,Beside lane Mittal dairy,Pune,Maharashtra,India,18.765122315273,73.6483899256888,N/A,18
+1418548,refunded_full,409419,Farmhouse,Beside lane Mittal dairy,Pune,Maharashtra,India,18.765122315273,73.6483899256888,N/A,18
+1421324,refunded_full,410284,Home,city abdul kalam road pudhupakkaam,Chennai,Tamil Nadu,India,12.8109521,80.1960297999999,N/A,-1
+1422607,refunded_full,407465,Home,Velmala,Hyderabad,Telangana,India,17.464725024691,78.2217418087745,N/A,-1
+1424128,refunded_full,411279,Home,"Mantri Synergy, Near Hindustan Engineering college,Tamil Nadu, 603103",Chennai,Tamil Nadu,India,12.798327,80.2256065,603103,-1
+1426587,refunded_full,412106,Home,"Kanathur Reddykuppam, Tamil Nadu 603112",Chennai,Tamil Nadu,India,12.8566458528953,80.2471963908901,603112,19
+1426591,refunded_full,412106,Home,"Kanathur Reddykuppam, Tamil Nadu 603112",Chennai,Tamil Nadu,India,12.8566458528953,80.2471963908901,603112,19
+1433385,refunded_full,413857,Home,Tathawade,Pune,Maharashtra,India,18.6224535830408,73.6906738231717,N/A,20
+1444770,refunded_full,417624,Other,"Mambakkam - Medavakkam Main Rd,",Chennai,Tamil Nadu,India,12.8287255348733,80.1664839314966,N/A,21
+1447454,refunded_full,417624,Other,"Mambakkam - Medavakkam Main Rd,",Chennai,Tamil Nadu,India,12.8287255348733,80.1664839314966,N/A,21
+1449103,refunded_full,417624,Other,"Mambakkam - Medavakkam Main Rd,",Chennai,Tamil Nadu,India,12.8287255348733,80.1664839314966,N/A,21
+1461633,refunded_full,411669,Home,"Keshav Nagar, Vadgaon, Pune",Pune,Maharashtra,India,18.7457388555455,73.6429748688634,N/A,18
+1465778,refunded_full,167406,Home,"Riddhi Siddhi garden, Lavale",Pune,Maharashtra,India,18.5307332384805,73.7168588268299,N/A,22
+1466727,refunded_full,367007,Office,Milit,Pune,Maharashtra,India,18.4218552768205,73.7721095145494,N/A,-1
+1468569,refunded_full,424982,Home,Nagaram/Hyderabad,Hyderabad,Telangana,India,17.4893138020572,78.6113850390377,N/A,-1
+1478965,refunded_full,359352,Home,Mappedu,Chennai,Tamil Nadu,India,12.8842389500109,80.1366348686935,N/A,23
+1480720,refunded_full,428639,Farmhouse,Wadgown,Pune,Maharashtra,India,18.7006535383829,73.7624224290527,N/A,-1
+1482691,refunded_full,387327,Home,"Near to Gurukul International School opposite to sai heritage, katrap, Badlapur east",Thane,Maharashtra,India,19.1699759706529,73.2263291323164,N/A,-1
+1483206,refunded_full,429307,Home,"Attibele-Sarjapur road, Bidderguppe, Manenahalli",Bengaluru,Karnataka,India,12.8123869,77.7828232999999,N/A,-1
+1490361,refunded_full,430674,Resort,"Near Mahalan, Ajmer Road, Jaipur, Rajasthan - 303007",Jaipur,Rajasthan,India,26.7709668136458,75.4609939823081,303007,-1
+1492536,refunded_full,431961,Home,Sarjapur Main Road,Bengaluru,Karnataka,India,12.8769603,77.7661004,N/A,24
+1492537,refunded_full,431961,Home,Sarjapur Main Road,Bengaluru,Karnataka,India,12.8769603,77.7661004,N/A,24
+1510316,refunded_full,434668,Farmhouse,Marsur,Bengaluru,Karnataka,India,12.7633661,77.6963931,N/A,17
+1511216,refunded_full,437302,Farmhouse,Village gari piliyana,Indore,Madhya Pradesh,India,22.838631627664,75.9105661923301,N/A,-1
+1516887,refunded_full,438960,Farmhouse,lingapur,Hyderabad,Telangana,India,17.6741946455611,78.4570598481521,N/A,-1
+1517470,refunded_full,439122,Home,Life republic r4,Pune,Maharashtra,India,18.6229231,73.7108322999999,N/A,20
+1518726,refunded_full,429247,Home,Navsari,Surat,Gujarat,India,20.9418833562857,72.932768171286,N/A,-1
+1518777,refunded_full,439324,Home,Kengeri,Bengaluru,Karnataka,India,12.8790709562926,77.4562640479879,N/A,25
+1519256,refunded_full,438864,Home,Street 1,Jaipur,Rajasthan,India,26.8917170926988,75.5782714462805,N/A,26
+1528171,refunded_full,441991,Home,"Casagrand Miro, Urapakkam Link Road, Manivakkam, Chennai 600048",Chennai,Tamil Nadu,India,12.8837851,80.0522534,600048,-1
+1536068,refunded_full,444277,Home,Vadgaon Ghenand,Pune,Maharashtra,India,18.7138002174461,73.9416398956818,N/A,-1
+1539736,refunded_full,445368,Home,Lingadheeranahalli,Bengaluru,Karnataka,India,12.9570204,77.2901407,N/A,-1
+1549100,refunded_full,448031,Home,"3rd Cross Rd, Kaggalipura,",Bengaluru,Karnataka,India,12.8022571910027,77.5079281904538,N/A,27
+1549952,refunded_full,319671,Home,"Mumbai- Nashik Highway, Mankoli",Thane,Maharashtra,India,19.2334175,73.0491574,N/A,-1
+1551973,refunded_full,247462,Home,Ahmed Rd TVS Emerald Atrium Block C,Chennai,Tamil Nadu,India,12.8743085293316,80.1103264989341,N/A,23
+1552441,refunded_full,448543,Home,"Pirangut Rd, Ghotawade Phata, Bhare, Pirangut, Maharashtra",Pune,Maharashtra,India,18.5166185759897,73.6821550133514,N/A,28
+1553032,refunded_full,412727,Home,"Lohegaon Road, Wagholi",Pune,Maharashtra,India,18.5826315,73.9708814999999,N/A,29
+1553423,refunded_full,449245,Home,Jai baba dham Netaji,Thane,Maharashtra,India,19.198819,73.1619917,N/A,61
+1555364,refunded_full,264212,Home,Yellampet.,Hyderabad,Telangana,India,17.6809619,78.4897697,N/A,-1
+1556407,refunded_full,450068,Home,"Vijalpor, Navsari 396450",Surat,Gujarat,India,20.9397930931003,72.9314770537851,396450,-1
+1558972,refunded_full,380088,Home,"Lonikand, Near Wagheshwar Temple",Pune,Maharashtra,India,18.6351825667332,74.0363482473301,N/A,-1
+1562766,refunded_full,451923,Home,Near DY Patil College,Pune,Maharashtra,India,18.620077601973,73.9145302583304,N/A,30
+1566749,refunded_full,453096,Farmhouse,"Tarudhan Valley Golf Resort Gurgaon, Haryana 122105",Gurugram,Haryana,India,28.290692160328,76.9673401916835,122105,-1
+1570048,refunded_full,29063,Home,"Rai Marg, Alankar Square, Old Town, Gomti Nagar, Dewas, Madhya Pradesh 455001",Indore,Madhya Pradesh,India,22.9657149708421,76.0547254177628,455001,-1
+1570077,refunded_full,29063,Home,"Rai Marg, Alankar Square, Old Town, Gomti Nagar, Dewas, Madhya Pradesh 455001",Indore,Madhya Pradesh,India,22.9657149708421,76.0547254177628,455001,-1
+1573969,refunded_full,454807,Home,Opp to swapna bhoomi,Surat,Gujarat,India,21.1252594,72.7780848,N/A,-1
+1576672,refunded_full,455489,Home,Budigere cross,Bengaluru,Karnataka,India,13.0635859,77.7447313999999,N/A,31
+1576680,refunded_full,455489,Home,Budigere cross,Bengaluru,Karnataka,India,13.0635859,77.7447313999999,N/A,31
+1579156,refunded_full,456122,Home,Nere -Dattawadi,Pune,Maharashtra,India,18.6062064,73.6893056999999,N/A,20
+1582964,refunded_full,148916,Home,"Mokila, bulkapur",Hyderabad,Telangana,India,17.4453905,78.1635228,N/A,-1
+1598861,refunded_full,210681,Home,Sector 32/33,Gurugram,Haryana,India,28.2840191,77.067109,N/A,-1
+1599592,refunded_full,271927,Home,Nambiar Bellezea,Bengaluru,Karnataka,India,12.8395210993518,77.7221228606768,N/A,-1
+1607124,refunded_full,464207,Home,"Green Village, Mokila",Hyderabad,Telangana,India,17.4251106740979,78.2098508107317,N/A,32
+1607137,refunded_full,464207,Home,"Green Village, Mokila",Hyderabad,Telangana,India,17.4251106740979,78.2098508107317,N/A,32
+1611941,refunded_full,465761,Home,"Mulshi Rd, Pune, 412115",Pune,Maharashtra,India,18.4979468052949,73.7205122226509,412115,-1
+1611947,refunded_full,465761,Home,"Mulshi Rd, Pune, 412115",Pune,Maharashtra,India,18.4979468052949,73.7205122226509,412115,-1
+1612701,refunded_full,466030,Home,"Halder more, Baruipur Amtala road, Baruipur",Kolkata,West Bengal,India,22.3676894817418,88.4048989665763,N/A,-1
+1618206,refunded_full,282991,Home,"Lalolla Durgaiah, Pedda Gottimukkala,",Hyderabad,Telangana,India,17.7540316252442,78.381437959921,N/A,-1
+1618623,refunded_full,42904,Home,Turkayamjal,Hyderabad,Telangana,India,17.2703750706381,78.5846542418012,N/A,-1
+1622038,refunded_full,451489,Home,"Kiwale, Pune",Pune,Maharashtra,India,18.6713046,73.7253789,N/A,3
+1624337,refunded_full,469008,Home,Kollur,Hyderabad,Telangana,India,17.4892404,78.2342803,N/A,-1
+1628658,refunded_full,471604,Home,Gujarat 394180,Surat,Gujarat,India,21.2715723467673,72.9712189072382,394180,-1
+1629086,refunded_full,471728,Home,"Madagondapalli, Hosur, 635114",Bengaluru,Karnataka,India,12.6277387240686,77.7304295836812,635114,-1
+1630251,refunded_full,472158,Home,"Bharathidasan Street, New Perungalathur",Chennai,Tamil Nadu,India,12.906574257782,80.090478470169,N/A,33
+1635417,refunded_full,474122,Home,Baba nagar,Bengaluru,Karnataka,India,13.0958493,77.3983318,N/A,34
+1637648,refunded_full,33294,Home,"NEAR VELU ELECTRICALS, OPP. PUNE SATARA HIGHWAY, 412205",Pune,Maharashtra,India,18.3615832138691,73.8491902927832,412205,-1
+1639604,refunded_full,475569,Home,"Off doddaballapur road, Avallahalli, Yelahanka",Bengaluru,Karnataka,India,13.12734,77.5634269999999,N/A,5
+1642030,refunded_full,476491,Home,Avasare Wadi 412205,Pune,Maharashtra,India,18.3615268941116,73.7877153008884,412205,-1
+1642216,refunded_full,471022,Home,Pal Tp 16,Surat,Gujarat,India,21.1606590223397,72.6520159027828,N/A,35
+1642418,refunded_full,180765,Home,"P/12, Madanapuram, Mudichur, Tamil Nadu",Chennai,Tamil Nadu,India,12.9157607709936,80.0717711208782,N/A,33
+1642597,refunded_full,476604,Home,"Korvi basti, Dundigal, 500043",Hyderabad,Telangana,India,17.6102971555793,78.4149094458778,500043,-1
+1647350,refunded_full,478597,Home,"Pirangut, Ghotawade Phata 412115",Pune,Maharashtra,India,18.5105884904325,73.6755047929304,412115,28
+1649922,refunded_full,479426,Farmhouse,B,Bengaluru,Karnataka,India,13.1674358,77.4558016,N/A,-1
+1652466,refunded_full,471022,Home,Pal Tp 16,Surat,Gujarat,India,21.1606590223397,72.6520159027828,N/A,35
+1652467,refunded_full,471022,Home,Pal Tp 16,Surat,Gujarat,India,21.1606590223397,72.6520159027828,N/A,35
+1652469,refunded_full,471022,Home,Pal Tp 16,Surat,Gujarat,India,21.1606590223397,72.6520159027828,N/A,35
+1652472,refunded_full,471022,Home,Pal Tp 16,Surat,Gujarat,India,21.1606590223397,72.6520159027828,N/A,35
+1652473,refunded_full,471022,Home,Pal Tp 16,Surat,Gujarat,India,21.1606590223397,72.6520159027828,N/A,35
+1652474,refunded_full,471022,Home,Pal Tp 16,Surat,Gujarat,India,21.1606590223397,72.6520159027828,N/A,35
+1652475,refunded_full,471022,Home,Pal Tp 16,Surat,Gujarat,India,21.1606590223397,72.6520159027828,N/A,35
+1657907,refunded_full,70745,Home,Jadavwadi Chikhali,Pune,Maharashtra,India,18.6793727,73.840048,N/A,-1
+1660207,refunded_full,222022,Resort,Arasinakunte,Bengaluru,Karnataka,India,13.0682755262691,77.4155281072458,N/A,34
+1660333,refunded_full,222022,Resort,Arasinakunte,Bengaluru,Karnataka,India,13.0682755262691,77.4155281072458,N/A,34
+1660491,refunded_full,432166,Home,"Venkatesh farmhouse, Ismailshapampu",Hyderabad,Telangana,India,17.2310326976897,78.6457560138378,N/A,-1
+1673918,refunded_full,487105,Home,411048,Pune,Maharashtra,India,18.4246181,73.8990554,411048,44
+1680288,refunded_full,488447,Home,Sarjapur post,Bengaluru,Karnataka,India,12.8849123939161,77.7790415270473,N/A,24
+1682808,refunded_full,489816,Home,"K Town, near macdonnalds, mukai chowk, kevle",Pune,Maharashtra,India,18.6812743926488,73.7115951359672,N/A,3
+1682810,refunded_full,489816,Home,"K Town, near macdonnalds, mukai chowk, kevle",Pune,Maharashtra,India,18.6812743926488,73.7115951359672,N/A,3
+1682812,refunded_full,489816,Home,"K Town, near macdonnalds, mukai chowk, kevle",Pune,Maharashtra,India,18.6812743926488,73.7115951359672,N/A,3
+1685359,refunded_full,490506,Home,"Harnya Khedi, Madhya Pradesh 453446, India",Indore,Madhya Pradesh,India,22.5939246694361,75.7875793253401,453446,-1
+1685650,refunded_full,490266,Home,Mentioned above,Hyderabad,Telangana,India,17.3121781026123,78.2316903878125,N/A,4
+1685656,refunded_full,490266,Home,Mentioned above,Hyderabad,Telangana,India,17.3121781026123,78.2316903878125,N/A,4
+1685657,refunded_full,490266,Home,Mentioned above,Hyderabad,Telangana,India,17.3121781026123,78.2316903878125,N/A,4
+1686091,refunded_full,490719,Home,"ward number 9, Bassi Pathana, Punjab 140412, India",Chandigarh,Punjab,India,30.691332078131,76.408104954608,140412,-1
+1686675,refunded_full,484561,Home,"Ayalcheri Avadi, Tamil Nadu",Chennai,Tamil Nadu,India,13.0939648554993,80.0852249100898,N/A,36
+1695934,refunded_full,490095,Home,"Life republic by kolte Patil, Marunji",Pune,Maharashtra,India,18.6381194186667,73.6774673162746,N/A,20
+1706883,refunded_full,5228,Home,Samnahalli sarjapur,Bengaluru,Karnataka,India,12.8347593280677,77.7432194345411,N/A,-1
+1713439,refunded_full,498270,Home,"E M Bypass Road, Kamalgazi Kolkata 700103",Kolkata,West Bengal,India,22.4522465,88.3953255,700103,-1
+1724763,refunded_full,500167,Resort,Airport road,Bengaluru,Karnataka,India,13.1947201,77.6354816,N/A,7
+1724780,refunded_full,500167,Resort,Airport road,Bengaluru,Karnataka,India,13.1947201,77.6354816,N/A,7
+1725862,refunded_full,500871,Farmhouse,"Karanki, Sohna",Gurugram,Haryana,India,28.2524656,77.1585241,N/A,-1
+1735752,refunded_full,392023,Home,Taluka BHOR near Khed Shivapur Varve Bk,Pune,Maharashtra,India,18.320083124102,73.8891501874968,N/A,-1
+1737799,refunded_full,505335,Home,"Bommanahalli, Bidarahalli Hobli",Bengaluru,Karnataka,India,13.0645810957155,77.7526299467675,N/A,31
+1740131,refunded_full,505257,Home,"Palavakkam, Chennai, Tamil Nadu 600041, India",Chennai,Tamil Nadu,India,12.9606328,80.2602084,600041,-1
+1741990,refunded_full,498880,Home,"Zak, gamdu, 382330",Ahmedabad,Gujarat,India,23.0999583398893,72.7482366780089,382330,-1
+1742045,refunded_full,298417,Farmhouse,Near goner jagatpura,Jaipur,Rajasthan,India,26.7626474763439,75.9093005884128,N/A,-1
+1744825,refunded_full,504248,Farmhouse,Sinwar road,Jaipur,Rajasthan,India,26.9197556,75.6385519999999,N/A,-1
+1745478,refunded_full,507546,Home,"Agara, Bengaluru, 562109",Bengaluru,Karnataka,India,12.8384251928492,77.4805983696743,562109,-1
+1745529,refunded_full,507476,Home,navi mumbai,Mumbai,Maharashtra,India,18.9656615,73.128322,N/A,11
+1746133,refunded_full,507681,Farmhouse,"C787+G8X, Kollur Rd, Kollur, Hyderabad, Telangana 500075",Hyderabad,Telangana,India,17.4163715,78.2633717,500075,37
+1746446,refunded_full,498880,Home,"Zak, gamdu, 382330",Ahmedabad,Gujarat,India,23.0999583398893,72.7482366780089,382330,-1
+1747048,refunded_full,465400,Resort,Baner Road,Pune,Maharashtra,India,18.5534987,73.8026932,N/A,-1
+1749472,refunded_full,507565,Home,Kolur Nanjundapura,Bengaluru,Karnataka,India,12.8786755508276,77.4033373093496,N/A,-1
+1752511,refunded_full,213768,Home,"Panchghara, Dankuni, West Bengal 712306",Kolkata,West Bengal,India,22.6740468,88.3002939,712306,-1
+1753332,refunded_full,509561,Home,"A/3, Barlota Nagar, MamurdiDehu Road, Maharashtra",Pune,Maharashtra,India,18.6767725104323,73.7208823215483,N/A,3
+1754081,refunded_full,509734,Home,"A-8, Malayambakkam, Mevalurkuppam 602117",Chennai,Tamil Nadu,India,13.0052347302852,80.0050131572284,602117,-1
+1758256,refunded_full,510968,Home,Doddaballapura Main Road,Bengaluru,Karnataka,India,13.1738413166619,77.563697132829,N/A,38
+1760167,refunded_full,456926,Home,"Ranka Country Side QJ5F+54P, Giddenahalli, Karnataka 560105",Bengaluru,Karnataka,India,12.7579625,77.6228280999999,560105,-1
+1766198,refunded_full,513267,Home,Shirgaon Road,Pune,Maharashtra,India,18.6930222240925,73.6866670354919,N/A,3
+1766199,refunded_full,513267,Home,Shirgaon Road,Pune,Maharashtra,India,18.6930222240925,73.6866670354919,N/A,3
+1766291,refunded_full,371966,Home,Hirdapur,Sahibzada Ajit Singh Nagar,Punjab,India,30.9366628276258,76.6459438433832,N/A,-1
+1769700,refunded_full,511497,Home,"behind pasalkar lawns, Kesnand",Pune,Maharashtra,India,18.5741266280848,74.0356339294176,N/A,39
+1769701,refunded_full,511497,Home,"behind pasalkar lawns, Kesnand",Pune,Maharashtra,India,18.5741266280848,74.0356339294176,N/A,39
+1773254,refunded_full,510293,Farmhouse,Vikarabad,Hyderabad,Telangana,India,17.3129726317715,77.8539996476221,N/A,-1
+1773386,refunded_full,515155,Home,"Burkegaon, Maharashtra",Pune,Maharashtra,India,18.6063513366119,74.0876560996882,N/A,40
+1773387,refunded_full,515155,Home,"Burkegaon, Maharashtra",Pune,Maharashtra,India,18.6063513366119,74.0876560996882,N/A,40
+1773422,refunded_full,515155,Home,"Burkegaon, Maharashtra",Pune,Maharashtra,India,18.6063513366119,74.0876560996882,N/A,40
+1781532,refunded_full,322095,Home,"Akshaya developers, Bowrampet,500043",Hyderabad,Telangana,India,17.563851815969,78.3822377664801,500043,14
+1786488,refunded_full,353878,Home,"Weaver Colony Anekal, Karnataka 562106",Bengaluru,Karnataka,India,12.704654549524,77.6978579881754,562106,41
+1786490,refunded_full,353878,Home,"Weaver Colony Anekal, Karnataka 562106",Bengaluru,Karnataka,India,12.704654549524,77.6978579881754,562106,41
+1786491,refunded_full,353878,Home,"Weaver Colony Anekal, Karnataka 562106",Bengaluru,Karnataka,India,12.704654549524,77.6978579881754,562106,41
+1787460,refunded_full,519130,Home,"Bira, Joypul, West Bengal",Kolkata,West Bengal,India,22.7859243505853,88.5730366723223,N/A,-1
+1789324,refunded_full,511771,Home,"Near Dada Bhagwan Trimandir, Adalaj, Dist. Gandhinagar, 382421",Ahmedabad,Gujarat,India,23.1838765,72.5784764,382421,-1
+1790730,refunded_full,517715,Home,"Kanifnath via Bopgav Vasti Rd, Bopgaon,",Pune,Maharashtra,India,18.4142481282062,73.9522741067405,N/A,44
+1790829,refunded_full,468824,Home,"Osman Nagar, Tellapur",Hyderabad,Telangana,India,17.4332580410967,78.2803412529343,N/A,37
+1796228,refunded_full,521449,Home,Begur koppa road,Bengaluru,Karnataka,India,12.8297445438758,77.608449335487,N/A,-1
+1802995,refunded_full,66143,Farmhouse,"Gabbaria, Doultabad, West Bengal 743503",Kolkata,West Bengal,India,22.3630938341901,88.3041944088988,743503,-1
+1814148,refunded_full,511490,Other,"Mudichur Rd, Mudichur, Tamil Nadu",Chennai,Tamil Nadu,India,12.9158870837656,80.0739329048513,N/A,33
+1814149,refunded_full,511490,Other,"Mudichur Rd, Mudichur, Tamil Nadu",Chennai,Tamil Nadu,India,12.9158870837656,80.0739329048513,N/A,33
+1814826,refunded_full,526054,Farmhouse,"Lalgadi Malakpet, Shamirpet",Hyderabad,Telangana,India,17.6374263672356,78.5826357067959,N/A,-1
+1818800,refunded_full,526592,Home,"Kelambakkam, Tamil Nadu",Chennai,Tamil Nadu,India,12.7886235447966,80.2197520146368,N/A,-1
+1821979,refunded_full,506092,Home,Hinjewadi phase 3,Pune,Maharashtra,India,18.5798496,73.6895057999999,N/A,20
+1823480,refunded_full,526897,Home,"Anitha Vijaykumar  No.3 Ocean Point ECR Road,  Injambakkam, (Opposite to ALM School,  Next to ECR Food Street,  inside Karuna Nursery compound),g Chen",Chennai,Tamil Nadu,India,12.8654150958123,80.2414444831684,N/A,19
+1823485,refunded_full,526897,Home,"Anitha Vijaykumar  No.3 Ocean Point ECR Road,  Injambakkam, (Opposite to ALM School,  Next to ECR Food Street,  inside Karuna Nursery compound),g Chen",Chennai,Tamil Nadu,India,12.8654150958123,80.2414444831684,N/A,19
+1829615,refunded_full,529403,Home,"Chennai, Tamil Nadu 600131",Chennai,Tamil Nadu,India,12.8921167154583,80.1853844151385,600131,42
+1829735,refunded_full,515388,Home,"Gummanahalli Rd, Jala Hobli, Bengaluru, Karnataka 562149",Bengaluru,Karnataka,India,13.1347067674315,77.6725536760583,562149,2
+1830128,refunded_full,530240,Home,"Rajpur Sonarpur, Malancha Mahi Nagar, Rajpur Sonarpur",Kolkata,West Bengal,India,22.4002642191836,88.4238917724791,N/A,-1
+1831647,refunded_full,261239,Home,Hyderabad,Hyderabad,Telangana,India,16.9709501,78.1878967999999,N/A,-1
+1832794,refunded_full,530930,Farmhouse,Marne patil farm house,Pune,Maharashtra,India,18.508279,73.691008,N/A,28
+1834128,refunded_full,252276,Home,Nimbeikapura,Bengaluru,Karnataka,India,13.1350054740478,77.7489362397206,N/A,43
+1834277,refunded_full,531189,Home,Chennai,Chennai,Tamil Nadu,India,13.0197141,80.1469025,N/A,-1
+1834389,refunded_full,252276,Home,Nimbeikapura,Bengaluru,Karnataka,India,13.1350054740478,77.7489362397206,N/A,43
+1840641,refunded_full,533095,Home,"Saraswati Niwas, Talauim, Goa 403108",Panaji,Goa,India,15.4647744254814,73.8840788634233,403108,-1
+1843751,refunded_full,478097,Home,Perumalpuram Road Mappedu,Chennai,Tamil Nadu,India,12.8869504,80.131514,N/A,23
+1851309,refunded_full,535390,Farmhouse,"near Pink Estates, Peddamangalaram",Hyderabad,Telangana,India,17.362341,78.2586915999999,N/A,-1
+1851440,refunded_full,536203,Farmhouse,Moinabad,Hyderabad,Telangana,India,17.3316048,78.2977938,N/A,-1
+1851444,refunded_full,536203,Farmhouse,Moinabad,Hyderabad,Telangana,India,17.3316048,78.2977938,N/A,-1
+1853946,refunded_full,204055,Home,"Bhivri, Maharashtra 412301",Pune,Maharashtra,India,18.3924358896853,73.9322871337017,412301,44
+1853947,refunded_full,204055,Home,"Bhivri, Maharashtra 412301",Pune,Maharashtra,India,18.3924358896853,73.9322871337017,412301,44
+1856706,refunded_full,491956,Home,Byagadedenahalli,Bengaluru,Karnataka,India,12.7554589,77.6987661,N/A,17
+1863939,refunded_full,534146,Home,Ramachadrapuram,Hyderabad,Telangana,India,17.4685462,78.2579789,N/A,45
+1873916,refunded_full,542506,Home,Doddabanahalli,Bengaluru,Karnataka,India,13.0596896096949,77.7866708706114,N/A,16
+1874009,refunded_full,542924,Home,"Road Number 2, Journalists Colony Phase 3, Gachibowli",Hyderabad,Telangana,India,17.4332082,78.3156932,N/A,-1
+1881065,refunded_full,335472,Home,"Ittangur, Bengaluru, Karnataka 562125",Bengaluru,Karnataka,India,12.8850617752914,77.7849641020934,562125,24
+1883263,refunded_full,545262,Home,"Bommasandra Industrial Area, Bommasandra",Bengaluru,Karnataka,India,12.815351805746,77.689943447785,N/A,46
+1883264,refunded_full,545262,Home,"Bommasandra Industrial Area, Bommasandra",Bengaluru,Karnataka,India,12.815351805746,77.689943447785,N/A,46
+1883265,refunded_full,545262,Home,"Bommasandra Industrial Area, Bommasandra",Bengaluru,Karnataka,India,12.815351805746,77.689943447785,N/A,46
+1884023,refunded_full,431211,Home,"Ratanpur, Gujarat 382355",Ahmedabad,Gujarat,India,23.1700757740145,72.6844984648535,382355,-1
+1886115,refunded_full,545386,Home,Hinjewadi phase 3,Pune,Maharashtra,India,18.5784741,73.6828985,N/A,20
+1886181,refunded_full,546145,Home,Yelahanka,Bengaluru,Karnataka,India,13.116804,77.5763012,N/A,5
+1890589,refunded_full,547352,Home,"Mahlan, Rajasthan",Jaipur,Rajasthan,India,26.8083706437466,75.4809742035804,N/A,-1
+1897172,refunded_full,549111,Home,Okkiyam Thuraipakkam,Chennai,Tamil Nadu,India,12.9263733,80.2281714,N/A,-1
+1897388,refunded_full,549215,Home,Kalwar,Jaipur,Rajasthan,India,26.9884533,75.5849329999999,N/A,47
+1897490,refunded_full,549215,Home,Kalwar,Jaipur,Rajasthan,India,26.9884533,75.5849329999999,N/A,47
+1902786,refunded_full,551104,Resort,"Dahanukar Vasti, 12C, Alandi-Markal Rd, Tulapur, Maharashtra 410501",Pune,Maharashtra,India,18.6689865,73.9890803999999,410501,-1
+1903064,refunded_full,551191,Home,Sendhur garden inside palm rwd Gayatri Nagar medavakkam chennai,Chennai,Tamil Nadu,India,12.9110908,80.1897904,N/A,42
+1910545,refunded_full,539863,Home,"R.k.township, yarandhalli",Bengaluru,Karnataka,India,12.8068148,77.6691098,N/A,46
+1911222,refunded_full,553684,Home,"Kiwale, next to gurudwara",Pune,Maharashtra,India,18.6734889,73.7264876,N/A,3
+1911831,refunded_full,553883,Home,"Chakan, Kurali,",Pune,Maharashtra,India,18.7177872412678,73.8432552962201,N/A,-1
+1914179,refunded_full,554480,Farmhouse,"WTC company,",Greater Noida,Uttar Pradesh,India,28.3741026820964,77.5048869478688,N/A,-1
+1916448,refunded_full,555773,Home,"Nagar Kanathur Reddykuppam, Chennai",Chennai,Tamil Nadu,India,12.8416978514889,80.2426427059654,N/A,19
+1916858,refunded_full,548343,Office,Sankarapuram,Chennai,Tamil Nadu,India,12.8796878333973,80.1951968617858,N/A,42
+1933603,refunded_full,559449,Home,iyyappan,Chennai,Tamil Nadu,India,12.9876411139821,80.1256376335159,N/A,-1
+1934952,refunded_full,551460,Home,"Ajmer Ali Vihar, Opposite Tata Communication Dighi",Pune,Maharashtra,India,18.6028796508326,73.8733411707138,N/A,-1
+1935201,refunded_full,560685,Home,"1221/2 & 3, Gauvaddi, Anjuna, Goa 403509",Panaji,Goa,India,15.5808732119995,73.7569107564775,403509,-1
+1944354,refunded_full,562054,Home,"Rajanukunte, Karnataka 560119",Bengaluru,Karnataka,India,13.1730311065564,77.5598336135024,560119,38
+1944355,refunded_full,562054,Home,"Rajanukunte, Karnataka 560119",Bengaluru,Karnataka,India,13.1730311065564,77.5598336135024,560119,38
+1949287,refunded_full,564610,Home,"Rihe, Maharashtra 412115, India",Pune,Maharashtra,India,18.5759864095231,73.6407135897987,412115,-1
+1951004,refunded_full,562983,Farmhouse,Chikkasagarhalli,Bengaluru,Karnataka,India,13.3368653766249,77.6965382084443,N/A,-1
+1951211,refunded_full,561675,Home,Shaligram prime apartment South bopal,Ahmedabad,Gujarat,India,23.017507877248,72.4674623634987,N/A,-1
+1955448,refunded_full,426717,Home,Railway Employees Colony Phase 1,Hyderabad,Telangana,India,17.5400217,78.5116836,N/A,49
+1955715,refunded_full,562773,Home,Sparklet Megapolis Hinjewadi Phase 3,Pune,Maharashtra,India,18.5785981468465,73.6809628056962,N/A,20
+1956932,refunded_full,566703,Home,Infront of jay ganesh lawns,Pune,Maharashtra,India,18.6515898,73.7248854,N/A,3
+1957721,refunded_full,566925,Home,DLF Hyde park,Chandigarh,Chandigarh,India,30.8126162128911,76.7257534765209,N/A,48
+1958297,refunded_full,567081,Home,Dantali,Ahmedabad,Gujarat,India,23.1700972,72.5265454,N/A,-1
+1958718,refunded_full,567205,Home,"Gurudev Heights, 200, Sector 21, Kamothe, Panvel, Navi Mumbai,",Navi Mumbai,Maharashtra,India,19.009354241623,73.1006982941326,N/A,11
+1958832,refunded_full,566732,Home,"Raghunathpur, Makhla, Basipota, West Bengal 712245",Kolkata,West Bengal,India,22.6792064270219,88.3179149239868,712245,-1
+1958879,refunded_full,567252,Home,calangute mahpusa road,Panaji,Goa,India,15.5517011,73.7788590999999,N/A,-1
+1960493,refunded_full,567658,Home,"Usarli Khurd, Vichumbe, Navi Mumbai",Navi Mumbai,Maharashtra,India,18.9837159990309,73.1347162068399,N/A,11
+1969133,refunded_full,567252,Home,calangute mahpusa road,Panaji,Goa,India,15.5517011,73.7788590999999,N/A,-1
+1970421,refunded_full,570600,Home,Sk hallki,Bengaluru,Karnataka,India,13.3897594,77.6862761,N/A,-1
+1973985,refunded_full,571671,Home,Hyderabad,Hyderabad,Telangana,India,17.5305669450665,78.534570149768,N/A,49
+1978244,refunded_full,377603,Home,"Girinagar, Gorhe Bk., Maharashtra 411025",Pune,Maharashtra,India,18.4191071788241,73.7627627986127,411025,-1
+1978335,refunded_full,573087,Farmhouse,Nelamangala,Bengaluru,Karnataka,India,13.0980078,77.3858947,N/A,34
+1980171,refunded_full,573580,Home,"Guru Nanak Colony Rd, Guru Nanak Colony",Chandigarh,Punjab,India,30.6393719967425,76.8829250164015,N/A,50
+1980172,refunded_full,573580,Home,"Guru Nanak Colony Rd, Guru Nanak Colony",Chandigarh,Punjab,India,30.6393719967425,76.8829250164015,N/A,50
+1980173,refunded_full,573580,Home,"Guru Nanak Colony Rd, Guru Nanak Colony",Chandigarh,Punjab,India,30.6393719967425,76.8829250164015,N/A,50
+1984544,refunded_full,458838,Home,Near St Joseph school,Navi Mumbai,Maharashtra,India,19.0032225,73.1147041999999,N/A,11
+1986500,refunded_full,574625,Other,"POWER GRID, Chandlai Rd, Shivdaspura, Rajasthan 303903",Jaipur,Rajasthan,India,26.7047170419393,75.8925089161737,303903,-1
+1986746,refunded_full,575675,Home,"Tathawade, 411033",Pune,Maharashtra,India,18.6275457,73.7454736999999,411033,3
+1990062,refunded_full,571825,Home,"Hoskote, Bengaluru, Karnataka 562114",Bengaluru,Karnataka,India,13.069664265571,77.7937416145197,562114,16
+1991536,refunded_full,576006,Home,"JNPT Rd, Navi Mumbai, Maharashtra 410206",Navi Mumbai,Maharashtra,India,18.9355481987647,73.0295558349527,410206,13
+1992473,refunded_full,558161,Home,Mokila,Hyderabad,Telangana,India,17.4325214333833,78.1934827919009,N/A,32
+1993022,refunded_full,573404,Other,"Sbioa unity enclave, Mambakkam",Chennai,Tamil Nadu,India,12.8362379881169,80.1717912542903,N/A,21
+1997331,refunded_full,579063,Farmhouse,Kottur,Hyderabad,Telangana,India,17.0944375,78.2539374999999,N/A,-1
+2001001,refunded_full,153531,Office,Samarth colony,Pune,Maharashtra,India,18.5863523,74.0042438999999,N/A,29
+2003654,refunded_full,399102,Home,"Charholi Budruk, Maharashtra 412105",Pune,Maharashtra,India,18.6354388819046,73.9267865750698,412105,30
+2015156,refunded_full,584645,Home,Hinjewadi,Pune,Maharashtra,India,18.5849003,73.7290382,N/A,-1
+2016880,refunded_full,585158,Home,"Opposite The Aayansh, Nr. Narmada Canal, Adalaj",Ahmedabad,Gujarat,India,23.1566857,72.5883693999999,N/A,-1
+2018741,refunded_full,153531,Office,Samarth colony,Pune,Maharashtra,India,18.5863523,74.0042438999999,N/A,29
+2020898,refunded_full,6654,Farmhouse,Shamshabad,Hyderabad,Telangana,India,17.2815515,78.3475397999999,N/A,-1
+2023529,refunded_full,587264,Home,Madhava reddy bridge,Hyderabad,Telangana,India,17.4555927,78.6926782,N/A,-1
+2025484,refunded_full,181640,Home,Supercity bhadaj,Ahmedabad,Gujarat,India,23.0961927,72.4712749,N/A,51
+2029336,refunded_full,547902,Home,Sama-Savli,Vadodara,Gujarat,India,22.4458249007415,73.1884209910304,N/A,-1
+2030049,refunded_full,589322,Home,Waghodiya Road,Vadodara,Gujarat,India,22.2825813,73.2699253,N/A,-1
+2030449,refunded_full,589248,Farmhouse,Near charan resorts,Hyderabad,Telangana,India,17.2777873,78.2434578,N/A,4
+2031200,refunded_full,586781,Home,Near Vaishnodevi Circle,Ahmedabad,Gujarat,India,23.1333889,72.5493908,N/A,-1
+2031912,refunded_full,128654,Farmhouse,Village Dantali,Ahmedabad,Gujarat,India,23.1575784,72.4908234999999,382700,52
+2031915,refunded_full,128654,Farmhouse,Village Dantali,Ahmedabad,Gujarat,India,23.1575784,72.4908234999999,382700,52
+2031916,refunded_full,128654,Farmhouse,Village Dantali,Ahmedabad,Gujarat,India,23.1575784,72.4908234999999,382700,52
+2032777,refunded_full,590108,Home,"Wadachi Wadi, Undri",Pune,Maharashtra,India,18.4262634080222,73.9216971992702,411060,44
+2035343,refunded_full,590016,Home,"Takka Road, Takka Colony, Panvel",Navi Mumbai,Maharashtra,India,18.9799914,73.1180237,497586,11
+2037160,refunded_full,591483,Home,Sharjapur,Bengaluru,Karnataka,India,12.8769874,77.7662589,562125,24
+2040723,refunded_full,592574,Home,"Moraiya, Gujarat 382213",Ahmedabad,Gujarat,India,22.9306029421571,72.4202086005513,382213,6
+2040725,refunded_full,592574,Home,"Moraiya, Gujarat 382213",Ahmedabad,Gujarat,India,22.9306029421571,72.4202086005513,382213,6
+2040726,refunded_full,592574,Home,"Moraiya, Gujarat 382213",Ahmedabad,Gujarat,India,22.9306029421571,72.4202086005513,382213,6
+2042276,refunded_full,225195,Home,"dattawadi datt mandir Jadhav patil property sr/no 82, Pune",Pune,Maharashtra,India,18.6163715630445,73.6905504399435,N/A,20
+2042366,refunded_full,593051,Home,Baranagar,Kolkata,West Bengal,India,22.7202357542507,88.3113337922935,712234,-1
+2042507,refunded_full,225195,Home,"dattawadi datt mandir Jadhav patil property sr/no 82, Pune",Pune,Maharashtra,India,18.6163715630445,73.6905504399435,N/A,20
+2043490,refunded_full,593386,Farmhouse,Settlement scheme mahindra sez teelawas,Jaipur,Rajasthan,India,26.8226003,75.6059808,303007,-1
+2044011,refunded_full,574881,Home,"Anchepalya, Kengeri",Bengaluru,Karnataka,India,12.887024,77.454039,560060,25
+2044699,refunded_full,593746,Home,"Meenakunte, Tharabanahalli, Karnataka 562157",Bengaluru,Karnataka,India,13.1932363616491,77.624631639154,562157,7
+2044707,refunded_full,593746,Home,"Meenakunte, Tharabanahalli, Karnataka 562157",Bengaluru,Karnataka,India,13.1932363616491,77.624631639154,562157,7
+2045152,refunded_full,593843,Home,Kengeri,Bengaluru,Karnataka,India,12.8806217,77.4707538,560060,25
+2045463,refunded_full,593843,Home,Kengeri,Bengaluru,Karnataka,India,12.8806217,77.4707538,560060,25
+2046257,refunded_full,588037,Home,"Railway Colony, East Tambaram",Chennai,Tamil Nadu,India,12.9250654723118,80.1226128655374,600059,33
+2046541,refunded_full,593062,Home,Budigere Cross,Bengaluru,Karnataka,India,13.0649032,77.7436275,560049,31
+2047493,refunded_full,594442,Home,"Symphony Park Homes, Patancheruvu",Hyderabad,Telangana,India,17.5322669,78.286315,502319,53
+2047933,refunded_full,39597,Home,"179, Kannikanagar, Nanda Gokula Layout, Bengaluru, Ramasandra, Karnataka 560060",Bengaluru,Karnataka,India,12.9486075276043,77.4656960978334,560060,-1
+2048217,refunded_full,594485,Home,"Main, Doddaballapura Main Rd, Northwest County, Adde Vishwanathapura, Rajanukunte",Bengaluru,Karnataka,India,13.1826950907567,77.5597639211122,560064,38
+2049836,refunded_full,595093,Home,Ponmar,Chennai,Tamil Nadu,India,12.861237975072,80.1587265873205,N/A,-1
+2050000,refunded_full,586814,Home,"Budigere Cross, OLD Madras Road",Bengaluru,Karnataka,India,13.0653057,77.7407748,N/A,31
+2051791,refunded_full,595152,Home,Madhuvan Township near Box Street,Mumbai,Maharashtra,India,19.3944265,72.8480921,N/A,-1
+2054074,refunded_full,596495,Home,"Sultan Pettai Mangadu, Chennai, Tamil Nadu",Chennai,Tamil Nadu,India,13.023519114345,80.1147096708961,N/A,-1
+2058270,refunded_full,597611,Farmhouse,Mullanpur,Chandigarh,Chandigarh,India,30.8197175987054,76.7207480562392,N/A,48
+2061614,refunded_full,598635,Home,"Bachupally crossroads ,Mallampetroad",Hyderabad,Telangana,India,17.5463301,78.3638516,N/A,14
+2062187,refunded_full,598068,Home,Navalur,Chennai,Tamil Nadu,India,12.8512381,80.2302548,N/A,19
+2065174,refunded_full,598319,Home,Panvel,Navi Mumbai,Maharashtra,India,18.9524945,73.1477648,N/A,11
+2065783,refunded_full,194374,Home,Jagatpura Jaipur,Jaipur,Rajasthan,India,26.7956266,75.8713011,N/A,-1
+2065934,refunded_full,599953,Home,"Lake Town, Kolkata, West Bengal",Kolkata,West Bengal,India,22.602646277517,88.5344619195506,N/A,54
+2066453,refunded_full,600097,Home,MLA Flats Mullanpur Garibdass,Chandigarh,Punjab,India,30.8377682768692,76.7233916333945,N/A,48
+2067362,refunded_full,600332,Home,"nearby shikharpur, Greentech City, Vedic Village,",Kolkata,West Bengal,India,22.6031978832739,88.5368781516019,N/A,54
+2067367,refunded_full,600332,Home,"nearby shikharpur, Greentech City, Vedic Village,",Kolkata,West Bengal,India,22.6031978832739,88.5368781516019,N/A,54
+2067910,refunded_full,600448,Home,Palaka Uttar Pradesh,Lucknow,Uttar Pradesh,India,26.9804683674567,81.0138953440158,N/A,55
+2067933,refunded_full,600448,Home,Palaka Uttar Pradesh,Lucknow,Uttar Pradesh,India,26.9804683674567,81.0138953440158,N/A,55
+2067938,refunded_full,600448,Home,Palaka Uttar Pradesh,Lucknow,Uttar Pradesh,India,26.9804683674567,81.0138953440158,N/A,55
+2069137,refunded_full,599704,Home,"Saihara, Uttar Pradesh 225301",Lucknow,Uttar Pradesh,India,26.9798749697101,81.0403215657498,225301,55
+2070076,refunded_full,600372,Home,Bettahalli,Bengaluru,Karnataka,India,13.0173887234181,77.4371244712259,N/A,-1
+2070149,refunded_full,600970,Home,Chinhat,Lucknow,Uttar Pradesh,India,26.867301,81.0380711999999,N/A,-1
+2070238,refunded_full,601122,Home,"Chandregowda Layout, Devalapur, Kanekallu,",Bengaluru,Karnataka,India,12.9823877495741,77.8322476529982,N/A,-1
+2071397,refunded_full,601461,Home,"Technology road, 6th stage, Banashankari",Bengaluru,Karnataka,India,12.8823524,77.5163992,N/A,-1
+2071576,refunded_full,561879,Home,Uniworld city new town action area 3,Kolkata,West Bengal,India,22.5647656394538,88.4941257161734,N/A,-1
+2071960,refunded_full,575280,Home,Sanauli Zirakpur Punjab,Sahibzada Ajit Singh Nagar,Punjab,India,30.6463943151033,76.8578761833412,N/A,50
+2071978,refunded_full,575280,Home,Sanauli Zirakpur Punjab,Sahibzada Ajit Singh Nagar,Punjab,India,30.6463943151033,76.8578761833412,N/A,50
+2072821,refunded_full,209561,Home,"Varthur Road, Gunjur Village, Bangalore 560087",Bengaluru,Karnataka,India,12.9327111,77.7385272,560087,-1
+2072925,refunded_full,209561,Home,"Varthur Road, Gunjur Village, Bangalore 560087",Bengaluru,Karnataka,India,12.9327111,77.7385272,560087,-1
+2073267,refunded_full,396891,Home,"Minds International School, Osman Nagar",Hyderabad,Telangana,India,17.4369105917574,78.2681827151283,N/A,37
+2073959,refunded_full,599788,Resort,"1577, Chennai, Tamil Nadu 603112",Chennai,Tamil Nadu,India,12.8408653,80.2443701999999,603112,19
+2074152,refunded_full,602166,Home,Edifice Villa calley,Bengaluru,Karnataka,India,13.113635412218,77.5649940612159,N/A,5
+2074536,refunded_full,598185,Home,Bengaluru 560076,Bengaluru,Karnataka,India,12.8848709,77.6029939,560076,9
+2074632,refunded_full,602278,Home,"Opposite MCA cricket stadium, Mumbai-pune expressway",Pune,Maharashtra,India,18.6628130446769,73.7039947491786,N/A,3
+2074872,refunded_full,598742,Home,"behind government primary school, Lapkaman",Ahmedabad,Gujarat,India,23.1303049597352,72.5005589607084,N/A,51
+2075248,refunded_full,589829,Home,Sarjapura,Bengaluru,Karnataka,India,12.8653936,77.7765215,N/A,24
+2075249,refunded_full,602449,Home,Kharadi,Pune,Maharashtra,India,18.5425200807643,73.9910258822524,N/A,-1
+2077967,refunded_full,602997,Home,"Kogilu main road, Yelahanka",Bengaluru,Karnataka,India,13.1042055,77.6066192999999,N/A,60
+2078040,refunded_full,603204,Other,"Mota varaccha Gothan road,",Surat,Gujarat,India,21.2736277393454,72.8845164609323,N/A,-1
+2078921,refunded_full,602789,Home,"Venkatesan avenue , tiruvanchery",Chennai,Tamil Nadu,India,12.898787,80.1400126,N/A,23
+2079110,refunded_full,384524,Home,Kiya homes,Jaipur,Rajasthan,India,26.8371965,75.7280758,N/A,-1
+2079308,refunded_full,603471,Home,"Nagarjuna colony, Hasthinapuram",Hyderabad,Telangana,India,17.3035602667106,78.6076211151401,N/A,-1
+2079495,refunded_full,603650,Home,"Near Bhare bridge, Hinjewadi - Pirangut road, Ambadwet, Mulshi, Pune",Pune,Maharashtra,India,18.5351966074096,73.6692322201966,N/A,28
+2079542,refunded_full,603649,Home,"Sompura Gate, Sarjapura",Bengaluru,Karnataka,India,12.8663876,77.7746402,N/A,24
+2079593,refunded_full,207456,Home,"Near Sompura gate , Kada Agrahara road",Bengaluru,Karnataka,India,12.8631305,77.7570707,N/A,24
+2081101,refunded_full,603521,Home,Shriram greenfield phase 2 Budigere cross 560049,Bengaluru,Karnataka,India,13.0715417,77.7522601,560049,31
+2081107,refunded_full,269266,Farmhouse,Near Lavanya farm,Delhi,Delhi,India,28.843026,77.180478,N/A,-1
+2081113,refunded_full,269266,Farmhouse,Near Lavanya farm,Delhi,Delhi,India,28.843026,77.180478,N/A,-1
+2081589,refunded_full,604097,Home,Pallavaram 200 ft radial road alliance galleria,Chennai,Tamil Nadu,India,12.9560082393305,80.1650029424497,N/A,-1
+2084324,refunded_full,277215,Home,"DY Patil road, ravet 412101",Pune,Maharashtra,India,18.6436883056526,73.7532356271866,412101,3
+2084918,refunded_full,595701,Home,"Anjanapura,",Bengaluru,Karnataka,India,12.8494733476251,77.5470567926449,N/A,-1
+2086036,refunded_full,453457,Home,"Jagatpura, Jaipur, pincode-302017",Jaipur,Rajasthan,India,26.7980007850552,75.9303524091066,302017,-1
+2086145,refunded_full,604013,Home,"Hole Properties, Savatamali Nagar, Theur",Pune,Maharashtra,India,18.6209386531621,74.0268201179496,N/A,-1
+2086853,refunded_full,599973,Home,"Chatarpura at Lalya Ka Bas,",Jaipur,Rajasthan,India,26.8406479300242,75.657939759449,N/A,-1
+2087703,refunded_full,323650,Home,"Bhivari village, Tal:, Purandar",Pune,Maharashtra,India,18.4133202061331,73.9332104427094,N/A,44
+2087795,refunded_full,72736,Home,Marunji,Pune,Maharashtra,India,18.6219644,73.7148698,N/A,20
+2088293,refunded_full,375610,Home,Neimbekaipura,Bengaluru,Karnataka,India,13.0633037,77.7577191,N/A,31
+2089160,refunded_full,555024,Home,Bhartiya City Thanisandra,Bengaluru,Karnataka,India,13.0810364,77.6401765999999,N/A,58
+2091815,refunded_full,315936,Home,"Kada Agrahara Road, Sompura Gate, Sarjapur Main Road",Bengaluru,Karnataka,India,12.8646845534439,77.7622754617501,N/A,24
+2092931,refunded_full,607781,Home,"near Gopinath enterprise, Ahmedabad",Ahmedabad,Gujarat,India,23.1231620002562,72.4716109027721,N/A,51
+2092932,refunded_full,607781,Home,"near Gopinath enterprise, Ahmedabad",Ahmedabad,Gujarat,India,23.1231620002562,72.4716109027721,N/A,51
+2092933,refunded_full,607781,Home,"near Gopinath enterprise, Ahmedabad",Ahmedabad,Gujarat,India,23.1231620002562,72.4716109027721,N/A,51
+2094247,refunded_full,607223,Farmhouse,"Nerige, Bengaluru -562125",Bengaluru,Karnataka,India,12.9084157935083,77.7914093348842,562125,24
+2094985,refunded_full,608241,Home,Kalibari complex Rajarhat,Kolkata,West Bengal,India,22.6302377,88.4879039,N/A,-1
+2095544,refunded_full,608549,Home,"Mallampet, 500090",Hyderabad,Telangana,India,17.5532755586248,78.3748904882375,500090,14
+2095966,refunded_full,608665,Home,gangaganj,Lucknow,Uttar Pradesh,India,26.7280423696513,81.2014497460444,N/A,-1
+2097090,refunded_full,315846,Home,"Mitganahalli, Kadusonnapanahalli",Bengaluru,Karnataka,India,13.1036894942426,77.6620270514525,N/A,58
+2097721,refunded_full,572770,Home,Kumar Princetown Apartment Shettihalli Jalahalli West,Bengaluru,Karnataka,India,13.1130008246827,77.5099241309855,N/A,-1
+2098328,refunded_full,609370,Home,Yelhanka,Bengaluru,Karnataka,India,13.1274064710657,77.5653975809731,N/A,5
+2098329,refunded_full,609370,Home,Yelhanka,Bengaluru,Karnataka,India,13.1274064710657,77.5653975809731,N/A,5
+2098583,refunded_full,608322,Home,"ZPHS High School, Pratap Singaram",Hyderabad,Telangana,India,17.3879090321905,78.6599773569234,N/A,-1
+2098691,refunded_full,591828,Home,"Manipur Saptak, Ghuma,",Ahmedabad,Gujarat,India,23.0325752255878,72.4263261820858,N/A,-1
+2101318,refunded_full,610204,Home,"Lucknow, Mohari Khurd",Lucknow,Uttar Pradesh,India,26.7287335338357,81.0399791772785,N/A,-1
+2101323,refunded_full,610204,Home,"Lucknow, Mohari Khurd",Lucknow,Uttar Pradesh,India,26.7287335338357,81.0399791772785,N/A,-1
+2101600,refunded_full,93880,Home,Thakurpukur,Kolkata,West Bengal,India,22.4592173316878,88.3050005525193,N/A,-1
+2101634,refunded_full,610311,Home,"Sanjeevani Layout, Laaksmipura madanayakanna Halli, Nelamangala",Bengaluru,Karnataka,India,13.0399673450046,77.458591375266,N/A,-1
+2102055,refunded_full,610362,Home,ravet,Pune,Maharashtra,India,18.6494432453363,73.7423635924251,N/A,3
+2102057,refunded_full,610362,Home,ravet,Pune,Maharashtra,India,18.6494432453363,73.7423635924251,N/A,3
+2102181,refunded_full,609442,Home,"off Kanakapura Main Road, BM Kaval",Bengaluru,Karnataka,India,12.8390032771998,77.5277772798867,N/A,-1
+2102382,refunded_full,610514,Home,"SUPERCITY GLORY, Supercity, Gujarat 382722",Ahmedabad,Gujarat,India,23.0968065928595,72.4649733695733,382722,51
+2102383,refunded_full,610514,Home,"SUPERCITY GLORY, Supercity, Gujarat 382722",Ahmedabad,Gujarat,India,23.0968065928595,72.4649733695733,382722,51
+2102384,refunded_full,610514,Home,"SUPERCITY GLORY, Supercity, Gujarat 382722",Ahmedabad,Gujarat,India,23.0968065928595,72.4649733695733,382722,51
+2102385,refunded_full,610514,Home,"SUPERCITY GLORY, Supercity, Gujarat 382722",Ahmedabad,Gujarat,India,23.0968065928595,72.4649733695733,382722,51
+2102391,refunded_full,610514,Home,"SUPERCITY GLORY, Supercity, Gujarat 382722",Ahmedabad,Gujarat,India,23.0968065928595,72.4649733695733,382722,51
+2102392,refunded_full,610514,Home,"SUPERCITY GLORY, Supercity, Gujarat 382722",Ahmedabad,Gujarat,India,23.0968065928595,72.4649733695733,382722,51
+2102393,refunded_full,610514,Home,"SUPERCITY GLORY, Supercity, Gujarat 382722",Ahmedabad,Gujarat,India,23.0968065928595,72.4649733695733,382722,51
+2102730,refunded_full,610600,Home,Bengaluru,Bengaluru,Karnataka,India,13.1325768,77.6672134,N/A,2
+2103583,refunded_full,608684,Home,Serilingampally,Hyderabad,Telangana,India,17.4647595112409,78.2585707325475,N/A,45
+2103630,refunded_full,608060,Home,"Karl Marx Avenue,, Karl Marx St, Uthandi, Chennai",Chennai,Tamil Nadu,India,12.858402344277,80.2442376861997,N/A,19
+2103730,refunded_full,610877,Home,"New Vellanur, Avadi",Chennai,Tamil Nadu,India,13.1627968950404,80.1134682378156,N/A,-1
+2103739,refunded_full,538298,Home,"Jawahar Ayya Nagar, TTC Nagar, Guduvancheri,",Chennai,Tamil Nadu,India,12.8574179657519,80.0552959194041,N/A,-1
+2103945,refunded_full,581022,Home,"Govind Vatika, Kalwar",Jaipur,Rajasthan,India,27.0027669280046,75.5714197742344,N/A,47
+2104115,refunded_full,199636,Home,Hennagra Bommasandra,Bengaluru,Karnataka,India,12.7998255,77.6795107,N/A,46
+2104671,refunded_full,611137,Home,Nindar Jaipur,Jaipur,Rajasthan,India,27.0285739831877,75.7637067981327,N/A,-1
+2104686,refunded_full,611137,Home,Nindar Jaipur,Jaipur,Rajasthan,India,27.0285739831877,75.7637067981327,N/A,-1
+2104823,refunded_full,561942,Home,Sarjapur,Bengaluru,Karnataka,India,12.8682186336111,77.7728515819325,N/A,24
+2106179,refunded_full,611511,Home,"Narshipur, Jirat, West Bengal",Kolkata,West Bengal,India,22.7578136845854,88.5354050892405,N/A,-1
+2107232,refunded_full,577792,Home,"Aavalahalli, Budigere cross",Bengaluru,Karnataka,India,13.0444665962781,77.7452887198723,N/A,31
+2108317,refunded_full,611964,Home,Kiwale,Pune,Maharashtra,India,18.6527495,73.7263605999999,N/A,3
+2108360,refunded_full,612072,Home,"Brigade El Dorado, Aerospace Park",Bengaluru,Karnataka,India,13.1452564,77.679284,N/A,2
+2108361,refunded_full,612072,Home,"Brigade El Dorado, Aerospace Park",Bengaluru,Karnataka,India,13.1452564,77.679284,N/A,2
+2108362,refunded_full,612072,Home,"Brigade El Dorado, Aerospace Park",Bengaluru,Karnataka,India,13.1452564,77.679284,N/A,2
+2108363,refunded_full,612072,Home,"Brigade El Dorado, Aerospace Park",Bengaluru,Karnataka,India,13.1452564,77.679284,N/A,2
+2109044,refunded_full,611895,Home,Unknown,Ahmedabad,Gujarat,India,23.1067100525811,72.4977394971802,N/A,51
+2109045,refunded_full,611895,Home,Unknown,Ahmedabad,Gujarat,India,23.1067100525811,72.4977394971802,N/A,51
+2109877,refunded_full,202444,Home,Opposite Muhana Mandi gate no one,Jaipur,Rajasthan,India,26.7941727,75.7540923,N/A,-1
+2112230,refunded_full,598922,Home,Maya garden ph3 vip road,Chandigarh,Punjab,India,30.6065756515934,76.8341788690676,N/A,56
+2113897,refunded_full,164708,Home,"SHIVALIK SHARDA PARKVIEW-2, NEAR MEHAR HOMES-4, CLUB O7 ROAD, SHELA",Ahmedabad,Gujarat,India,23.0130322846623,72.449029218535,N/A,-1
+2114683,refunded_full,570795,Farmhouse,HESSARGHATTA,Bengaluru,Karnataka,India,13.133999,77.4788014,N/A,-1
+2117679,refunded_full,614826,Home,"behind pasalkar lawns, Kesnand,",Pune,Maharashtra,India,18.5741884195991,74.0356536202259,N/A,39
+2118846,refunded_full,551922,Home,Uptown Skylla,Chandigarh,Punjab,India,30.619461403496,76.8088227228069,N/A,56
+2119046,refunded_full,615183,Home,"lakshmi srinivasa Nagar,, Thirumazhisai",Chennai,Tamil Nadu,India,13.0584567231285,80.061123944945,N/A,57
+2119427,refunded_full,615315,Home,"540, 27th cross, kenchenhalli",Bengaluru,Karnataka,India,12.9196809886058,77.458200467432,N/A,-1
+2125665,refunded_full,189297,Home,"Badu Rd, Madhyamgram",Kolkata,West Bengal,India,22.6936888518877,88.515793617102,N/A,-1
+2126338,refunded_full,603114,Home,Yapral,Hyderabad,Telangana,India,17.5191074,78.5433282,N/A,49
+2126364,refunded_full,611656,Home,"2 Rural Rhythm, Yelahanka,",Bengaluru,Karnataka,India,13.1442077163067,77.5320154254794,N/A,-1
+2128971,refunded_full,618096,Home,"Parcel 2 ,tower 10, Prestige Lakeside habitat,Varthur",Bengaluru,Karnataka,India,12.90850873854,77.8185848677611,N/A,24
+2130773,refunded_full,618292,Home,Wagholi,Pune,Maharashtra,India,18.5790304594861,73.9964355402145,N/A,29
+2131493,refunded_full,514641,Home,Charholi budruk,Pune,Maharashtra,India,18.6210559108939,73.9169955455539,N/A,30
+2132071,refunded_full,577792,Home,"Aavalahalli, Budigere cross",Bengaluru,Karnataka,India,13.0444665962781,77.7452887198723,N/A,31
+2132434,refunded_full,619050,Home,"Vedic Village, Bazetaraf",Kolkata,West Bengal,India,22.6027757137822,88.539466119314,N/A,54
+2132626,refunded_full,619110,Home,"Kannuru,",Bengaluru,Karnataka,India,13.0931335943435,77.6565897687692,N/A,58
+2133501,refunded_full,520331,Home,"Manjri, Manjari Budruk, Pune, Manjari Kh",Pune,Maharashtra,India,18.529942382791,73.9949993405999,N/A,-1
+2134441,refunded_full,619436,Home,Om vatika 5 colony peethawas Hathoj jaipur,Jaipur,Rajasthan,India,26.9729895900358,75.6858349681895,N/A,-1
+2137066,refunded_full,394836,Home,"House of hiranandani , egattur",Chennai,Tamil Nadu,India,12.835911,80.2324557,N/A,19
+2139843,refunded_full,612683,Home,"Ranga Nagar, Chromepet",Chennai,Tamil Nadu,India,12.9587437890231,80.126552965921,N/A,-1
+2140271,refunded_full,599259,Home,Opposite of tahura bakery,Pune,Maharashtra,India,18.6754723484727,73.7812824993291,N/A,-1
+2142735,refunded_full,363141,Farmhouse,Khasra no.90 nand gav bad ke balaji road chakramsir choraha sirsi road near polofactory polo club,Jaipur,Rajasthan,India,26.904164,75.5943886,N/A,26
+2142750,refunded_full,363141,Farmhouse,Khasra no.90 nand gav bad ke balaji road chakramsir choraha sirsi road near polofactory polo club,Jaipur,Rajasthan,India,26.904164,75.5943886,N/A,26
+2143547,refunded_full,621357,Home,"Moraiya Road Moti Devti, Village, Ahmedabad",Ahmedabad,Gujarat,India,22.9354711448519,72.4127586626587,N/A,6
+2148000,refunded_full,538884,Home,Bagalur budigere road,Bengaluru,Karnataka,India,13.1282978,77.7028194999999,N/A,-1
+2149042,refunded_full,212604,Home,"Dua Farm House, Tuwariyan Ki Dhani, Vatika, Jaichandpura",Jaipur,Rajasthan,India,26.7623234503836,75.8844399258924,N/A,-1
+2150398,refunded_full,624556,Home,Jadhavwadi,Pune,Maharashtra,India,18.6671138192102,73.8219642756295,N/A,-1
+2150489,refunded_full,624583,Home,"Bicholi Mardana, Ambamoliya-Bicholi Hapsi Rd",Indore,Madhya Pradesh,India,22.7046430970288,75.9645045045791,N/A,59
+2150490,refunded_full,624583,Home,"Bicholi Mardana, Ambamoliya-Bicholi Hapsi Rd",Indore,Madhya Pradesh,India,22.7046430970288,75.9645045045791,N/A,59
+2150491,refunded_full,624583,Home,"Bicholi Mardana, Ambamoliya-Bicholi Hapsi Rd",Indore,Madhya Pradesh,India,22.7046430970288,75.9645045045791,N/A,59
+2151305,refunded_full,607719,Home,"Nazarathpettai, Chennai",Chennai,Tamil Nadu,India,13.0418843321815,80.0816431491266,N/A,57
+2151307,refunded_full,607719,Home,"Nazarathpettai, Chennai",Chennai,Tamil Nadu,India,13.0418843321815,80.0816431491266,N/A,57
+2152471,refunded_full,625177,Home,"Swami Nityanand Rd, Nityanand Nagar, HOC Colony",Mumbai,Maharashtra,India,18.9946530053323,73.1082169470798,N/A,11
+2152495,refunded_full,625166,Home,"Hasiru Bhoomi, Yelahanka, Gowdahalli,",Bengaluru,Karnataka,India,13.2200133378529,77.5214122913448,N/A,-1
+2154403,refunded_full,625771,Home,Badlapur east,Thane,Maharashtra,India,19.1544186882595,73.2282389007972,N/A,-1
+2158013,refunded_full,468870,Home,"Kistareddypet, Beeramguda",Hyderabad,Telangana,India,17.5525603,78.2869166999999,N/A,53
+2158015,refunded_full,468870,Home,"Kistareddypet, Beeramguda",Hyderabad,Telangana,India,17.5525603,78.2869166999999,N/A,53
+2159942,refunded_full,626260,Home,"Symbiosis International University, Hilltop Campus, Lavale",Pune,Maharashtra,India,18.5310326377795,73.7258721136421,N/A,22
+2159943,refunded_full,626260,Home,"Symbiosis International University, Hilltop Campus, Lavale",Pune,Maharashtra,India,18.5310326377795,73.7258721136421,N/A,22
+2160142,refunded_full,623653,Home,"Kendriya Vihar-2, A-2/31, Kumaran Nagar East, Kumaran Nagar, Paruthipaatu, Avadi",Chennai,Tamil Nadu,India,13.1099835415891,80.0992869146712,N/A,36
+2160352,refunded_full,627673,Home,"Shree Dwarkadhish Farm House, Sherisa, Palsana",Ahmedabad,Gujarat,India,23.1949122953074,72.4856195407649,N/A,-1
+2162012,refunded_full,49492,Home,"Hobli, Devanahalli",Bengaluru,Karnataka,India,13.1364687729705,77.7402828629946,N/A,43
+2172769,refunded_full,545626,Home,"107,  7 th rd Edapalayam Village, Alathur Panchayat, Palavedu Post, 602024",Chennai,Tamil Nadu,India,13.1604486206447,80.0418107622966,602024,-1
+2173999,refunded_full,628134,Home,Gandhinagar,Ahmedabad,Gujarat,India,23.1619207,72.5556505,N/A,-1
+2176811,refunded_full,625342,Home,ABHISHREE ORCHARD,Ahmedabad,Gujarat,India,22.9624939458259,72.4196557912954,N/A,-1
+2181352,refunded_full,634429,Home,Chandapura Anekal Road,Bengaluru,Karnataka,India,12.7566944105413,77.6986055333497,N/A,17
+2182140,refunded_full,634745,Home,"Reddykuppam, 576, Sri Sathya Sai Ave Rd, opposite Amit University, Kanathur Reddykuppam",Chennai,Tamil Nadu,India,12.8538718115177,80.2443477144044,N/A,19
+2182474,refunded_full,634908,Home,"Banglore, Karnataka",Bengaluru,Karnataka,India,13.1182125,77.6208594,N/A,60
+2184336,refunded_full,631653,Farmhouse,Near MSN Pharma,Hyderabad,Telangana,India,17.0944375,78.2539374999999,N/A,-1
+2185087,refunded_full,376471,Home,"Muthukadahalli village ,M.M.Sandra post,Anugondhanahalli hobli, taluk, Hoskote",Bengaluru,Karnataka,India,12.9281483771092,77.8190405859513,N/A,24
+2185209,refunded_full,635204,Home,"Udayapura post, Kanakapura Road",Bengaluru,Karnataka,India,12.81461,77.5080445,N/A,27
+2185211,refunded_full,635204,Home,"Udayapura post, Kanakapura Road",Bengaluru,Karnataka,India,12.81461,77.5080445,N/A,27
+2192525,refunded_full,16426,Home,KALYAN SHIL ROAD,Mumbai,Maharashtra,India,19.1743354828218,73.0693527166233,N/A,-1
+2193119,refunded_full,107710,Home,arbors by the lake,Bengaluru,Karnataka,India,12.8017357,77.6554021,N/A,46
+2194937,refunded_full,612588,Home,"Atlantic, pride world city",Pune,Maharashtra,India,18.6208525,73.9165252,N/A,30
+2195695,refunded_full,636368,Office,Bhayla,Ahmedabad,Gujarat,India,22.7515617,72.3041669,N/A,-1
+2203451,refunded_full,617488,Home,"lohegaon-Wagholi road, Wagholi pune",Pune,Maharashtra,India,18.5928166,73.9687477,N/A,29
+2204390,refunded_full,641962,Home,"Reddiar Garden, Kamaraj Nagar, Avadi,",Chennai,Tamil Nadu,India,13.1150877913138,80.0947836484774,N/A,36
+2204392,refunded_full,641962,Home,"Reddiar Garden, Kamaraj Nagar, Avadi,",Chennai,Tamil Nadu,India,13.1150877913138,80.0947836484774,N/A,36
+2204393,refunded_full,641962,Home,"Reddiar Garden, Kamaraj Nagar, Avadi,",Chennai,Tamil Nadu,India,13.1150877913138,80.0947836484774,N/A,36
+2205856,refunded_full,612588,Home,"Atlantic, pride world city",Pune,Maharashtra,India,18.6208525,73.9165252,N/A,30
+2208727,refunded_full,640365,Home,"BK No 1093/14, III, opposite Romy palace, O T Section, Samrat Ashok Nagar, Ulhasnagar, Maharashtra",Mumbai,Maharashtra,India,19.2204844900147,73.1675816399306,N/A,61
+2213719,refunded_full,625420,Home,"Pride world city, 412105",Pune,Maharashtra,India,18.6222085,73.9170144,412105,30
+2214486,refunded_full,645495,Home,Annojiguda,Hyderabad,Telangana,India,17.4348001,78.6637463,N/A,-1
+2214487,refunded_full,645495,Home,Annojiguda,Hyderabad,Telangana,India,17.4348001,78.6637463,N/A,-1
+2216161,refunded_full,633463,Home,"Baghu, Newtown, Sikharpur",Kolkata,West Bengal,India,22.5907809699071,88.5314313628986,N/A,54
+2216681,refunded_full,646324,Home,Yelanka next to prestige Woodside,Bengaluru,Karnataka,India,13.1828466464418,77.5597206102276,N/A,38
+2219674,refunded_full,645847,Other,"TNHB Colony, Tambaram",Chennai,Tamil Nadu,India,12.9289850058973,80.1032387448374,N/A,33
+2222240,refunded_full,648505,Home,"Thiuvallur High Road, Thirumazhisai,",Chennai,Tamil Nadu,India,13.0473509166365,80.0680438050413,N/A,57
+2224387,refunded_full,648913,Home,", Bengaluru, Sathanur",Bengaluru,Karnataka,India,13.1324966283246,77.6312041445942,N/A,60
+2224909,refunded_full,649000,Home,"Harapanahalli Jigani Hobli, Anekal, Taluk",Bengaluru,Karnataka,India,12.7850493642199,77.6216740113273,N/A,62
+2224910,refunded_full,649000,Home,"Harapanahalli Jigani Hobli, Anekal, Taluk",Bengaluru,Karnataka,India,12.7850493642199,77.6216740113273,N/A,62
+2224911,refunded_full,649000,Home,"Harapanahalli Jigani Hobli, Anekal, Taluk",Bengaluru,Karnataka,India,12.7850493642199,77.6216740113273,N/A,62
+2241072,refunded_full,658835,Home,"Mohammad Wadi, undri, before Corinthians club",Pune,Maharashtra,India,18.464865,73.9152144,N/A,-1
+2242771,refunded_full,46706,Home,Kiwale Ravet,Pune,Maharashtra,India,18.6674371,73.7268716,N/A,3
+2247642,refunded_full,415510,Home,"Kannamangala, whitfield",Bengaluru,Karnataka,India,13.0306090016511,77.7656230301254,N/A,31
+2247814,refunded_full,544361,Home,"Konig orange county, Budigeri cross",Bengaluru,Karnataka,India,13.0638219,77.7506449,N/A,31
+2249671,refunded_full,643687,Home,"Ranika Singhola, Sohna",Gurugram,Haryana,India,28.2474697046322,77.1611804644179,N/A,-1
+2250331,refunded_full,642460,Home,"Bhat Motera Link road, Koteshwar",Ahmedabad,Gujarat,India,23.1054257045215,72.618376959762,N/A,-1
+2254098,refunded_full,652627,Home,"Rayasandra, chikkanagamangala. near muneshwara temple",Bengaluru,Karnataka,India,12.8669187304829,77.6893710324522,N/A,-1
+2254165,refunded_full,653230,Farmhouse,Shree Shyam farmhouse,Jaipur,Rajasthan,India,27.0068037,75.6357512,N/A,-1
+2254759,refunded_full,658093,Home,Papdi talav,Thane,Maharashtra,India,19.3551623,72.8118445,N/A,-1
+2255031,refunded_full,658654,Home,Kousalya colony,Hyderabad,Telangana,India,17.5270484,78.3586942,N/A,14
+2256032,refunded_full,658587,Home,"Sector - 23, Ulwe, Navi Mumbai",Mumbai,Maharashtra,India,18.9745232,73.0306102,N/A,-1
+2256549,refunded_full,659168,Home,Tower 2,Hyderabad,Telangana,India,17.4690882067131,78.2581469596049,N/A,45
+2258354,refunded_full,659701,Home,"Jyothi Nagar, Bengaluru, Nagarur",Bengaluru,Karnataka,India,13.0855494236491,77.4191500096291,N/A,34

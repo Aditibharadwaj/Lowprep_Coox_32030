@@ -1,0 +1,1981 @@
+{
+  "generated_at": "2026-04-17T15:00:46.663887",
+  "epsilon_km_used": 3,
+  "epsilon_note": "Auto-selected via silhouette cross-validation. K-distance elbow suggested 0.46 km.",
+  "financial_assumption": "\u20b915,000 avg booking value + \u20b9200 processing",
+  "total_bookings": 546,
+  "total_clusters": 63,
+  "clustered_bookings": 311,
+  "noise_bookings": 235,
+  "unique_pincodes_all": [
+    "225301",
+    "382213",
+    "382700",
+    "382722",
+    "410206",
+    "410503",
+    "410506",
+    "411033",
+    "411048",
+    "411060",
+    "412101",
+    "412105",
+    "412115",
+    "412301",
+    "497586",
+    "500043",
+    "500075",
+    "500090",
+    "501504",
+    "502319",
+    "560049",
+    "560060",
+    "560064",
+    "560076",
+    "560119",
+    "561205",
+    "562106",
+    "562114",
+    "562125",
+    "562149",
+    "562157",
+    "562166",
+    "600059",
+    "600131",
+    "603112"
+  ],
+  "unique_pincodes_p1": [],
+  "unique_pincodes_p2": [
+    "382722",
+    "410506",
+    "411033",
+    "412101",
+    "560049",
+    "562125",
+    "603112"
+  ],
+  "watchlist_pincodes": [
+    "412115",
+    "562130",
+    "303007",
+    "382355",
+    "382330",
+    "455001",
+    "412205",
+    "560087",
+    "562110",
+    "562123",
+    "572130"
+  ],
+  "total_loss_inr": 8299200,
+  "cluster_loss_inr": 4727200,
+  "phase_summary": [
+    {
+      "Phase": "Critical (Week 1)",
+      "Clusters": 0,
+      "Bookings": 0,
+      "Loss_INR": 0,
+      "Cumulative": 0,
+      "Pct_of_Total": 0.0,
+      "Pincodes": []
+    },
+    {
+      "Phase": "High (Weeks 2\u20133)",
+      "Clusters": 6,
+      "Bookings": 77,
+      "Loss_INR": 1170400,
+      "Cumulative": 1170400,
+      "Pct_of_Total": 14.1,
+      "Pincodes": [
+        "382722",
+        "410506",
+        "411033",
+        "412101",
+        "560049",
+        "562125",
+        "603112"
+      ]
+    },
+    {
+      "Phase": "Medium (Month 1)",
+      "Clusters": 19,
+      "Bookings": 112,
+      "Loss_INR": 1702400,
+      "Cumulative": 2872800,
+      "Pct_of_Total": 20.5,
+      "Pincodes": [
+        "382213",
+        "411048",
+        "411060",
+        "412105",
+        "412301",
+        "497586",
+        "500043",
+        "500090",
+        "501504",
+        "560064",
+        "560119",
+        "562149",
+        "562157",
+        "600059"
+      ]
+    },
+    {
+      "Phase": "Low (Month 2+)",
+      "Clusters": 38,
+      "Bookings": 122,
+      "Loss_INR": 1854400,
+      "Cumulative": 4727200,
+      "Pct_of_Total": 22.3,
+      "Pincodes": [
+        "225301",
+        "382700",
+        "410206",
+        "410503",
+        "412115",
+        "500075",
+        "502319",
+        "560060",
+        "560076",
+        "561205",
+        "562106",
+        "562114",
+        "562166",
+        "600131"
+      ]
+    }
+  ],
+  "sensitivity_analysis": [
+    {
+      "Scenario": "Conservative (\u20b98K)",
+      "Total_Loss": 4477200,
+      "Cluster_Loss": 2550200,
+      "Recoverable_Pct": 57.0
+    },
+    {
+      "Scenario": "Base Case (\u20b915K)",
+      "Total_Loss": 8299200,
+      "Cluster_Loss": 4727200,
+      "Recoverable_Pct": 57.0
+    },
+    {
+      "Scenario": "Optimistic (\u20b925K)",
+      "Total_Loss": 13759200,
+      "Cluster_Loss": 7837200,
+      "Recoverable_Pct": 57.0
+    }
+  ],
+  "epsilon_cv": [
+    {
+      "Epsilon_km": 3,
+      "N_clusters": 63,
+      "N_noise": 235,
+      "Coverage_pct": 57.0,
+      "Silhouette": 0.755
+    },
+    {
+      "Epsilon_km": 5,
+      "N_clusters": 43,
+      "N_noise": 139,
+      "Coverage_pct": 74.5,
+      "Silhouette": 0.515
+    },
+    {
+      "Epsilon_km": 8,
+      "N_clusters": 32,
+      "N_noise": 86,
+      "Coverage_pct": 84.2,
+      "Silhouette": 0.484
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "severity": "Low",
+      "top_city": "Pune",
+      "booking_count": 3,
+      "pincodes": [
+        "410503"
+      ],
+      "centroid": {
+        "lat": 18.979685,
+        "lng": 73.947376
+      },
+      "radius_km": 0.0,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 1,
+      "severity": "Low",
+      "top_city": "Bengaluru",
+      "booking_count": 3,
+      "pincodes": [
+        "561205"
+      ],
+      "centroid": {
+        "lat": 13.349379,
+        "lng": 77.627302
+      },
+      "radius_km": 0.0,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 2,
+      "severity": "Medium",
+      "top_city": "Bengaluru",
+      "booking_count": 7,
+      "pincodes": [
+        "562149"
+      ],
+      "centroid": {
+        "lat": 13.14173,
+        "lng": 77.676408
+      },
+      "radius_km": 1.26,
+      "hull_polygon": [
+        [
+          13.132577,
+          77.667213
+        ],
+        [
+          13.134707,
+          77.672554
+        ],
+        [
+          13.145256,
+          77.679284
+        ],
+        [
+          13.132577,
+          77.667213
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 3,
+      "severity": "High",
+      "top_city": "Pune",
+      "booking_count": 18,
+      "pincodes": [
+        "411033",
+        "412101"
+      ],
+      "centroid": {
+        "lat": 18.666701,
+        "lng": 73.720209
+      },
+      "radius_km": 4.66,
+      "hull_polygon": [
+        [
+          18.693022,
+          73.686667
+        ],
+        [
+          18.661274,
+          73.704645
+        ],
+        [
+          18.627546,
+          73.745474
+        ],
+        [
+          18.643688,
+          73.753236
+        ],
+        [
+          18.673489,
+          73.726488
+        ],
+        [
+          18.683195,
+          73.712709
+        ],
+        [
+          18.693022,
+          73.686667
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 4,
+      "severity": "Medium",
+      "top_city": "Hyderabad",
+      "booking_count": 8,
+      "pincodes": [
+        "501504"
+      ],
+      "centroid": {
+        "lat": 17.289955,
+        "lng": 78.239919
+      },
+      "radius_km": 3.03,
+      "hull_polygon": [
+        [
+          17.312178,
+          78.23169
+        ],
+        [
+          17.262977,
+          78.235531
+        ],
+        [
+          17.282191,
+          78.267322
+        ],
+        [
+          17.312178,
+          78.23169
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 5,
+      "severity": "Medium",
+      "top_city": "Bengaluru",
+      "booking_count": 6,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 13.126391,
+        "lng": 77.567331
+      },
+      "radius_km": 1.97,
+      "hull_polygon": [
+        [
+          13.12734,
+          77.563427
+        ],
+        [
+          13.113635,
+          77.564994
+        ],
+        [
+          13.116804,
+          77.576301
+        ],
+        [
+          13.145751,
+          77.568471
+        ],
+        [
+          13.12734,
+          77.563427
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 6,
+      "severity": "Medium",
+      "top_city": "Ahmedabad",
+      "booking_count": 5,
+      "pincodes": [
+        "382213"
+      ],
+      "centroid": {
+        "lat": 22.932548,
+        "lng": 72.417236
+      },
+      "radius_km": 0.56,
+      "hull_polygon": [
+        [
+          22.935471,
+          72.412759
+        ],
+        [
+          22.930603,
+          72.420209
+        ],
+        [
+          22.935459,
+          72.412793
+        ],
+        [
+          22.935471,
+          72.412759
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 7,
+      "severity": "Medium",
+      "top_city": "Bengaluru",
+      "booking_count": 5,
+      "pincodes": [
+        "562157"
+      ],
+      "centroid": {
+        "lat": 13.18957,
+        "lng": 77.633048
+      },
+      "radius_km": 2.07,
+      "hull_polygon": [
+        [
+          13.193236,
+          77.624632
+        ],
+        [
+          13.171939,
+          77.645014
+        ],
+        [
+          13.19472,
+          77.635482
+        ],
+        [
+          13.193236,
+          77.624632
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 8,
+      "severity": "Low",
+      "top_city": "Chennai",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 12.965375,
+        "lng": 79.952395
+      },
+      "radius_km": 1.02,
+      "hull_polygon": [
+        [
+          12.956174,
+          79.949133
+        ],
+        [
+          12.969997,
+          79.954105
+        ],
+        [
+          12.969952,
+          79.953945
+        ],
+        [
+          12.956174,
+          79.949133
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 9,
+      "severity": "Low",
+      "top_city": "Bengaluru",
+      "booking_count": 3,
+      "pincodes": [
+        "560076"
+      ],
+      "centroid": {
+        "lat": 12.871551,
+        "lng": 77.608021
+      },
+      "radius_km": 1.49,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 10,
+      "severity": "Low",
+      "top_city": "Chennai",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 12.686182,
+        "lng": 79.981517
+      },
+      "radius_km": 0.0,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 11,
+      "severity": "Medium",
+      "top_city": "Navi Mumbai",
+      "booking_count": 8,
+      "pincodes": [
+        "497586"
+      ],
+      "centroid": {
+        "lat": 18.986819,
+        "lng": 73.121553
+      },
+      "radius_km": 4.22,
+      "hull_polygon": [
+        [
+          19.009354,
+          73.100698
+        ],
+        [
+          18.994653,
+          73.108217
+        ],
+        [
+          18.979991,
+          73.118024
+        ],
+        [
+          18.965661,
+          73.128322
+        ],
+        [
+          18.952495,
+          73.147765
+        ],
+        [
+          18.983716,
+          73.134716
+        ],
+        [
+          19.005462,
+          73.119977
+        ],
+        [
+          19.009354,
+          73.100698
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 12,
+      "severity": "Low",
+      "top_city": "Chennai",
+      "booking_count": 4,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 12.795395,
+        "lng": 80.024881
+      },
+      "radius_km": 1.38,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 13,
+      "severity": "Low",
+      "top_city": "Navi Mumbai",
+      "booking_count": 3,
+      "pincodes": [
+        "410206"
+      ],
+      "centroid": {
+        "lat": 18.915566,
+        "lng": 73.020488
+      },
+      "radius_km": 2.4,
+      "hull_polygon": [
+        [
+          18.899963,
+          73.005561
+        ],
+        [
+          18.911187,
+          73.026346
+        ],
+        [
+          18.935548,
+          73.029556
+        ],
+        [
+          18.899963,
+          73.005561
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 14,
+      "severity": "Medium",
+      "top_city": "Hyderabad",
+      "booking_count": 6,
+      "pincodes": [
+        "500043",
+        "500090"
+      ],
+      "centroid": {
+        "lat": 17.5439,
+        "lng": 78.369692
+      },
+      "radius_km": 3.14,
+      "hull_polygon": [
+        [
+          17.527048,
+          78.358694
+        ],
+        [
+          17.513919,
+          78.366664
+        ],
+        [
+          17.563852,
+          78.382238
+        ],
+        [
+          17.558972,
+          78.371812
+        ],
+        [
+          17.54633,
+          78.363852
+        ],
+        [
+          17.527048,
+          78.358694
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 15,
+      "severity": "Low",
+      "top_city": "Navi Mumbai",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 18.951318,
+        "lng": 73.073023
+      },
+      "radius_km": 0.0,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 16,
+      "severity": "Low",
+      "top_city": "Bengaluru",
+      "booking_count": 3,
+      "pincodes": [
+        "562114"
+      ],
+      "centroid": {
+        "lat": 13.064672,
+        "lng": 77.791872
+      },
+      "radius_km": 0.77,
+      "hull_polygon": [
+        [
+          13.05969,
+          77.786671
+        ],
+        [
+          13.064662,
+          77.795204
+        ],
+        [
+          13.069664,
+          77.793742
+        ],
+        [
+          13.05969,
+          77.786671
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 17,
+      "severity": "Low",
+      "top_city": "Bengaluru",
+      "booking_count": 4,
+      "pincodes": [
+        "562166"
+      ],
+      "centroid": {
+        "lat": 12.759721,
+        "lng": 77.697539
+      },
+      "radius_km": 0.48,
+      "hull_polygon": [
+        [
+          12.763366,
+          77.696393
+        ],
+        [
+          12.755459,
+          77.698766
+        ],
+        [
+          12.756694,
+          77.698606
+        ],
+        [
+          12.763366,
+          77.696393
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 18,
+      "severity": "Medium",
+      "top_city": "Pune",
+      "booking_count": 5,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 18.761246,
+        "lng": 73.647307
+      },
+      "radius_km": 1.51,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 19,
+      "severity": "High",
+      "top_city": "Chennai",
+      "booking_count": 10,
+      "pincodes": [
+        "603112"
+      ],
+      "centroid": {
+        "lat": 12.852611,
+        "lng": 80.241559
+      },
+      "radius_km": 1.79,
+      "hull_polygon": [
+        [
+          12.851238,
+          80.230255
+        ],
+        [
+          12.835911,
+          80.232456
+        ],
+        [
+          12.840865,
+          80.24437
+        ],
+        [
+          12.856646,
+          80.247196
+        ],
+        [
+          12.865415,
+          80.241444
+        ],
+        [
+          12.851238,
+          80.230255
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 20,
+      "severity": "High",
+      "top_city": "Pune",
+      "booking_count": 11,
+      "pincodes": [
+        "410506"
+      ],
+      "centroid": {
+        "lat": 18.610193,
+        "lng": 73.688425
+      },
+      "radius_km": 3.89,
+      "hull_polygon": [
+        [
+          18.630787,
+          73.655063
+        ],
+        [
+          18.578598,
+          73.680963
+        ],
+        [
+          18.578474,
+          73.682898
+        ],
+        [
+          18.57985,
+          73.689506
+        ],
+        [
+          18.621964,
+          73.71487
+        ],
+        [
+          18.638119,
+          73.677467
+        ],
+        [
+          18.630787,
+          73.655063
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 21,
+      "severity": "Low",
+      "top_city": "Chennai",
+      "booking_count": 4,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 12.830604,
+        "lng": 80.167811
+      },
+      "radius_km": 0.68,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 22,
+      "severity": "Low",
+      "top_city": "Pune",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 18.530933,
+        "lng": 73.722868
+      },
+      "radius_km": 0.6,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 23,
+      "severity": "Low",
+      "top_city": "Chennai",
+      "booking_count": 4,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 12.886071,
+        "lng": 80.129622
+      },
+      "radius_km": 2.37,
+      "hull_polygon": [
+        [
+          12.874309,
+          80.110326
+        ],
+        [
+          12.884239,
+          80.136635
+        ],
+        [
+          12.898787,
+          80.140013
+        ],
+        [
+          12.874309,
+          80.110326
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 24,
+      "severity": "High",
+      "top_city": "Bengaluru",
+      "booking_count": 13,
+      "pincodes": [
+        "562125"
+      ],
+      "centroid": {
+        "lat": 12.882598,
+        "lng": 77.779605
+      },
+      "radius_km": 5.71,
+      "hull_polygon": [
+        [
+          12.863131,
+          77.757071
+        ],
+        [
+          12.865394,
+          77.776522
+        ],
+        [
+          12.908509,
+          77.818585
+        ],
+        [
+          12.928148,
+          77.819041
+        ],
+        [
+          12.908416,
+          77.791409
+        ],
+        [
+          12.87696,
+          77.7661
+        ],
+        [
+          12.863131,
+          77.757071
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 25,
+      "severity": "Low",
+      "top_city": "Bengaluru",
+      "booking_count": 4,
+      "pincodes": [
+        "560060"
+      ],
+      "centroid": {
+        "lat": 12.881835,
+        "lng": 77.462953
+      },
+      "radius_km": 1.08,
+      "hull_polygon": [
+        [
+          12.887024,
+          77.454039
+        ],
+        [
+          12.879071,
+          77.456264
+        ],
+        [
+          12.880622,
+          77.470754
+        ],
+        [
+          12.887024,
+          77.454039
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 26,
+      "severity": "Low",
+      "top_city": "Jaipur",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 26.900015,
+        "lng": 75.589016
+      },
+      "radius_km": 1.34,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 27,
+      "severity": "Low",
+      "top_city": "Bengaluru",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 12.810492,
+        "lng": 77.508006
+      },
+      "radius_km": 0.87,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 28,
+      "severity": "Low",
+      "top_city": "Pune",
+      "booking_count": 4,
+      "pincodes": [
+        "412115"
+      ],
+      "centroid": {
+        "lat": 18.517671,
+        "lng": 73.679475
+      },
+      "radius_km": 2.13,
+      "hull_polygon": [
+        [
+          18.535197,
+          73.669232
+        ],
+        [
+          18.510588,
+          73.675505
+        ],
+        [
+          18.508279,
+          73.691008
+        ],
+        [
+          18.535197,
+          73.669232
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 29,
+      "severity": "Medium",
+      "top_city": "Pune",
+      "booking_count": 5,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 18.585437,
+        "lng": 73.988911
+      },
+      "radius_km": 2.21,
+      "hull_polygon": [
+        [
+          18.592817,
+          73.968748
+        ],
+        [
+          18.582632,
+          73.970881
+        ],
+        [
+          18.57903,
+          73.996436
+        ],
+        [
+          18.586352,
+          74.004244
+        ],
+        [
+          18.592817,
+          73.968748
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 30,
+      "severity": "Medium",
+      "top_city": "Pune",
+      "booking_count": 6,
+      "pincodes": [
+        "412105"
+      ],
+      "centroid": {
+        "lat": 18.623414,
+        "lng": 73.918063
+      },
+      "radius_km": 1.34,
+      "hull_polygon": [
+        [
+          18.620078,
+          73.91453
+        ],
+        [
+          18.620853,
+          73.916525
+        ],
+        [
+          18.621056,
+          73.916996
+        ],
+        [
+          18.635439,
+          73.926787
+        ],
+        [
+          18.620078,
+          73.91453
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 31,
+      "severity": "High",
+      "top_city": "Bengaluru",
+      "booking_count": 11,
+      "pincodes": [
+        "560049"
+      ],
+      "centroid": {
+        "lat": 13.058197,
+        "lng": 77.749393
+      },
+      "radius_km": 2.55,
+      "hull_polygon": [
+        [
+          13.065306,
+          77.740775
+        ],
+        [
+          13.044467,
+          77.745289
+        ],
+        [
+          13.030609,
+          77.765623
+        ],
+        [
+          13.063304,
+          77.757719
+        ],
+        [
+          13.071542,
+          77.75226
+        ],
+        [
+          13.065306,
+          77.740775
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 32,
+      "severity": "Low",
+      "top_city": "Hyderabad",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 17.427581,
+        "lng": 78.204395
+      },
+      "radius_km": 1.22,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 33,
+      "severity": "Medium",
+      "top_city": "Chennai",
+      "booking_count": 6,
+      "pincodes": [
+        "600059"
+      ],
+      "centroid": {
+        "lat": 12.918027,
+        "lng": 80.089328
+      },
+      "radius_km": 3.26,
+      "hull_polygon": [
+        [
+          12.915761,
+          80.071771
+        ],
+        [
+          12.906574,
+          80.090478
+        ],
+        [
+          12.925065,
+          80.122613
+        ],
+        [
+          12.928985,
+          80.103239
+        ],
+        [
+          12.915761,
+          80.071771
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 34,
+      "severity": "Medium",
+      "top_city": "Bengaluru",
+      "booking_count": 5,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 13.083192,
+        "lng": 77.406887
+      },
+      "radius_km": 2.62,
+      "hull_polygon": [
+        [
+          13.098008,
+          77.385895
+        ],
+        [
+          13.068276,
+          77.415528
+        ],
+        [
+          13.085549,
+          77.41915
+        ],
+        [
+          13.095849,
+          77.398332
+        ],
+        [
+          13.098008,
+          77.385895
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 35,
+      "severity": "Medium",
+      "top_city": "Surat",
+      "booking_count": 8,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 21.160659,
+        "lng": 72.652016
+      },
+      "radius_km": 0.0,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 36,
+      "severity": "Medium",
+      "top_city": "Chennai",
+      "booking_count": 5,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 13.109842,
+        "lng": 80.093773
+      },
+      "radius_km": 1.71,
+      "hull_polygon": [
+        [
+          13.093965,
+          80.085225
+        ],
+        [
+          13.109984,
+          80.099287
+        ],
+        [
+          13.115088,
+          80.094784
+        ],
+        [
+          13.093965,
+          80.085225
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 37,
+      "severity": "Low",
+      "top_city": "Hyderabad",
+      "booking_count": 3,
+      "pincodes": [
+        "500075"
+      ],
+      "centroid": {
+        "lat": 17.428847,
+        "lng": 78.270632
+      },
+      "radius_km": 1.54,
+      "hull_polygon": [
+        [
+          17.416372,
+          78.263372
+        ],
+        [
+          17.433258,
+          78.280341
+        ],
+        [
+          17.436911,
+          78.268183
+        ],
+        [
+          17.416372,
+          78.263372
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 38,
+      "severity": "Medium",
+      "top_city": "Bengaluru",
+      "booking_count": 5,
+      "pincodes": [
+        "560064",
+        "560119"
+      ],
+      "centroid": {
+        "lat": 13.177089,
+        "lng": 77.56057
+      },
+      "radius_km": 0.64,
+      "hull_polygon": [
+        [
+          13.182847,
+          77.559721
+        ],
+        [
+          13.173031,
+          77.559834
+        ],
+        [
+          13.173841,
+          77.563697
+        ],
+        [
+          13.182847,
+          77.559721
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 39,
+      "severity": "Low",
+      "top_city": "Pune",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 18.574147,
+        "lng": 74.03564
+      },
+      "radius_km": 0.0,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 40,
+      "severity": "Low",
+      "top_city": "Pune",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 18.606351,
+        "lng": 74.087656
+      },
+      "radius_km": 0.0,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 41,
+      "severity": "Low",
+      "top_city": "Bengaluru",
+      "booking_count": 3,
+      "pincodes": [
+        "562106"
+      ],
+      "centroid": {
+        "lat": 12.704655,
+        "lng": 77.697858
+      },
+      "radius_km": 0.0,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 42,
+      "severity": "Low",
+      "top_city": "Chennai",
+      "booking_count": 3,
+      "pincodes": [
+        "600131"
+      ],
+      "centroid": {
+        "lat": 12.894298,
+        "lng": 80.190124
+      },
+      "radius_km": 1.84,
+      "hull_polygon": [
+        [
+          12.892117,
+          80.185384
+        ],
+        [
+          12.879688,
+          80.195197
+        ],
+        [
+          12.911091,
+          80.18979
+        ],
+        [
+          12.892117,
+          80.185384
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 43,
+      "severity": "Low",
+      "top_city": "Bengaluru",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 13.135493,
+        "lng": 77.746052
+      },
+      "radius_km": 0.6,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 44,
+      "severity": "Medium",
+      "top_city": "Pune",
+      "booking_count": 6,
+      "pincodes": [
+        "411048",
+        "411060",
+        "412301"
+      ],
+      "centroid": {
+        "lat": 18.410554,
+        "lng": 73.928469
+      },
+      "radius_km": 3.24,
+      "hull_polygon": [
+        [
+          18.424618,
+          73.899055
+        ],
+        [
+          18.392436,
+          73.932287
+        ],
+        [
+          18.414248,
+          73.952274
+        ],
+        [
+          18.426263,
+          73.921697
+        ],
+        [
+          18.424618,
+          73.899055
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 45,
+      "severity": "Low",
+      "top_city": "Hyderabad",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 17.467465,
+        "lng": 78.258232
+      },
+      "radius_km": 0.29,
+      "hull_polygon": [
+        [
+          17.468546,
+          78.257979
+        ],
+        [
+          17.46476,
+          78.258571
+        ],
+        [
+          17.469088,
+          78.258147
+        ],
+        [
+          17.468546,
+          78.257979
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 46,
+      "severity": "Medium",
+      "top_city": "Bengaluru",
+      "booking_count": 6,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 12.809072,
+        "lng": 77.678975
+      },
+      "radius_km": 2.36,
+      "hull_polygon": [
+        [
+          12.801736,
+          77.655402
+        ],
+        [
+          12.799826,
+          77.679511
+        ],
+        [
+          12.815352,
+          77.689943
+        ],
+        [
+          12.801736,
+          77.655402
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 47,
+      "severity": "Low",
+      "top_city": "Jaipur",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 26.993225,
+        "lng": 75.580429
+      },
+      "radius_km": 1.32,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 48,
+      "severity": "Low",
+      "top_city": "Chandigarh",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 30.823367,
+        "lng": 76.723298
+      },
+      "radius_km": 1.56,
+      "hull_polygon": [
+        [
+          30.819718,
+          76.720748
+        ],
+        [
+          30.812616,
+          76.725753
+        ],
+        [
+          30.837768,
+          76.723392
+        ],
+        [
+          30.819718,
+          76.720748
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 49,
+      "severity": "Low",
+      "top_city": "Hyderabad",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 17.529899,
+        "lng": 78.529861
+      },
+      "radius_km": 2.19,
+      "hull_polygon": [
+        [
+          17.540022,
+          78.511684
+        ],
+        [
+          17.519107,
+          78.543328
+        ],
+        [
+          17.530567,
+          78.53457
+        ],
+        [
+          17.540022,
+          78.511684
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 50,
+      "severity": "Medium",
+      "top_city": "Chandigarh",
+      "booking_count": 5,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 30.642181,
+        "lng": 76.872905
+      },
+      "radius_km": 1.51,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 51,
+      "severity": "High",
+      "top_city": "Ahmedabad",
+      "booking_count": 14,
+      "pincodes": [
+        "382722"
+      ],
+      "centroid": {
+        "lat": 23.106218,
+        "lng": 72.474069
+      },
+      "radius_km": 2.91,
+      "hull_polygon": [
+        [
+          23.096807,
+          72.464973
+        ],
+        [
+          23.096193,
+          72.471275
+        ],
+        [
+          23.10671,
+          72.497739
+        ],
+        [
+          23.130305,
+          72.500559
+        ],
+        [
+          23.123162,
+          72.471611
+        ],
+        [
+          23.096807,
+          72.464973
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 52,
+      "severity": "Low",
+      "top_city": "Ahmedabad",
+      "booking_count": 3,
+      "pincodes": [
+        "382700"
+      ],
+      "centroid": {
+        "lat": 23.157578,
+        "lng": 72.490823
+      },
+      "radius_km": 0.0,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 53,
+      "severity": "Low",
+      "top_city": "Hyderabad",
+      "booking_count": 3,
+      "pincodes": [
+        "502319"
+      ],
+      "centroid": {
+        "lat": 17.545796,
+        "lng": 78.286716
+      },
+      "radius_km": 1.42,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 54,
+      "severity": "Medium",
+      "top_city": "Kolkata",
+      "booking_count": 5,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 22.60052,
+        "lng": 88.535823
+      },
+      "radius_km": 1.03,
+      "hull_polygon": [
+        [
+          22.590781,
+          88.531431
+        ],
+        [
+          22.602776,
+          88.539466
+        ],
+        [
+          22.603198,
+          88.536878
+        ],
+        [
+          22.602646,
+          88.534462
+        ],
+        [
+          22.590781,
+          88.531431
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 55,
+      "severity": "Low",
+      "top_city": "Lucknow",
+      "booking_count": 4,
+      "pincodes": [
+        "225301"
+      ],
+      "centroid": {
+        "lat": 26.98032,
+        "lng": 81.020502
+      },
+      "radius_km": 1.77,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 56,
+      "severity": "Low",
+      "top_city": "Chandigarh",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 30.620871,
+        "lng": 76.823744
+      },
+      "radius_km": 1.87,
+      "hull_polygon": [
+        [
+          30.619461,
+          76.808823
+        ],
+        [
+          30.606576,
+          76.834179
+        ],
+        [
+          30.636575,
+          76.828231
+        ],
+        [
+          30.619461,
+          76.808823
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 57,
+      "severity": "Low",
+      "top_city": "Chennai",
+      "booking_count": 4,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 13.047394,
+        "lng": 80.073114
+      },
+      "radius_km": 1.68,
+      "hull_polygon": [
+        [
+          13.058457,
+          80.061124
+        ],
+        [
+          13.047351,
+          80.068044
+        ],
+        [
+          13.041884,
+          80.081643
+        ],
+        [
+          13.058457,
+          80.061124
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 58,
+      "severity": "Low",
+      "top_city": "Bengaluru",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 13.09262,
+        "lng": 77.652931
+      },
+      "radius_km": 1.85,
+      "hull_polygon": [
+        [
+          13.081036,
+          77.640177
+        ],
+        [
+          13.093134,
+          77.65659
+        ],
+        [
+          13.103689,
+          77.662027
+        ],
+        [
+          13.081036,
+          77.640177
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 59,
+      "severity": "Low",
+      "top_city": "Indore",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 22.704643,
+        "lng": 75.964505
+      },
+      "radius_km": 0.0,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 60,
+      "severity": "Low",
+      "top_city": "Bengaluru",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 13.118305,
+        "lng": 77.619561
+      },
+      "radius_km": 2.09,
+      "hull_polygon": [
+        [
+          13.104206,
+          77.606619
+        ],
+        [
+          13.118213,
+          77.620859
+        ],
+        [
+          13.132497,
+          77.631204
+        ],
+        [
+          13.104206,
+          77.606619
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 61,
+      "severity": "Low",
+      "top_city": "Mumbai",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 19.2176,
+        "lng": 73.163134
+      },
+      "radius_km": 2.05,
+      "hull_polygon": [
+        [
+          19.233495,
+          73.159829
+        ],
+        [
+          19.198819,
+          73.161992
+        ],
+        [
+          19.220484,
+          73.167582
+        ],
+        [
+          19.233495,
+          73.159829
+        ]
+      ],
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    },
+    {
+      "cluster_id": 62,
+      "severity": "Low",
+      "top_city": "Bengaluru",
+      "booking_count": 3,
+      "pincodes": [
+        "N/A"
+      ],
+      "centroid": {
+        "lat": 12.785049,
+        "lng": 77.621674
+      },
+      "radius_km": 0.0,
+      "hull_polygon": null,
+      "hull_note": "Use hull_polygon for geoblocking; radius_km is approximate fallback."
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5cd80c5b98708f8fa7fa2426629113a6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5cd80c5b98708f8fa7fa2426629113a6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5cd80c5b98708f8fa7fa2426629113a6 = L.map(
+                "map_5cd80c5b98708f8fa7fa2426629113a6",
+                {
+                    center: [26.871761313675364, 81.05018586229981],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_eaa56b52a4d23ac1c1641277e9eda824 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_eaa56b52a4d23ac1c1641277e9eda824.addTo(map_5cd80c5b98708f8fa7fa2426629113a6);
+        
+    
+            var heat_map_7a8b169373ee995a6332a344c45db947 = L.heatLayer(
+                [[26.9804683674567, 81.0138953440158, 1], [26.9804683674567, 81.0138953440158, 1], [26.9804683674567, 81.0138953440158, 1], [26.9798749697101, 81.0403215657498, 1], [26.867301, 81.0380711999999, 1], [26.7280423696513, 81.2014497460444, 1], [26.7287335338357, 81.0399791772785, 1], [26.7287335338357, 81.0399791772785, 1]],
+                {
+  "minOpacity": 0.4,
+  "maxZoom": 18,
+  "radius": 22,
+  "blur": 12,
+}
+            );
+        
+    
+            heat_map_7a8b169373ee995a6332a344c45db947.addTo(map_5cd80c5b98708f8fa7fa2426629113a6);
+        
+    
+            var circle_441fb3cd1798afd3685eaf8a9a60285c = L.circle(
+                [26.98032, 81.020502],
+                {"bubblingMouseEvents": true, "color": "#10b981", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#10b981", "fillOpacity": 0.22, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2000, "stroke": true, "weight": 2}
+            ).addTo(map_5cd80c5b98708f8fa7fa2426629113a6);
+        
+    
+        var popup_c6e5c62c455a67832434649e391719a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30587d29caf134b0a11c394311e86661 = $(`<div id="html_30587d29caf134b0a11c394311e86661" style="width: 100.0%; height: 100.0%;">Cluster 55 — 4 bookings | 225301</div>`)[0];
+                popup_c6e5c62c455a67832434649e391719a8.setContent(html_30587d29caf134b0a11c394311e86661);
+            
+        
+
+        circle_441fb3cd1798afd3685eaf8a9a60285c.bindPopup(popup_c6e5c62c455a67832434649e391719a8)
+        ;
+
+        
+    
+    
+            var circle_marker_43b2b9dd882b7f2ffb2cce9e35991413 = L.circleMarker(
+                [26.9804683674567, 81.0138953440158],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_5cd80c5b98708f8fa7fa2426629113a6);
+        
+    
+        var popup_b09168e4ef979963789d7b5c6f49f655 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06687af444424a4c87130abd17980ca2 = $(`<div id="html_06687af444424a4c87130abd17980ca2" style="width: 100.0%; height: 100.0%;">Palaka Uttar Pradesh | Cluster 55 | N/A</div>`)[0];
+                popup_b09168e4ef979963789d7b5c6f49f655.setContent(html_06687af444424a4c87130abd17980ca2);
+            
+        
+
+        circle_marker_43b2b9dd882b7f2ffb2cce9e35991413.bindPopup(popup_b09168e4ef979963789d7b5c6f49f655)
+        ;
+
+        
+    
+    
+            var circle_marker_b8f40d332283230068d7fbc7561cae36 = L.circleMarker(
+                [26.9804683674567, 81.0138953440158],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_5cd80c5b98708f8fa7fa2426629113a6);
+        
+    
+        var popup_e1966c2d2b1c6334de64badd2c890256 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0928af775c3a3fc496cce080fb314e74 = $(`<div id="html_0928af775c3a3fc496cce080fb314e74" style="width: 100.0%; height: 100.0%;">Palaka Uttar Pradesh | Cluster 55 | N/A</div>`)[0];
+                popup_e1966c2d2b1c6334de64badd2c890256.setContent(html_0928af775c3a3fc496cce080fb314e74);
+            
+        
+
+        circle_marker_b8f40d332283230068d7fbc7561cae36.bindPopup(popup_e1966c2d2b1c6334de64badd2c890256)
+        ;
+
+        
+    
+    
+            var circle_marker_8cfdaf3d43707c295752b99b2755958e = L.circleMarker(
+                [26.9804683674567, 81.0138953440158],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_5cd80c5b98708f8fa7fa2426629113a6);
+        
+    
+        var popup_39213b91a2e8c924877a89e464e2dcde = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1d1362015172ff278dfdcb0b93c21fa = $(`<div id="html_f1d1362015172ff278dfdcb0b93c21fa" style="width: 100.0%; height: 100.0%;">Palaka Uttar Pradesh | Cluster 55 | N/A</div>`)[0];
+                popup_39213b91a2e8c924877a89e464e2dcde.setContent(html_f1d1362015172ff278dfdcb0b93c21fa);
+            
+        
+
+        circle_marker_8cfdaf3d43707c295752b99b2755958e.bindPopup(popup_39213b91a2e8c924877a89e464e2dcde)
+        ;
+
+        
+    
+    
+            var circle_marker_b5645b83b49535c6dcc1955d8438baeb = L.circleMarker(
+                [26.9798749697101, 81.0403215657498],
+                {"bubblingMouseEvents": true, "color": "#dc2626", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dc2626", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_5cd80c5b98708f8fa7fa2426629113a6);
+        
+    
+        var popup_ca1ea467583cadb3bf3006f85a036ae5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68d657723e103e9b3af37ab7371ffd56 = $(`<div id="html_68d657723e103e9b3af37ab7371ffd56" style="width: 100.0%; height: 100.0%;">Saihara, Uttar Pradesh 225301 | Cluster 55 | 225301</div>`)[0];
+                popup_ca1ea467583cadb3bf3006f85a036ae5.setContent(html_68d657723e103e9b3af37ab7371ffd56);
+            
+        
+
+        circle_marker_b5645b83b49535c6dcc1955d8438baeb.bindPopup(popup_ca1ea467583cadb3bf3006f85a036ae5)
+        ;
+
+        
+    
+    
+            var circle_marker_44f1fea95509ec2d3f8f200309ca3d64 = L.circleMarker(
+                [26.867301, 81.0380711999999],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_5cd80c5b98708f8fa7fa2426629113a6);
+        
+    
+        var popup_d1c6325bfd089439a29cf60fa9af47c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d022d9033c0740b99afebdf325610e0b = $(`<div id="html_d022d9033c0740b99afebdf325610e0b" style="width: 100.0%; height: 100.0%;">Chinhat | Cluster -1 | N/A</div>`)[0];
+                popup_d1c6325bfd089439a29cf60fa9af47c2.setContent(html_d022d9033c0740b99afebdf325610e0b);
+            
+        
+
+        circle_marker_44f1fea95509ec2d3f8f200309ca3d64.bindPopup(popup_d1c6325bfd089439a29cf60fa9af47c2)
+        ;
+
+        
+    
+    
+            var circle_marker_5f0df71140ed9934fd0aaffc09f51234 = L.circleMarker(
+                [26.7280423696513, 81.2014497460444],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_5cd80c5b98708f8fa7fa2426629113a6);
+        
+    
+        var popup_bc9fb534ed8d342ce132e480a7bd46df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ad08fafe1833260b7b729b24f0904d0 = $(`<div id="html_7ad08fafe1833260b7b729b24f0904d0" style="width: 100.0%; height: 100.0%;">gangaganj | Cluster -1 | N/A</div>`)[0];
+                popup_bc9fb534ed8d342ce132e480a7bd46df.setContent(html_7ad08fafe1833260b7b729b24f0904d0);
+            
+        
+
+        circle_marker_5f0df71140ed9934fd0aaffc09f51234.bindPopup(popup_bc9fb534ed8d342ce132e480a7bd46df)
+        ;
+
+        
+    
+    
+            var circle_marker_36a11036b8b5122df3e2b637337128e8 = L.circleMarker(
+                [26.7287335338357, 81.0399791772785],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_5cd80c5b98708f8fa7fa2426629113a6);
+        
+    
+        var popup_ff4b7542b65e91f552a3da431a131f45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa608d6bc7ba88b66bd4d04aae3b8aab = $(`<div id="html_aa608d6bc7ba88b66bd4d04aae3b8aab" style="width: 100.0%; height: 100.0%;">Lucknow, Mohari Khurd | Cluster -1 | N/A</div>`)[0];
+                popup_ff4b7542b65e91f552a3da431a131f45.setContent(html_aa608d6bc7ba88b66bd4d04aae3b8aab);
+            
+        
+
+        circle_marker_36a11036b8b5122df3e2b637337128e8.bindPopup(popup_ff4b7542b65e91f552a3da431a131f45)
+        ;
+
+        
+    
+    
+            var circle_marker_450e7fa7e4d9877920a234597275d7f7 = L.circleMarker(
+                [26.7287335338357, 81.0399791772785],
+                {"bubblingMouseEvents": true, "color": "#94a3b8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94a3b8", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 0}
+            ).addTo(map_5cd80c5b98708f8fa7fa2426629113a6);
+        
+    
+        var popup_9423a045121ad39bde468965db89fcff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e09ed3756c7298941a5b16899d56ae37 = $(`<div id="html_e09ed3756c7298941a5b16899d56ae37" style="width: 100.0%; height: 100.0%;">Lucknow, Mohari Khurd | Cluster -1 | N/A</div>`)[0];
+                popup_9423a045121ad39bde468965db89fcff.setContent(html_e09ed3756c7298941a5b16899d56ae37);
+            
+        
+
+        circle_marker_450e7fa7e4d9877920a234597275d7f7.bindPopup(popup_9423a045121ad39bde468965db89fcff)
+        ;
+
+        
+    
+</script>
+</html>
