@@ -117,7 +117,7 @@ pip install pandas numpy scikit-learn folium geopy plotly
 
 ## Dataset
 
-https://docs.google.com/spreadsheets/d/19V2nf3Hdi2tqhv_jrrzJeCXYMaJnYUdllm8eZX2exU/edit?gid=86078783#gid=86078783
+https://docs.google.com/spreadsheets/d/19V2nf3Hdi2t-qhv_jrrzJeCXYMaJnYUdllm8eZX2exU/edit?usp=sharing
 
 ---
 
